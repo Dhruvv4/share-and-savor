@@ -20,13 +20,14 @@ npm install
 
 ## Usage
 
-Frontend
+Frontend.
+The server will start on port 5173.
 
 ```bash
 npm run dev
 ```
 Backend
-
+The server will start on port 3000.
 ```bash
 npm run dev
 ```
