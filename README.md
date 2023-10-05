@@ -26,7 +26,7 @@ The server will start on port 5173.
 ```bash
 npm run dev
 ```
-Backend
+Backend.
 The server will start on port 3000.
 ```bash
 npm run dev
