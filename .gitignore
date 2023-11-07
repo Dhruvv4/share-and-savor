@@ -47,3 +47,6 @@ jspm_packages
 .env
 .env.test
 .env.production
+
+# macOS files
+.DS_Store
