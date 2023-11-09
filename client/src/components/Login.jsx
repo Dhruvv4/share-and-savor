@@ -1,7 +1,7 @@
-import { Button } from "./../../components/ui/button.jsx";
-import { Input } from "./../../components/ui/input.jsx";
+import { Button } from "@/components/ui/button.jsx";
+import { Input } from "@/components/ui/input.jsx";
 
-import React, { useState } from "react";
+import { useState } from "react";
 function Login() {
   const [formData, setFormData] = useState({
     email: "",

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Button } from "./../../components/ui/button.jsx";
+import { Button } from "@/components/ui/button";
+
 function Landing_page() {
   return (
     <>

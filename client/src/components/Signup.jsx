@@ -1,7 +1,7 @@
 //import users from "../../../backend/data/users.js";
-import { Button } from "./../../components/ui/button.jsx";
+import { Button } from "@/components/ui/button.jsx";
 import React, { useState } from "react";
-import { Input } from "./../../components/ui/input.jsx";
+import { Input } from "@/components/ui/input.jsx";
 
 const Signup = () => {
   const [formData, setFormData] = useState({
