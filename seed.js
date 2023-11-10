@@ -10,6 +10,8 @@ const seed = async () => {
   const resCollection = await resRef();
   const insertInfo = await resCollection.insertMany(res);
   if (insertInfo.insertedCount === 0) throw "Could not add restaurants";
+
+  console.log(`Done seeding database with ${res.length} restaurants`);
   closeConnection();
   return true;
 };
