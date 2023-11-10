@@ -1,12 +1,19 @@
 import users from "./data/users.js";
+import configRoutes from "./routes/index.js";
 import express from "express";
+
+// Express server instance
 const app = express();
+const PORT = process.env.EXPRESS_PORT || 3000;
 
-app.get("/", (req, res) => {
-  res.send("Hello, world!");
-});
+// Middlewares
+app.use(express.json());
 
-app.listen(3000, () => {
+// Router setup
+configRoutes(app);
+
+// Server instanstiation
+app.listen(PORT, () => {
   console.log("Server is listening on port 3000");
 });
 
