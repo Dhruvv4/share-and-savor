@@ -1,6 +1,8 @@
 import { ObjectId } from "mongodb";
 
+import isUrl from "is-url";
 const validName = (name) => {
+  name = name.toLowerCase();
   if (!name) throw "Error: name can't be empty";
   if (typeof name != "string") throw "Error: name should be string";
   name = name.trim();
@@ -29,7 +31,7 @@ const validGender = (gender) => {
   if (!(gender === "male" || gender === "female" || gender === "others")) {
     throw `Invalid gender input!`;
   }
-  return gender.toLowerCase();
+  return gender;
 };
 
 const validDOB = (DOB) => {
@@ -78,7 +80,7 @@ const validEmail = (email) => {
   email = email.trim();
   if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
     throw "You have entered an invalid email address!";
-  return email.toLowerCase();
+  return email;
 };
 
 const validPassword = (password) => {
@@ -98,6 +100,7 @@ const validPassword = (password) => {
 };
 
 const validString = (str) => {
+  str = str.toLowerCase();
   if (!str) throw "Error: string should not be empty";
   if (typeof str != "string") throw "Error: Input should be string";
   //   trim() function removes spaces at the ends
@@ -113,7 +116,16 @@ const validString = (str) => {
       throw "Error: only characters are allowed(A-Z and a-z)";
     }
   }
-  return str.toLowerCase();
+  return str;
+};
+const validStringWithNumAndSpecialChar = (str) => {
+  str = str.toLowerCase();
+  if (!str) throw "Error: string should not be empty";
+  if (typeof str != "string") throw "Error: Input should be string";
+  //   trim() function removes spaces at the ends
+  str = str.trim();
+  if (!str) throw "Error: Input entered is just spaces";
+  return str;
 };
 
 const validObjectId = (str) => {
@@ -136,6 +148,18 @@ const validAge = (dob) => {
 
   // display the age
   return age;
+}
+const checkUrl = (url) => {
+  const checkUrl = isUrl(url);
+  if (!checkUrl) throw "Invalid Url";
+  return url;
+};
+const checkNumeric = (num) => {
+  num = parseFloat(num);
+  if (num == NaN) {
+    throw "Error: input should be a number";
+  }
+  return num;
 };
 
 export default {
@@ -146,6 +170,9 @@ export default {
   validPhoneNumber,
   validPassword,
   validString,
+  validStringWithNumAndSpecialChar,
   validObjectId,
   validAge,
+  checkUrl,
+  checkNumeric,
 };
