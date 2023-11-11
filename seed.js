@@ -1,6 +1,6 @@
 import res from "./data/restaurants.json" assert { type: "json" };
 import { closeConnection, dbConnection } from "./config/mongoConnection.js";
-import { restuarants as resRef } from "./config/mongoCollections.js";
+import { restaurants as resRef } from "./config/mongoCollections.js";
 
 const seed = async () => {
   // Your code to seed the database goes here
