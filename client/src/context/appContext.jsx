@@ -1,15 +1,29 @@
-import { useState, createContext } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
-export const AppContext = createContext();
+const AuthContext = createContext();
 
-export const AppContextProvider = ({ children }) => {
-  const [globalState, setGlobalState] = useState({
-    user: null,
-  });
+export const AuthProvider = ({ children }) => {
+  // TODO: Add logic to check if user is logged in
+  const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(true);
+  const [user, setUser] = useState(null);
+
+  const contextData = {
+    user,
+    setUser,
+  };
 
   return (
-    <AppContext.Provider value={{ globalState, setGlobalState }}>
-      {children}
-    </AppContext.Provider>
+    <AuthContext.Provider value={contextData}>
+      {loading ? <p>Loading...</p> : <>{children}</>}
+    </AuthContext.Provider>
   );
 };
+
+export const useAuth = () => {
+  return useContext(AuthContext);
+};
+
+export default AuthContext;
