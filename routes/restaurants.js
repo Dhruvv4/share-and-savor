@@ -5,6 +5,8 @@ const router = Router();
 import helpers from "../helpers.js";
 import restaurantsData from "../data/restaurants.js";
 
+// TODO: Validate the users session for all restuarant routes.
+
 // Create a new restaurant
 router.post("/", async (req, res) => {
   // Your code to create a new restaurant goes here
