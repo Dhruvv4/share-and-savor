@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   // TODO: Add logic to check if user is logged in
   const navigate = useNavigate();
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [user, setUser] = useState(null);
 
   const contextData = {
