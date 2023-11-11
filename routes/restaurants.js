@@ -12,8 +12,8 @@ router.post("/", (req, res) => {
 // Get all restaurants
 router.get("/", (req, res) => {
   // Your code to get all restaurants goes here
-  const allRestuarants = [];
-  return res.status(200).json(allRestuarants);
+  const allRestaurants = [];
+  return res.status(200).json(allRestaurants);
 });
 
 // Get a restaurant by ID
