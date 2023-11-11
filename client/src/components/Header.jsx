@@ -4,9 +4,9 @@ import { useAuth } from "@/context/AppContext";
 import { Button } from "./ui/button";
 import taco from "@/assets/taco.svg";
 import { useLocation } from "react-router-dom";
+import ProfileDropdown from "@/components/ProfileDropdown";
 
 const Header = (props) => {
-  // TODO: Add profile dropdown and dark mode toggle
   // TODO: Add logic to show/hide links based on user login status
 
   const navigate = useNavigate();
@@ -60,6 +60,7 @@ const Header = (props) => {
               <Link to={isLoginRoute ? "/register" : "/login"}>
                 <Button>{isLoginRoute ? "Register" : "Login"}</Button>
               </Link>
+              <ProfileDropdown />
             </div>
 
             <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75 md:hidden">

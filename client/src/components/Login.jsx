@@ -32,7 +32,7 @@ function Login() {
 
   return (
     <div className="flex flex-col h-full p-28 items-center gap-10">
-      <h1 className="text-5xl font-bold text-gray-800 mb-4">Welcome Back!</h1>
+      <h1 className="text-5xl font-bold mb-4">Welcome Back!</h1>
 
       <Form {...form}>
         <form

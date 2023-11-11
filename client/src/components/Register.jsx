@@ -58,7 +58,7 @@ export default function Register() {
 
   return (
     <div className="flex flex-col h-full p-12 items-center gap-10">
-      <h1 className="text-5xl font-bold text-gray-800 mb-4">Welcome!</h1>
+      <h1 className="text-5xl font-bold  mb-4">Welcome!</h1>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
