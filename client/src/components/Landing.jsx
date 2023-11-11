@@ -14,7 +14,7 @@ const LandingPage = () => {
         🌱 Join a Movement Redefining Food Sharing! 🌱
       </p>
       <div>
-        <div className="flex gap-8 mb-10">
+        <div className="flex flex-col md:flex-row md:justify-center items-center gap-8 mb-10">
           <p className="p-4 max-w-md rounded-lg border-slate-200 border-2">
             <span className="block font-medium mb-3">
               🍕 Tackle Food Waste and Hunger with Just a Tap! 🍕
