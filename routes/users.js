@@ -14,18 +14,23 @@ router.post("/login", async (req, res) => {
     const user = await userMethods.checkUser(email, password);
     let id = user._id.toString();
     if (!user) {
-      res.redirect('/register'); // Redirect it to the register route
+      res.status(200).json({ message: "Redirect it to register page" });
     }
     else {
       req.session.user = {
-        id: id, firstName: user.firstName, lastName: user.lastName, gender: user.gender,
-        dateOfBirth: user.dateOfBirth, collegeName: user.collegeName, phoneNumber: user.phoneNumber,
-        email: user.email, password: user.password
+        id: id, firstName: user.firstName, lastName: user.lastName, gender: user.gender, dateOfBirth: user.dateOfBirth,
+        collegeName: user.collegeName, phoneNumber: user.phoneNumber, email: user.email
       };
     }
-    return res.json({ message: "User login route" });
-  } catch (error) {
-    res.status(400).json({ error: 'Page Not Available' });
+    return res.status(200).json({ message: "User login route" });
+  } catch (e) {
+    if (e.includes("401")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("400")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "Resource is not found" });
+    }
   }
 });
 
@@ -45,10 +50,16 @@ router.post("/register", async (req, res) => {
     const user = await userMethods.createUser(firstName, lastName, gender, dateOfBirth, collegeName, phoneNumber,
       email, password);
     if (user) {
-      return res.json({ message: "User registration route" });
+      return res.status(200).json(user);
     }
-  } catch (error) {
-    res.status(400).json({ error: 'Page Not Available' });
+  } catch (e) {
+    if (e.includes("401")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("400")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "Resource is not found" });
+    }
   }
 });
 
@@ -57,6 +68,9 @@ router
   .route('/editprofile')
   .post(async (req, res) => {
     try {
+      if (!req?.session?.user) {
+        throw "Unauthorized(401): User is not logged in.";
+      }
       let { updatedfirstName, updatedlastName, updatedgender, updateddateOfBirth,
         updatedcollegeName, updatedphoneNumber, updatedemail, updatedpassword } = req.body;
       let id = req.session.user.id;
@@ -73,11 +87,17 @@ router
         updateddateOfBirth, updatedcollegeName, updatedphoneNumber, updatedemail, updatedpassword);
       // res.json(updatedUser);
       if (updatedUser) {
-        res.render('/dashboard'); // Dashboard handlebars
+        res.status(200).json({ message: "Redirect it to dashboard" });
       }
     }
-    catch (error) {
-      res.status(400).json({ error: error });
+    catch (e) {
+      if (e.includes("401")) {
+        res.status(401).json({ error: e });
+      } else if (e.includes("400")) {
+        res.status(400).json({ error: e });
+      } else {
+        res.status(404).json({ error: "Resource is not found" });
+      }
     }
   });
 
@@ -86,21 +106,39 @@ router
   .route('/deleteprofile')
   .post(async (req, res) => {
     try {
+      if (!req?.session?.user) {
+        throw "Unauthorized(401): User is not logged in.";
+      }
       let id = req.session.user.id;
       const deletedUser = await userMethods.deleteUserByID(id);
       if (deletedUser) {
-        res.redirect('/register'); // Redirect it to the register route
+        res.status(200).json({ message: "Redirect it to register page" });
       }
-    } catch (error) {
-      res.status(400).json({ error: error });
+    } catch (e) {
+      if (e.includes("401")) {
+        res.status(401).json({ error: e });
+      } else if (e.includes("400")) {
+        res.status(400).json({ error: e });
+      } else {
+        res.status(404).json({ error: "Resource is not found" });
+      }
     }
   });
 
 // User logout route
 router.get("/logout", (req, res) => {
   // Handle user logout logic here
-  req.session.destroy();
-  return res.json({ message: "User logout route" });
+  try {
+    if (!req?.session?.user) {
+      throw "Unauthorized(401): User is not logged in.";
+    } else {
+      req.session.destroy();
+      res.status(200).json({ message: "You have been logged out" });
+      return;
+    }
+  } catch (e) {
+    res.status(500).json({ error: e });
+  }
 });
 
 export default router;
