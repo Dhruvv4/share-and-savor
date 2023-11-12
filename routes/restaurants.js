@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
 
   try {
     if (!req?.session?.user) {
-      throw "Unauthorized: User is not logged in.";
+      throw "Unauthorized(401): User is not logged in.";
     }
     name = helpers.validStringWithNumAndSpecialChar(name);
     address = helpers.validStringWithNumAndSpecialChar(address);
@@ -60,9 +60,9 @@ router.post("/", async (req, res) => {
     );
     res.status(200).json(newRestaurant);
   } catch (e) {
-    if (e.includes("Unauthorized")) {
+    if (e.includes("401")) {
       res.status(401).json({ error: e });
-    } else if (e.includes("validationError")) {
+    } else if (e.includes("400")) {
       res.status(400).json({ error: e });
     } else {
       res.status(404).json({ error: "resource is not found" });
@@ -73,15 +73,15 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     if (!req?.session?.user) {
-      throw "Unauthorized: User is not logged in.";
+      throw "Unauthorized(401): User is not logged in.";
     }
 
     const allRestaurants = await restaurantsData.getAllRestaurants();
     return res.status(200).json(allRestaurants);
   } catch (e) {
-    if (e.includes("Unauthorized")) {
+    if (e.includes("401")) {
       res.status(401).json({ error: e });
-    } else if (e.includes("validationError")) {
+    } else if (e.includes("400")) {
       res.status(400).json({ error: e });
     } else {
       res.status(404).json({ error: "resource is not found" });
@@ -92,16 +92,16 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     if (!req?.session?.user) {
-      throw "Unauthorized: User is not logged in.";
+      throw "Unauthorized(401): User is not logged in.";
     }
     helpers.validObjectId(req.params.id);
     // Your code to get a restaurant by ID goes here
     const restaurant = await restaurantsData.getRestaurantById(req.params.id);
     res.status(200).json(restaurant);
   } catch (e) {
-    if (e.includes("Unauthorized")) {
+    if (e.includes("401")) {
       res.status(401).json({ error: e });
-    } else if (e.includes("validationError")) {
+    } else if (e.includes("400")) {
       res.status(400).json({ error: e });
     } else {
       res.status(404).json({ error: "resource is not found" });
