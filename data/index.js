@@ -1,7 +1,5 @@
-import users from "./users.js";
-import restaurants from "./restaurants.js";
+import usersDataMethods from "./users.js";
+import restaurantsDataMethods from "./restaurants.js";
 
-export default {
-  users: users,
-  restaurants: restaurants,
-};
+export const usersData = usersDataMethods;
+export const restaurantsData = restaurantsDataMethods;

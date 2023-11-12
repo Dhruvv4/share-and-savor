@@ -27,6 +27,9 @@ router.post("/", async (req, res) => {
   } = req.body;
 
   try {
+    if (!req?.session?.user) {
+      throw "Unauthorized: User is not logged in.";
+    }
     name = helpers.validStringWithNumAndSpecialChar(name);
     address = helpers.validStringWithNumAndSpecialChar(address);
     phone = helpers.validPhoneNumber(phone);
@@ -40,7 +43,6 @@ router.post("/", async (req, res) => {
     star_count = helpers.checkNumeric(star_count);
     rating_count = helpers.checkNumeric(rating_count);
     catogory_name = helpers.validStringWithNumAndSpecialChar(catogory_name);
-
     const newRestaurant = await restaurantsData.createRestaurant(
       name,
       address,
@@ -56,34 +58,54 @@ router.post("/", async (req, res) => {
       rating_count,
       catogory_name
     );
-
     res.status(200).json(newRestaurant);
   } catch (e) {
-    res.status(400).json({ error: e });
+    if (e.includes("Unauthorized")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("validationError")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "resource is not found" });
+    }
   }
 });
 // Get all restaurants
 router.get("/", async (req, res) => {
   try {
+    if (!req?.session?.user) {
+      throw "Unauthorized: User is not logged in.";
+    }
+
     const allRestaurants = await restaurantsData.getAllRestaurants();
     return res.status(200).json(allRestaurants);
   } catch (e) {
-    return res.status(404).json({ error: e });
+    if (e.includes("Unauthorized")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("validationError")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "resource is not found" });
+    }
   }
 });
 // Get a restaurant by ID
 router.get("/:id", async (req, res) => {
   try {
+    if (!req?.session?.user) {
+      throw "Unauthorized: User is not logged in.";
+    }
     helpers.validObjectId(req.params.id);
-  } catch (e) {
-    return res.status(400).json({ error: e });
-  }
-  try {
     // Your code to get a restaurant by ID goes here
     const restaurant = await restaurantsData.getRestaurantById(req.params.id);
     res.status(200).json(restaurant);
   } catch (e) {
-    return res.status(404).json({ error: e });
+    if (e.includes("Unauthorized")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("validationError")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "resource is not found" });
+    }
   }
 });
 

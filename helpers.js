@@ -2,11 +2,12 @@ import { ObjectId } from "mongodb";
 import isUrl from "is-url";
 const validName = (name) => {
   name = name.toLowerCase();
-  if (!name) throw "Error: name can't be empty";
-  if (typeof name != "string") throw "Error: name should be string";
+  if (!name) throw "validationError: name can't be empty";
+  if (typeof name != "string") throw "validationError: name should be string";
   name = name.trim();
-  if (!name) throw "Error: name can't be just spaces";
-  if (name.length < 3) throw "Error: name should be atleast 3 characters";
+  if (!name) throw "validationError: name can't be just spaces";
+  if (name.length < 3)
+    throw "validationError: name should be atleast 3 characters";
   for (let i = 0; i < name.length; i++) {
     if (
       (name.charCodeAt(i) >= 65 && name.charCodeAt(i) <= 90) ||
@@ -14,7 +15,7 @@ const validName = (name) => {
       name.charCodeAt(i) == 32
     ) {
     } else {
-      throw "Error: only characters are allowed(A-Z and a-z)";
+      throw "validationError: only characters are allowed(A-Z and a-z)";
     }
   }
   return name;
@@ -22,10 +23,11 @@ const validName = (name) => {
 
 const validGender = (gender) => {
   gender = gender.toLowerCase();
-  if (!gender) throw "Error: gender can't be empty";
-  if (typeof gender != "string") throw "Error: gender should be string";
+  if (!gender) throw "validationError: gender can't be empty";
+  if (typeof gender != "string")
+    throw "validationError: gender should be string";
   gender = gender.trim();
-  if (!gender) throw "Error: gender can't be just spaces";
+  if (!gender) throw "validationError: gender can't be just spaces";
   gender.toLowerCase();
   if (!(gender === "male" || gender === "female" || gender === "others")) {
     throw `Invalid gender input!`;
@@ -34,10 +36,10 @@ const validGender = (gender) => {
 };
 
 const validDOB = (DOB) => {
-  if (!DOB) throw "Error: DOB can't be empty";
-  if (typeof DOB != "string") throw "Error: DOB should be string";
+  if (!DOB) throw "validationError: DOB can't be empty";
+  if (typeof DOB != "string") throw "validationError: DOB should be string";
   DOB = DOB.trim();
-  if (!DOB) throw "Error: DOB is not provided";
+  if (!DOB) throw "validationError: DOB is not provided";
   const datePattern = /^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/;
   if (!datePattern.test(DOB)) {
     throw "Invalid Date Of Birth";
@@ -53,18 +55,18 @@ const validDOB = (DOB) => {
 };
 
 const validPhoneNumber = (phoneNumber) => {
-  if (!phoneNumber) throw "Error: phoneNumber can't be empty";
+  if (!phoneNumber) throw "validationError: phoneNumber can't be empty";
   if (typeof phoneNumber != "string") {
-    throw "Error: phoneNumber should be string";
+    throw "validationError: phoneNumber should be string";
   }
   phoneNumber = phoneNumber.trim();
   if (phoneNumber.length != 10)
-    throw "Error: Phone number should contain 10 digits";
-  if (!phoneNumber) throw "Error: PhoneNumber can't be just spaces";
+    throw "validationError: Phone number should contain 10 digits";
+  if (!phoneNumber) throw "validationError: PhoneNumber can't be just spaces";
   for (let i = 0; i < phoneNumber.length; i++) {
     if (phoneNumber.charCodeAt(i) >= 48 && phoneNumber.charCodeAt(i) <= 57) {
     } else {
-      throw "Error: phone number should contain only digits";
+      throw "validationError: phone number should contain only digits";
     }
   }
   return phoneNumber;
@@ -72,8 +74,8 @@ const validPhoneNumber = (phoneNumber) => {
 
 const validEmail = (email) => {
   email = email.toLowerCase();
-  if (!email) throw "Error: email can't be empty";
-  if (typeof email != "string") throw "Error: email should be string";
+  if (!email) throw "validationError: email can't be empty";
+  if (typeof email != "string") throw "validationError: email should be string";
   email = email.trim();
   if (!email) throw "Email is not provided!";
   email = email.trim();
@@ -85,7 +87,8 @@ const validEmail = (email) => {
 const validPassword = (password) => {
   password.trim();
   if (!password) throw `No password was provided!`;
-  if (typeof password != "string") throw "Error: password should be string";
+  if (typeof password != "string")
+    throw "validationError: password should be string";
   if (password.includes(" ")) throw `passwords can't have spaces!`;
   if (password.length < 6)
     throw `passwords should be at least 6 characters long!`;
@@ -100,11 +103,11 @@ const validPassword = (password) => {
 
 const validString = (str) => {
   str = str.toLowerCase();
-  if (!str) throw "Error: string should not be empty";
-  if (typeof str != "string") throw "Error: Input should be string";
+  if (!str) throw "validationError: string should not be empty";
+  if (typeof str != "string") throw "validationError: Input should be string";
   //   trim() function removes spaces at the ends
   str = str.trim();
-  if (!str) throw "Error: Input entered is just spaces";
+  if (!str) throw "validationError: Input entered is just spaces";
   for (let i = 0; i < str.length; i++) {
     if (
       (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) ||
@@ -112,18 +115,18 @@ const validString = (str) => {
       str.charCodeAt(i) == 32
     ) {
     } else {
-      throw "Error: only characters are allowed(A-Z and a-z)";
+      throw "validationError: only characters are allowed(A-Z and a-z)";
     }
   }
   return str;
 };
 const validStringWithNumAndSpecialChar = (str) => {
   str = str.toLowerCase();
-  if (!str) throw "Error: string should not be empty";
-  if (typeof str != "string") throw "Error: Input should be string";
+  if (!str) throw "validationError: string should not be empty";
+  if (typeof str != "string") throw "validationError: Input should be string";
   //   trim() function removes spaces at the ends
   str = str.trim();
-  if (!str) throw "Error: Input entered is just spaces";
+  if (!str) throw "validationError: Input entered is just spaces";
   return str;
 };
 
@@ -146,7 +149,7 @@ const checkUrl = (url) => {
 const checkNumeric = (num) => {
   num = parseFloat(num);
   if (num == NaN) {
-    throw "Error: input should be a number";
+    throw "validationError: input should be a number";
   }
   return num;
 };

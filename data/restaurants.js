@@ -67,9 +67,6 @@ const createRestaurant = async (
 const getAllRestaurants = async () => {
   const restaurantsCollection = await restaurants();
   const allRestaurants = await restaurantsCollection.find({}).toArray();
-  if (allRestaurants == null) {
-    throw "No restaurants in the database";
-  }
   for (let i of allRestaurants) {
     i._id = i._id.toString();
   }
@@ -82,7 +79,7 @@ const getRestaurantById = async (id) => {
   const restaurant = await restaurantsCollection.findOne({
     _id: new ObjectId(id),
   });
-  if (restaurant == null) throw "No restaurant with that id";
+  if (!restaurant) throw `Restaurant with id ${id} not found`;
   restaurant._id = restaurant._id.toString();
   return restaurant;
 };
