@@ -155,7 +155,10 @@ export default function Register() {
                   <PopoverContent className="w-auto p-0" align="start">
                     <Calendar
                       mode="single"
+                      captionLayout="dropdown-buttons"
                       selected={field.value}
+                      fromYear={1900}
+                      toYear={new Date().getFullYear()}
                       onSelect={(e) => {
                         field.onChange(e);
                         setIsCalendarOpen(false);
