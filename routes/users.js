@@ -7,24 +7,25 @@ import helpers from '../helpers.js';
 router.post("/login", async (req, res) => {
   // Handle user login logic here
   try {
-    const { email, password } = req.body;
+    let { email, password } = req.body;
     // validating username and password
     email = helpers.validEmail(email);
     password = helpers.validPassword(password);
     const user = await userMethods.checkUser(email, password);
-    let id = user._id.toString();
-    if (!user) {
-      res.status(200).json({ message: "Redirect it to register page" });
-    }
-    else {
+    let id = user?._id?.toString();
+    if (user) {
       req.session.user = {
         id: id, firstName: user.firstName, lastName: user.lastName, gender: user.gender, dateOfBirth: user.dateOfBirth,
         collegeName: user.collegeName, phoneNumber: user.phoneNumber, email: user.email
       };
+      res.status(200).json({ message: "User login route" });
     }
-    return res.status(200).json({ message: "User login route" });
+    else {
+      res.status(200).json({ message: "Redirect it to register page" });
+    }
   } catch (e) {
     if (e.includes("401")) {
+      console.log("hello")
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {
       res.status(400).json({ error: e });

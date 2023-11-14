@@ -82,7 +82,7 @@ const validEmail = (email) => {
 
 const validPassword = (password) => {
   if (!password) throw `Error(400): No password was provided!`;
-  if (typeof password !== "string")
+  if (typeof password != "string")
     throw "Error(400): password should be string";
   password = password.trim();
   if (password.includes(" ")) throw `Error(400): Passwords can't have spaces!`;

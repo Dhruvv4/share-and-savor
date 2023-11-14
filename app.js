@@ -6,6 +6,17 @@ import express from "express";
 const app = express();
 const PORT = process.env.EXPRESS_PORT || 3000;
 
+import session from "express-session";
+
+app.use(
+  session({
+    name: "AuthCookie",
+    secret: "some secret string!",
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+
 // Middlewares
 app.use(express.json());
 
@@ -39,7 +50,7 @@ async function main() {
   // Check user
   // try {
   //   console.log(
-  //     await users.checkUser("prabhasvarma74@gmail.com", "Rahul@2002")
+  //     await users.checkUser("mohansrinivas2000@gmail.com", "Mohan#99525")
   //   );
   // } catch (e) {
   //   console.log(e);

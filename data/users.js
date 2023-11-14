@@ -64,7 +64,7 @@ const checkUser = async (email, password) => {
   if (user == null) throw "Either the username or password is invalid";
   let compareToMatch = await bcrypt.compare(password, user.password);
   if (compareToMatch) {
-    return { authenticatedUser: true };
+    return user;
   } else {
     throw "Could not find a user with given email and password combination!";
   }
