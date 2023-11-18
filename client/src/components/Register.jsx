@@ -30,9 +30,12 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { registerSchema } from "@/lib/schemas";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export default function Register() {
   // TODO: Calendar to switch between months and years
+  const navigate = useNavigate();
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
 
   const defaultValues = {
@@ -53,7 +56,19 @@ export default function Register() {
 
   function onSubmit(values) {
     // TODO: Once authentication is implemented, this will be the place to call the API to register the user.
-    console.log(values);
+    const apiUrl = "http://localhost:3000/api/auth/register";
+
+    // Make the API call
+    axios
+      .post(apiUrl, values)
+      .then((response) => {
+        // Handle the successful response
+        console.log("API Response:", response.data);
+        navigate("/login");
+      })
+      .catch((error) => {
+        console.error("API Error:", error);
+      });
   }
 
   return (

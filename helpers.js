@@ -1,4 +1,5 @@
 import { ObjectId } from "mongodb";
+
 const validName = (name) => {
   if (!name) throw "Error: name can't be empty";
   if (typeof name != "string") throw "Error: name should be string";
@@ -19,6 +20,7 @@ const validName = (name) => {
 };
 
 const validGender = (gender) => {
+  gender = gender.toLowerCase();
   if (!gender) throw "Error: gender can't be empty";
   if (typeof gender != "string") throw "Error: gender should be string";
   gender = gender.trim();
@@ -32,21 +34,22 @@ const validGender = (gender) => {
 
 const validDOB = (DOB) => {
   if (!DOB) throw "Error: DOB can't be empty";
-  if (typeof DOB != "string") throw "Error: DOB should be string";
+  if (typeof DOB !== "string") throw "Error: DOB should be a string";
   DOB = DOB.trim();
   if (!DOB) throw "Error: DOB is not provided";
+
+  // Convert the input date to a format that matches the regular expression
+  const formattedDOB = new Date(DOB).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   const datePattern = /^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/;
-  if (!datePattern.test(DOB)) {
+
+  if (!datePattern.test(formattedDOB)) {
     throw "Invalid Date Of Birth";
   }
-
-  // Check if the date is before today.
-  const today = new Date();
-  const date = Date.parse(DOB);
-  if (date > today) {
-    throw "The entered Date of Birth cannot be greater than today";
-  }
-  return DOB;
 };
 
 const validPhoneNumber = (phoneNumber) => {
@@ -68,6 +71,7 @@ const validPhoneNumber = (phoneNumber) => {
 };
 
 const validEmail = (email) => {
+  email = email.toLowerCase();
   if (!email) throw "Error: email can't be empty";
   if (typeof email != "string") throw "Error: email should be string";
   email = email.trim();
@@ -124,6 +128,17 @@ const validObjectId = (str) => {
   return str;
 };
 
+const validAge = (dob) => {
+  const birthdate = new Date(dob);
+  // calculate the age
+  const ageInMilliseconds = Date.now() - birthdate.getTime();
+  const ageDate = new Date(ageInMilliseconds);
+  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+  // display the age
+  return age;
+};
+
 export default {
   validName,
   validEmail,
@@ -133,4 +148,5 @@ export default {
   validPassword,
   validString,
   validObjectId,
+  validAge,
 };

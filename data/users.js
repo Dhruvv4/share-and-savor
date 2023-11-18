@@ -7,51 +7,50 @@ import { ObjectId } from "mongodb";
 
 const saltRounds = 16;
 
-const createUser = async (
-  firstName,
-  lastName,
-  gender,
-  dateOfBirth,
-  collegeName,
-  phoneNumber,
-  email,
-  password
-) => {
+const createUser = async (user) => {
   // Input Validation
-  firstName = check.validName(firstName);
-  lastName = check.validName(lastName);
-  gender = check.validGender(gender);
-  dateOfBirth = check.validDOB(dateOfBirth);
-  collegeName = check.validString(collegeName);
-  phoneNumber = check.validPhoneNumber(phoneNumber);
-  email = check.validEmail(email);
-  password = check.validPassword(password);
+  user.firstName = check.validName(user.firstName);
+  user.lastName = check.validName(user.lastName);
+  user.gender = check.validGender(user.gender);
+  user.dateOfBirth = check.validDOB(user.dateOfBirth);
+  user.university = check.validString(user.university);
+  user.email = check.validEmail(user.email);
+  user.password = check.validPassword(user.password);
+  user.confirmPassword = user.confirmPassword;
 
+  if (user.password !== user.confirmPassword) {
+    throw "Passwords do not match";
+  }
+  const age = check.validAge(user.dateOfBirth);
+  if (age < 13) {
+    throw "User must be atleast 13 years of age to register on the platform";
+  }
   const usersCollection = await users();
-  const user = await usersCollection.findOne({ email: email });
-  if (!user) {
-    password = await bcrypt.hash(password, saltRounds);
-    let createUser = {
-      firstName: firstName,
-      lastName: lastName,
-      gender: gender,
-      dateOfBirth: dateOfBirth,
-      collegeName: collegeName,
-      phoneNumber: phoneNumber,
-      email: email,
-      password: password,
-    };
+  const existingUser = await usersCollection.findOne({ email: user.email });
 
-    const insertUser = await usersCollection.insertOne(createUser);
+  if (!existingUser) {
+    user.password = await bcrypt.hash(user.password, saltRounds);
 
-    if (insertUser.insertedCount == 0) throw "Error: Could not add User";
+    const insertUser = await usersCollection.insertOne(
+      user.firstName,
+      user.lastName,
+      user.gender,
+      user.dateOfBirth,
+      user.university,
+      user.email,
+      user.password
+    );
+
+    if (insertUser.insertedCount === 0) {
+      throw "Error: Could not add User";
+    }
 
     const newId = insertUser.insertedId.toString();
+    const newUser = await getUserByID(newId);
 
-    const user = await getUserByID(newId);
-    return user;
+    return newUser;
   } else {
-    throw "Error: there is already a user with that email";
+    throw "Error: There is already a user with that email";
   }
 };
 
@@ -64,7 +63,13 @@ const checkUser = async (email, password) => {
   if (user == null) throw "Either the username or password is invalid";
   let compareToMatch = await bcrypt.compare(password, user.password);
   if (compareToMatch) {
-    return { authenticatedUser: true };
+    return {
+      authenticatedUser: true,
+      id: user._id,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      email: user.email,
+    };
   } else {
     throw "Could not find a user with given email and password combination!";
   }
