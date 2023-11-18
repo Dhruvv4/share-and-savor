@@ -58,6 +58,13 @@ export default function Register() {
     // TODO: Once authentication is implemented, this will be the place to call the API to register the user.
     const apiUrl = "http://localhost:3000/api/auth/register";
 
+    // Making the date of birth in MM/DD/YYYY format
+    values.dateOfBirth = new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(values.dateOfBirth);
+
     // Make the API call
     axios
       .post(apiUrl, values)
