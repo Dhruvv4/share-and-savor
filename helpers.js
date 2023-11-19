@@ -34,22 +34,21 @@ const validGender = (gender) => {
 
 const validDOB = (DOB) => {
   if (!DOB) throw "Error: DOB can't be empty";
-  if (typeof DOB !== "string") throw "Error: DOB should be a string";
+  if (typeof DOB != "string") throw "Error: DOB should be string";
   DOB = DOB.trim();
   if (!DOB) throw "Error: DOB is not provided";
-
-  // Convert the input date to a format that matches the regular expression
-  const formattedDOB = new Date(DOB).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-
   const datePattern = /^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/;
-
-  if (!datePattern.test(formattedDOB)) {
+  if (!datePattern.test(DOB)) {
     throw "Invalid Date Of Birth";
   }
+
+  // Check if the date is before today.
+  const today = new Date();
+  const date = Date.parse(DOB);
+  if (date > today) {
+    throw "The entered Date of Birth cannot be greater than today";
+  }
+  return DOB;
 };
 
 const validPhoneNumber = (phoneNumber) => {

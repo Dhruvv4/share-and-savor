@@ -28,20 +28,18 @@ function Login() {
     defaultValues,
   });
 
-  function onSubmit(values) {
+  async function onSubmit(values) {
     const apiUrl = "http://localhost:3000/api/auth/login";
 
     // Make the API call
-    axios
-      .post(apiUrl, values)
-      .then((response) => {
-        // Handle the successful response
-        console.log("API Response:", response.data);
+    try {
+      const response = await axios.post(apiUrl, values);
+      if (response.data) {
         navigate("/dashboard");
-      })
-      .catch((error) => {
-        console.error("API Error:", error);
-      });
+      }
+    } catch (error) {
+      console.log(error.response.data.error);
+    }
   }
 
   return (

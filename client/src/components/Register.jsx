@@ -54,7 +54,7 @@ export default function Register() {
     defaultValues,
   });
 
-  function onSubmit(values) {
+  async function onSubmit(values) {
     // TODO: Once authentication is implemented, this will be the place to call the API to register the user.
     const apiUrl = "http://localhost:3000/api/auth/register";
 
@@ -64,18 +64,15 @@ export default function Register() {
       month: "2-digit",
       day: "2-digit",
     }).format(values.dateOfBirth);
-
     // Make the API call
-    axios
-      .post(apiUrl, values)
-      .then((response) => {
-        // Handle the successful response
-        console.log("API Response:", response.data);
-        navigate("/login");
-      })
-      .catch((error) => {
-        console.error("API Error:", error);
-      });
+    try {
+      const response = await axios.post(apiUrl, values);
+      if (response.data) {
+        navigate("/dashboard");
+      }
+    } catch (error) {
+      console.log(error.response.data.error);
+    }
   }
 
   return (

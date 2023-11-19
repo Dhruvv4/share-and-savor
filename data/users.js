@@ -31,15 +31,15 @@ const createUser = async (user) => {
   if (!existingUser) {
     user.password = await bcrypt.hash(user.password, saltRounds);
 
-    const insertUser = await usersCollection.insertOne(
-      user.firstName,
-      user.lastName,
-      user.gender,
-      user.dateOfBirth,
-      user.university,
-      user.email,
-      user.password
-    );
+    const insertUser = await usersCollection.insertOne({
+      firstName: user.firstName,
+      lastName: user.lastName,
+      gender: user.gender,
+      dateOfBirth: user.dateOfBirth,
+      university: user.university,
+      email: user.email,
+      password: user.password,
+    });
 
     if (insertUser.insertedCount === 0) {
       throw "Error: Could not add User";
@@ -56,7 +56,6 @@ const createUser = async (user) => {
 
 const checkUser = async (email, password) => {
   email = check.validEmail(email);
-  password = check.validPassword(password);
 
   const usersCollection = await users();
   const user = await usersCollection.findOne({ email: email });

@@ -13,7 +13,7 @@ router.post("/login", async (req, res) => {
     const data = await user_functions.checkUser(email, password);
     if (data) {
       req.session.user = data;
-      console.log(req.session.user);
+      //console.log(req.session.user);
       res.status(200).json({ message: "User successfully logged in" });
     }
   } catch (e) {
@@ -39,6 +39,7 @@ router.post("/register", async (req, res) => {
     await user_functions.createUser(new_user);
     res.status(200).json({ message: "User created" });
   } catch (e) {
+    console.log(e);
     res.status(500).json({ error: e });
   }
 });
