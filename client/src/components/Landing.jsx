@@ -6,7 +6,7 @@ const LandingPage = () => {
   // TODO: Redesign this page
 
   return (
-    <div className="flex flex-col items-center pt-24 h-full text-center">
+    <div className="flex flex-col items-center pt-24 h-full text-center px-8 md:px-20">
       <h1 className="text-5xl font-bold  mb-4">
         Welcome to Share and Savor – Where Every Bite Counts!
       </h1>

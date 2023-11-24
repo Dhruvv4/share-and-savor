@@ -34,7 +34,7 @@ const Header = (props) => {
     <header className="bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <Link to={"/"}>
-          <img src={taco} className="w-10" alt="" />
+          <img src={taco} className="h-16" alt="" />
         </Link>
 
         <div className="flex flex-1 items-center justify-end">
