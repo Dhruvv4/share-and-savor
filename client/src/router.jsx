@@ -6,6 +6,7 @@ import Login from "@/components/Login";
 import Dashboard from "@/components/Dashboard";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import Restuarants from "./components/Restuarants";
+import SearchData from "./components/SearchData";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,14 @@ export const router = createBrowserRouter([
         element: (
           <ProtectedRoute>
             <Restuarants />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/search",
+        element: (
+          <ProtectedRoute>
+            <SearchData />
           </ProtectedRoute>
         ),
       },

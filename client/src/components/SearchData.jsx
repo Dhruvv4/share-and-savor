@@ -1,18 +1,25 @@
 import { Link } from "react-router-dom";
-import restaurants from "./../../../data/NJData.json";
+import { useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import Search from "./Search";
-function Dashboard() {
+
+function SearchData() {
+  const { state } = useLocation();
+
+  console.log(state);
+
   return (
     <>
-      <h1 className="text-center">Find your favorite restaurants </h1>
-      <Search></Search>
+      <h1 className="text-center">Search Results</h1>
+      <h2 className="text-center my-5">
+        There were {state.length} restaurants found{" "}
+      </h2>
       <div className="container mx-10 p-4 my-10 ">
         <div
           className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
         "
         >
-          {restaurants.map((res) => (
+          {state.map((res) => (
             <div
               key={res.id}
               className="border-2 border-solid border-gray-300 p-4"
@@ -23,13 +30,15 @@ function Dashboard() {
               <h3>Rating Count: {res.Rating_Count}</h3>
               <h3>Rating: {res.Star_Count}</h3>
               <h4>Operation hours: Today between {}</h4>
-              <h4>Location: {res.Address}</h4>
             </div>
           ))}
         </div>
+        <Link to="/dashboard">
+          <Button>Back to Dashboard</Button>
+        </Link>
       </div>
     </>
   );
 }
 
-export default Dashboard;
+export default SearchData;
