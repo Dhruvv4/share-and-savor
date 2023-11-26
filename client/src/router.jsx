@@ -6,6 +6,8 @@ import Login from "@/components/Login";
 import Dashboard from "@/components/Dashboard";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import Restuarants from "./components/Restuarants";
+import Profile from "./components/Profile";
+import ChangePassword from "./components/Changepassword";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -40,6 +42,22 @@ export const router = createBrowserRouter([
           </ProtectedRoute>
         ),
       },
+      {
+        path: "/profile",
+        element: (
+          <ProtectedRoute>
+            <Profile />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/change-password",
+        element: (
+          <ProtectedRoute>
+            <ChangePassword />
+          </ProtectedRoute>
+        ),
+      }
     ],
   },
 ]);
