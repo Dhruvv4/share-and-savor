@@ -34,7 +34,7 @@ function SearchData() {
           ))}
         </div>
         <Link to="/dashboard">
-          <Button>Back to Dashboard</Button>
+          <Button className="my-16">Back to Dashboard</Button>
         </Link>
       </div>
     </>

@@ -11,12 +11,12 @@ const Search = () => {
   function filter_search(e) {
     e.preventDefault();
 
-    const lowercaseSearch = search.toLowerCase();
+    const lowercaseSearch = search.toLowerCase().trim();
 
     const result = restaurants.filter((req) => {
       return (
         req.Restaurant.toLowerCase() === lowercaseSearch ||
-        req.Cuisine.toLowerCase() === lowercaseSearch
+        req.Cuisine.toLowerCase().includes(lowercaseSearch)
       );
     });
 
@@ -34,7 +34,7 @@ const Search = () => {
         value={search}
         name="search_input"
         id="search_input"
-        className="w-full rounded border border-solid border-gray h-6 my-5"
+        className="w-full rounded border border-solid border-gray h-10 my-5"
         placeholder="Enter the restaurant name/cuisines you want to search"
         onChange={(e) => setSearch(e.target.value)}
       ></input>
