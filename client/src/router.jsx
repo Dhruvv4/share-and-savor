@@ -5,10 +5,12 @@ import Register from "@/components/Register";
 import Login from "@/components/Login";
 import Dashboard from "@/components/Dashboard";
 import ProtectedRoute from "@/components/ProtectedRoute";
-import RestaurantsList from "@/components/RestaurantList";
 import Restaurant from "@/components/Restaurant";
 import Checkout from "./components/Checkout";
 import SearchData from "./components/SearchData";
+import Profile from "./components/Profile";
+import ChangePassword from "./components/Changepassword";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -48,14 +50,6 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "/restaurants",
-        element: (
-          <ProtectedRoute>
-            <RestaurantsList />
-          </ProtectedRoute>
-        ),
-      },
-      {
         path: "/restaurants/:id",
         element: (
           <ProtectedRoute>
@@ -76,6 +70,22 @@ export const router = createBrowserRouter([
         element: (
           <ProtectedRoute>
             <SearchData />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/profile",
+        element: (
+          <ProtectedRoute>
+            <Profile />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/change-password",
+        element: (
+          <ProtectedRoute>
+            <ChangePassword />
           </ProtectedRoute>
         ),
       },

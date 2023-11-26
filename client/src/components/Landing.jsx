@@ -63,6 +63,9 @@ const LandingPage = () => {
       <Link className="mt-10" to={"/register"}>
         <Button>Get Started</Button>
       </Link>
+      <Link to={"/profile"}>
+        <Button>Profile Page Test</Button>
+      </Link>
     </div>
   );
 };
