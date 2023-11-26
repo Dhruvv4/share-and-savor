@@ -16,6 +16,9 @@ const LandingPage = () => {
       <Link to={"/register"}>
         <Button>Get Started</Button>
       </Link>
+      <Link to={"/profile"}>
+        <Button>Profile Page Test</Button>
+      </Link>
     </div>
   );
 };
