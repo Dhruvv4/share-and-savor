@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
 import restaurants from "./../../../data/restaurants.json";
 
 function Dashboard() {
-  console.log(restaurants);
   return (
     <>
       <h1 className="text-center">Welcome to the dashboard</h1>
