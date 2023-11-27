@@ -16,7 +16,7 @@ const validName = (name) => {
       throw "Error: only characters are allowed(A-Z and a-z)";
     }
   }
-  return name.toLowerCase();
+  return name;
 };
 
 const validGender = (gender) => {
