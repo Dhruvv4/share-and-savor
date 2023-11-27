@@ -15,7 +15,6 @@ const Header = (props) => {
   const navigate = useNavigate();
   const { user, setUser } = useAuth();
   const { pathname } = useLocation();
-
   const dispatch = useDispatch();
   const isLoginRoute = pathname === "/login";
   const [isLoggedIn, setisLoggedIn] = useState(false);
@@ -48,7 +47,7 @@ const Header = (props) => {
         </Link>
 
         <div className="flex flex-1 items-center justify-between">
-          {isLoggedIn && (
+          {user?.authenticatedUser && (
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
                 {navLinks.map((link) => (
@@ -68,9 +67,11 @@ const Header = (props) => {
           <div className="flex items-center justify-end gap-4">
             <div className="sm:flex sm:gap-4">
               <CartDropdown />
-              <Link to={isLoginRoute ? "/register" : "/login"}>
-                <Button>{isLoginRoute ? "Register" : "Login"}</Button>
-              </Link>
+              {!user?.authenticatedUser && (
+                <Link to={isLoginRoute ? "/register" : "/login"}>
+                  <Button>{isLoginRoute ? "Register" : "Login"}</Button>
+                </Link>
+              )}
               <ProfileDropdown />
             </div>
 

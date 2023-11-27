@@ -8,8 +8,6 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import RestaurantsList from "@/components/RestaurantList";
 import Restaurant from "@/components/Restaurant";
 import Checkout from "./components/Checkout";
-
-import Restuarants from "./components/Restuarants";
 import SearchData from "./components/SearchData";
 export const router = createBrowserRouter([
   {
