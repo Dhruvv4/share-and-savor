@@ -15,8 +15,10 @@ import { Link } from "react-router-dom";
 import { loginSchema } from "@/lib/schemas";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "@/context/appContext";
 
 function Login() {
+  const { user, setUser } = useAuth();
   const navigate = useNavigate();
   const defaultValues = {
     email: "",
@@ -34,7 +36,8 @@ function Login() {
     // Make the API call
     try {
       const response = await axios.post(apiUrl, values);
-      if (response.data) {
+      if (response?.data) {
+        setUser(response.data?.session);
         navigate("/dashboard");
       }
     } catch (error) {

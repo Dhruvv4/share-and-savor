@@ -68,7 +68,7 @@ export default function Register() {
     try {
       const response = await axios.post(apiUrl, values);
       if (response.data) {
-        navigate("/dashboard");
+        navigate("/login");
       }
     } catch (error) {
       console.log(error.response.data.error);

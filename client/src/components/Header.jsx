@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/context/AppContext";
 import { Button } from "./ui/button";
@@ -10,11 +10,14 @@ const Header = (props) => {
   // TODO: Add logic to show/hide links based on user login status
 
   const navigate = useNavigate();
-  const { user, logoutUser } = useAuth();
+  const { user, setUser } = useAuth();
   const { pathname } = useLocation();
   const isLoginRoute = pathname === "/login";
+  const [isLoggedIn, setisLoggedIn] = useState(false);
+  // if (!!user) {
+  //   setisLoggedIn(true);
+  // }
 
-  const isLoggedIn = false;
   const navLinks = [
     {
       title: "Home",

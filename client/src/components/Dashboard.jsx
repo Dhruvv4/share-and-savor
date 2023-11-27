@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import restaurants from "./../../../data/NJData.json";
 import { Button } from "./ui/button";
 import Search from "./Search";
-
+import { useAuth } from "@/context/appContext";
 function Dashboard() {
+  // const { user } = useAuth();
   return (
     <>
       <h1 className="text-3xl font-semibold text-center my-8">
@@ -12,9 +13,9 @@ function Dashboard() {
       <Search />
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-          {restaurants.map((res) => (
+          {restaurants.map((res, idx) => (
             <div
-              key={res.id}
+              key={`${res.Restaurant}-${idx}`}
               className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg"
             >
               <img
