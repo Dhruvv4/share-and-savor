@@ -33,8 +33,6 @@ const Restaurant = () => {
     center: {
       lat: parseFloat(res.geo_coordinates_search?.split(",")[0]),
       lng: parseFloat(res.geo_coordinates_search?.split(",")[1]),
-      // lat: 40.71920974,
-      // lng: -74.08289272,
     },
     zoom: 11,
   };
@@ -66,7 +64,7 @@ const Restaurant = () => {
         >
           <GoogleMapReact
             bootstrapURLKeys={{
-              key: "AIzaSyAq5SX_tdNE7lYgBpNOEBUhC98uCd0qayo",
+              key: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
             }}
             defaultCenter={defaultProps.center}
             defaultZoom={defaultProps.zoom}
