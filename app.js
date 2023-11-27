@@ -14,11 +14,13 @@ app.use(cors());
 app.use(
   session({
     name: "AuthCookie",
-    secret: "some secret string!",
+    secret: "47522568807b1e83bcd0b67c206b1f59d5530fd6",
     resave: false,
     saveUninitialized: true,
+    maxAge: 60000,
   })
 );
+
 // Router setup
 configRoutes(app);
 

@@ -7,7 +7,7 @@ router.post("/login", async (req, res) => {
   // Handle user login logic here
   let email = req.body.email;
   let password = req.body.password;
-  email = email.toLowerCase();
+  email = email?.toLowerCase();
 
   try {
     const data = await user_functions.checkUser(email, password);

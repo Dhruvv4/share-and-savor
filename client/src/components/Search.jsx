@@ -26,7 +26,7 @@ const Search = () => {
   }
 
   return (
-    <form onSubmit={filter_search}>
+    <form onSubmit={filter_search} className="max-w-2xl mx-auto">
       <label className="text-center font-semibold my-10">
         Search for a restaurant
       </label>

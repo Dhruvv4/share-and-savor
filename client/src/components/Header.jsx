@@ -10,19 +10,9 @@ import ProfileDropdown from "@/components/ProfileDropdown";
 import CartDropdown from "./CartDropdown";
 
 const Header = (props) => {
-  // TODO: Add logic to show/hide links based on user login status
-
-  const navigate = useNavigate();
-  const { user, setUser } = useAuth();
+  const user = useSelector((state) => state.user);
   const { pathname } = useLocation();
-  const dispatch = useDispatch();
   const isLoginRoute = pathname === "/login";
-  const [isLoggedIn, setisLoggedIn] = useState(false);
-  // if (!!user) {
-  //   setisLoggedIn(true);
-  // }
-
-  const { restaurant } = useSelector((state) => state.cart.value);
 
   const navLinks = [
     {
@@ -35,44 +25,25 @@ const Header = (props) => {
     },
   ];
 
-  const logoutClick = () => {
-    navigate("/login");
-  };
-
   return (
     <header className="bg-white dark:bg-gray-900">
       <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <Link to={"/"}>
-          <img src={taco} className="h-16 w-16" alt="" />
-        </Link>
-
         <div className="flex flex-1 items-center justify-between">
-          {user?.authenticatedUser && (
-            <nav aria-label="Global" className="hidden md:block">
-              <ul className="flex items-center gap-6 text-sm">
-                {navLinks.map((link) => (
-                  <li key={link.title}>
-                    <Link
-                      className="font-medium text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200"
-                      to={link.path}
-                    >
-                      {link.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          )}
+          <div className="flex items-center gap-8">
+            <Link to={user.isAuthenticated ? "/dashboard" : "/"}>
+              <img src={taco} className="h-16 w-16" alt="" />
+            </Link>
+          </div>
 
           <div className="flex items-center justify-end gap-4">
-            <div className="sm:flex sm:gap-4">
-              <CartDropdown />
-              {!user?.authenticatedUser && (
+            <div className="sm:flex sm:gap-8">
+              {user?.isAuthenticated && <CartDropdown />}
+              {!user?.isAuthenticated && (
                 <Link to={isLoginRoute ? "/register" : "/login"}>
                   <Button>{isLoginRoute ? "Register" : "Login"}</Button>
                 </Link>
               )}
-              <ProfileDropdown />
+              {user?.isAuthenticated && <ProfileDropdown />}
             </div>
 
             <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75 md:hidden">

@@ -38,7 +38,9 @@ export const cartSlice = createSlice({
         title: "Added to cart",
         description: `${state.value.restaurant.data.mealPack.size} meal pack added to cart.`,
         status: "success",
-        duration: 5000,
+        duration: 2500,
+        className:
+          "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
     },
     removeFromCart: (state, action) => {
@@ -50,7 +52,9 @@ export const cartSlice = createSlice({
         title: "Removed from cart",
         description: `${state.value.restaurant.data.mealPack.size} meal pack removed from the cart.`,
         status: "success",
-        duration: 5000,
+        duration: 2500,
+        className:
+          "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
     },
     clearCart: (state) => {

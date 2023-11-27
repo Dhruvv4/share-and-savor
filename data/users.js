@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 
 import { ObjectId } from "mongodb";
 
-const saltRounds = 16;
+const saltRounds = 10;
 
 const createUser = async (user) => {
   // Input Validation
@@ -64,7 +64,7 @@ const checkUser = async (email, password) => {
   if (compareToMatch) {
     return {
       authenticatedUser: true,
-      id: user._id,
+      id: user._id?.toString(),
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,

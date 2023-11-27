@@ -1,10 +1,7 @@
-import { Link } from "react-router-dom";
 import restaurants from "./../../../data/NJData.json";
-import { Button } from "./ui/button";
 import Search from "./Search";
-import { useAuth } from "@/context/appContext";
+
 function Dashboard() {
-  // const { user } = useAuth();
   return (
     <>
       <h1 className="text-3xl font-semibold text-center my-8">
