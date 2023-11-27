@@ -13,8 +13,13 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router-dom";
 import { loginSchema } from "@/lib/schemas";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "@/context/appContext";
 
 function Login() {
+  const { user, setUser } = useAuth();
+  const navigate = useNavigate();
   const defaultValues = {
     email: "",
     password: "",
@@ -25,9 +30,19 @@ function Login() {
     defaultValues,
   });
 
-  function onSubmit(values) {
-    // TODO: Once authentication is implemented, this will be the place to call the API to login the user.
-    console.log(values);
+  async function onSubmit(values) {
+    const apiUrl = "http://localhost:3000/api/auth/login";
+
+    // Make the API call
+    try {
+      const response = await axios.post(apiUrl, values);
+      if (response?.data) {
+        setUser(response.data?.session);
+        navigate("/dashboard");
+      }
+    } catch (error) {
+      console.log(error.response.data.error);
+    }
   }
 
   return (

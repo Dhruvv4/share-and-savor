@@ -1,4 +1,5 @@
 import { Router } from "express";
+import user_functions from "./../data/users.js";
 const router = Router();
 import userMethods from '../data/users.js';
 import helpers from '../helpers.js';
@@ -6,61 +7,44 @@ import helpers from '../helpers.js';
 // User login route
 router.post("/login", async (req, res) => {
   // Handle user login logic here
+  let email = req.body.email;
+  let password = req.body.password;
+  email = email.toLowerCase();
+
   try {
-    let { email, password } = req.body;
-    // validating username and password
-    email = helpers.validEmail(email);
-    password = helpers.validPassword(password);
-    const user = await userMethods.checkUser(email, password);
-    let id = user?._id?.toString();
-    if (user) {
-      req.session.user = {
-        id: id, firstName: user.firstName, lastName: user.lastName, gender: user.gender, dateOfBirth: user.dateOfBirth,
-        collegeName: user.collegeName, phoneNumber: user.phoneNumber, email: user.email
-      };
-      res.status(200).json({ message: "User login route" });
-    }
-    else {
-      res.status(200).json({ message: "Redirect it to register page" });
+    const data = await user_functions.checkUser(email, password);
+    if (data) {
+      req.session.user = data;
+      //console.log(req.session.user);
+      res
+        .status(200)
+        .json({ message: "User successfully logged in", session: data });
     }
   } catch (e) {
-    if (e.includes("401")) {
-      console.log("hello")
-      res.status(401).json({ error: e });
-    } else if (e.includes("400")) {
-      res.status(400).json({ error: e });
-    } else {
-      res.status(404).json({ error: "Resource is not found" });
-    }
+    res.status(500).json({ error: e });
   }
 });
 
 // User registration route
 router.post("/register", async (req, res) => {
   // Handle user registration logic here
+  const new_user = {
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
+    gender: req.body.gender,
+    dateOfBirth: req.body.dateOfBirth,
+    university: req.body.university,
+    email: req.body.email,
+    password: req.body.password,
+    confirmPassword: req.body.confirmPassword,
+  };
+
   try {
-    let { firstName, lastName, gender, dateOfBirth, collegeName, phoneNumber, email, password } = req.body;
-    firstName = helpers.validName(firstName);
-    lastName = helpers.validName(lastName);
-    gender = helpers.validGender(gender);
-    dateOfBirth = helpers.validDOB(dateOfBirth);
-    collegeName = helpers.validString(collegeName);
-    phoneNumber = helpers.validPhoneNumber(phoneNumber);
-    email = helpers.validEmail(email);
-    password = helpers.validPassword(password);
-    const user = await userMethods.createUser(firstName, lastName, gender, dateOfBirth, collegeName, phoneNumber,
-      email, password);
-    if (user) {
-      return res.status(200).json(user);
-    }
+    await user_functions.createUser(new_user);
+    res.status(200).json({ message: "User created" });
   } catch (e) {
-    if (e.includes("401")) {
-      res.status(401).json({ error: e });
-    } else if (e.includes("400")) {
-      res.status(400).json({ error: e });
-    } else {
-      res.status(404).json({ error: "Resource is not found" });
-    }
+    console.log(e);
+    res.status(500).json({ error: e });
   }
 });
 
@@ -129,16 +113,12 @@ router
 // User logout route
 router.get("/logout", (req, res) => {
   // Handle user logout logic here
-  try {
-    if (!req?.session?.user) {
-      throw "Unauthorized(401): User is not logged in.";
-    } else {
-      req.session.destroy();
-      res.status(200).json({ message: "You have been logged out" });
-      return;
-    }
-  } catch (e) {
-    res.status(500).json({ error: e });
+  if (req.session.user) {
+    req.session.destroy();
+    res.clearCookie();
+    return res.status(200).json({ message: "User Logged out" });
+  } else {
+    return res.status(403).json({ message: "Unable to Log out" });
   }
 });
 

@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb";
-import isUrl from "is-url";
+
 const validName = (name) => {
   if (!name) throw "Error(400): name can't be empty";
   if (typeof name != "string") throw "Error(400): name should be string";
@@ -137,17 +137,15 @@ const validObjectId = (str) => {
   return str;
 };
 
-const checkUrl = (url) => {
-  const checkUrl = isUrl(url);
-  if (!checkUrl) throw "Error(400): Invalid Url";
-  return url;
-};
-const checkNumeric = (num) => {
-  num = parseFloat(num);
-  if (num == NaN) {
-    throw "Error(400): input should be a number";
-  }
-  return num;
+const validAge = (dob) => {
+  const birthdate = new Date(dob);
+  // calculate the age
+  const ageInMilliseconds = Date.now() - birthdate.getTime();
+  const ageDate = new Date(ageInMilliseconds);
+  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+  // display the age
+  return age;
 };
 
 export default {
@@ -160,6 +158,5 @@ export default {
   validString,
   validStringWithNumAndSpecialChar,
   validObjectId,
-  checkUrl,
-  checkNumeric,
+  validAge,
 };

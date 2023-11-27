@@ -5,7 +5,10 @@ import Register from "@/components/Register";
 import Login from "@/components/Login";
 import Dashboard from "@/components/Dashboard";
 import ProtectedRoute from "@/components/ProtectedRoute";
-import Restuarants from "./components/Restuarants";
+import RestaurantsList from "@/components/RestaurantList";
+import Restaurant from "@/components/Restaurant";
+import Checkout from "./components/Checkout";
+import SearchData from "./components/SearchData";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -33,10 +36,34 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "/restuaraunts",
+        path: "/restaurants",
         element: (
           <ProtectedRoute>
-            <Restuarants />
+            <RestaurantsList />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/restaurants/:id",
+        element: (
+          <ProtectedRoute>
+            <Restaurant />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/checkout/:orderId",
+        element: (
+          <ProtectedRoute>
+            <Checkout />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/search",
+        element: (
+          <ProtectedRoute>
+            <SearchData />
           </ProtectedRoute>
         ),
       },

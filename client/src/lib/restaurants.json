@@ -16,13 +16,13 @@
     "id": "7e688734-5b3e-4ba3-9953-0b44fe655c71",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "dbeb9ce6-deaf-4c34-be2c-b341df78c62d",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "47556b58-4949-4656-8415-28e08fe37f27",
         "serves": 3
@@ -46,13 +46,13 @@
     "id": "92f57ce1-aa68-4dc4-9f50-6da3c386c03d",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "d9ae6b27-6232-496a-9f12-a3582b17b2ff",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "e815970a-39fd-4602-992c-351b86ab1379",
         "serves": 3
@@ -76,13 +76,13 @@
     "id": "29fbbd0d-291b-4914-ac83-fa6bc18e0146",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "7b98f40a-df4a-428d-98fd-e172cc875731",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "f27c356f-43d3-49dd-9b37-8cb31b3061fe",
         "serves": 3
@@ -106,13 +106,13 @@
     "id": "3dda3d92-8624-4387-8456-ccb76b654367",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "33cd512d-c852-4d55-b126-784ac8893b77",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "fd7e7885-5f47-4f83-979d-b1a3fd9ca8ec",
         "serves": 3
@@ -132,17 +132,17 @@
     "city": "Edison",
     "star_count": 3,
     "rating_count": 1,
-    "category_name": "Restaurants,Bistroes,Bars,Pubs,Brunch restaurants,Continental restaurants,Eateries,Lunch restaurants,European restaurants,Restaurant or cafes,Modern European restaurants",
+    "category_name": "Restaurants,Bistroes,Bars,Pubs,Brunch restaurants,Continental restaurants,Eateries,Lunch restaurants,Small plates restaurants,European restaurants,Restaurant or cafes,Modern European restaurants",
     "id": "e1103356-0683-4396-bb43-c22e07aea7ba",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "36de3c04-436d-4c88-92a9-c23a626e706a",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "9a805eac-2fa1-4906-9c16-6ca1e3e78266",
         "serves": 3
@@ -166,13 +166,13 @@
     "id": "0462f8d7-8a25-40ad-9f0c-7cbe53e8832b",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "7fe5acb9-2500-4982-bd94-f704c0465f9a",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "b5c55f84-2bf5-4b21-8810-0a0551e11993",
         "serves": 3
@@ -196,13 +196,13 @@
     "id": "9e3de508-e26d-4644-b042-ad6b5c452b51",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "ba58fa6a-f217-40b9-a9a2-a3ccf97debb5",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "3f9e2b97-3a77-4224-a4ba-50f91be0b633",
         "serves": 3
@@ -226,13 +226,13 @@
     "id": "ac3b2667-2459-4b4f-bfbc-182ff4549b82",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "6611a88f-621b-4b17-bb26-23f1c73332d7",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "1f9f4cd4-6239-4e4e-a90c-ce79f81e5e35",
         "serves": 3
@@ -256,13 +256,13 @@
     "id": "5f611836-0c17-45ff-9274-a77cf1f31aaf",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "bc217525-16de-4857-b88f-b6ea01dbbd1f",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "877b1fb1-5bc5-4c56-88f4-0388a79af805",
         "serves": 3
@@ -286,13 +286,13 @@
     "id": "a0ad74ce-6a61-43ce-94e5-a326aa1a3f25",
     "mealPacks": [
       {
-        "size": "personal",
+        "size": "small",
         "price": 10,
         "id": "a5fda5ba-7021-4080-ac14-f8b85492756b",
         "serves": 1
       },
       {
-        "size": "family",
+        "size": "large",
         "price": 20,
         "id": "cd2346e7-234f-47d3-ad73-f6395a40ac6c",
         "serves": 3

@@ -16,11 +16,9 @@ export function ThemeProvider({
   const [theme, setTheme] = useState(
     () => localStorage.getItem(storageKey) || initialState.theme
   );
-  console.log({ theme, setTheme });
 
   useEffect(() => {
     const root = window.document.documentElement;
-    console.log({ root }, root.classList, theme);
     root.classList.remove(theme === "light" ? "dark" : "light");
     root.classList.add(theme);
   }, [theme]);
