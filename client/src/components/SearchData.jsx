@@ -14,9 +14,9 @@ function SearchData() {
       <h2 className="text-center my-5">
         There were {state.length} restaurants found{" "}
       </h2>
-      <div className="container mx-10 p-4 my-10 ">
+      <div className="container mx-52 p-4 my-5 items-center">
         <div
-          className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
+          className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3
         "
         >
           {state.map((res) => (
@@ -34,7 +34,7 @@ function SearchData() {
           ))}
         </div>
         <Link to="/dashboard">
-          <Button className="my-16">Back to Dashboard</Button>
+          <Button className="my-10">Back to Dashboard</Button>
         </Link>
       </div>
     </>

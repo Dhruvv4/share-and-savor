@@ -5,11 +5,13 @@ import Search from "./Search";
 function Dashboard() {
   return (
     <>
-      <h1 className="text-center">Find your favorite restaurants </h1>
+      <h1 className="text-center">
+        Save Meals from your favorite restaurants !
+      </h1>
       <Search></Search>
-      <div className="container mx-10 p-4 my-10 ">
+      <div className="container mx-52 p-4 my-5 items-center">
         <div
-          className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 
+          className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 
         "
         >
           {restaurants.map((res) => (
