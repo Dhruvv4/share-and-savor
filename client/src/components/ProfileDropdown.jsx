@@ -11,24 +11,37 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import ThemeToggle from "@/components/ThemeToggle";
+import { useAuth } from "@/context/appContext";
+import { useSelector, useDispatch } from "react-redux";
+import { logout } from "@/features/userSlice";
 
 export default function ProfileDropdown() {
+  const userState = useSelector((state) => state.user);
+
+  const dispatch = useDispatch();
+
+  let userInitials =
+    userState?.user?.firstName?.slice(0, 1) +
+      userState?.user?.lastName?.slice(0, 1) || "NA";
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
-          <Avatar className="h-8 w-8">
+          <Avatar className="h-12 w-12">
             <AvatarImage src="" alt="@shadcn" />
-            <AvatarFallback>DV</AvatarFallback>
+            <AvatarFallback className="text-lg">{userInitials}</AvatarFallback>
           </Avatar>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="end" forceMount>
         <DropdownMenuLabel className="flex justify-between font-normal">
           <div className="flex flex-col space-y-1">
-            <p className="text-sm font-medium leading-none">Dhruv Vaghela</p>
+            <p className="text-sm font-medium leading-none">
+              {`${userState?.user?.firstName} ${userState?.user?.lastName}`}
+            </p>
             <p className="text-xs leading-none text-muted-foreground">
-              dhruv@stevens.edu
+              {userState?.user?.email}
             </p>
           </div>
           <ThemeToggle />
@@ -46,7 +59,7 @@ export default function ProfileDropdown() {
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
+        <DropdownMenuItem onClick={() => dispatch(logout())}>
           Log out
           <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
         </DropdownMenuItem>

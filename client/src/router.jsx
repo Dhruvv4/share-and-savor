@@ -8,7 +8,7 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import RestaurantsList from "@/components/RestaurantList";
 import Restaurant from "@/components/Restaurant";
 import Checkout from "./components/Checkout";
-
+import SearchData from "./components/SearchData";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -17,15 +17,27 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Landing />,
+        element: (
+          <ProtectedRoute>
+            <Landing />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/register",
-        element: <Register />,
+        element: (
+          <ProtectedRoute>
+            <Register />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/login",
-        element: <Login />,
+        element: (
+          <ProtectedRoute>
+            <Login />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/dashboard",
@@ -56,6 +68,14 @@ export const router = createBrowserRouter([
         element: (
           <ProtectedRoute>
             <Checkout />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/search",
+        element: (
+          <ProtectedRoute>
+            <SearchData />
           </ProtectedRoute>
         ),
       },

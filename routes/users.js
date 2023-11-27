@@ -7,14 +7,16 @@ router.post("/login", async (req, res) => {
   // Handle user login logic here
   let email = req.body.email;
   let password = req.body.password;
-  email = email.toLowerCase();
+  email = email?.toLowerCase();
 
   try {
     const data = await user_functions.checkUser(email, password);
     if (data) {
       req.session.user = data;
       //console.log(req.session.user);
-      res.status(200).json({ message: "User successfully logged in" });
+      res
+        .status(200)
+        .json({ message: "User successfully logged in", session: data });
     }
   } catch (e) {
     res.status(500).json({ error: e });
