@@ -3,6 +3,9 @@ import configRoutes from "./routes/index.js";
 import express from "express";
 import session from "express-session";
 import cors from "cors";
+import dotenv from "dotenv";
+dotenv.config();
+
 // Express server instance
 const app = express();
 
@@ -14,7 +17,7 @@ app.use(cors());
 app.use(
   session({
     name: "AuthCookie",
-    secret: "47522568807b1e83bcd0b67c206b1f59d5530fd6",
+    secret: process.env.EXPRESS_SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
     maxAge: 60000,
