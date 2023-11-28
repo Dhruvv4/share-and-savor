@@ -1,6 +1,6 @@
 import restaurants from "./../../../data/NJData.json";
 import Search from "./Search";
-
+import { Link } from "react-router-dom";
 function Dashboard() {
   return (
     <>
