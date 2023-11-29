@@ -132,39 +132,41 @@ const Restaurant = () => {
             </GoogleMapReact>
           </Link>
         </div>
+        <div className="mx-auto max-w-2xl border border-black/20 p-4 my-8 rounded-lg flex flex-col gap-4">
+          <div className="flex justify-around">
+            {res?.mealPacks?.map((meal) => (
+              <div key={meal.id} className="text-center">
+                <h2 className="text-lg font-semibold mb-2">
+                  Meal Pack: {meal.size}
+                </h2>
+                <p>Serves: {meal.serves}</p>
+                <p>Price: {meal.price}</p>
+                {restaurant.cart.filter((item) => item.mealPack.id === meal.id)
+                  .length === 0 ? (
+                  <Button
+                    disabled=""
+                    onClick={() => handleAddToCart(meal)}
+                    className="bg-green-500 hover:bg-green-700 mt-2"
+                  >
+                    Add to cart
+                  </Button>
+                ) : (
+                  <Button
+                    onClick={() => handleRemoveFromCart(meal)}
+                    className="bg-blue-500 hover:bg-blue-700 mt-2"
+                  >
+                    Remove from cart
+                  </Button>
+                )}
+              </div>
+            ))}
+          </div>
 
-        <div className="mx-auto flex max-w-2xl justify-around rounded-lg border border-black/20 p-4 my-8">
-          {res?.mealPacks?.map((meal) => (
-            <div key={meal.id} className="text-center">
-              <h2 className="text-lg font-semibold mb-2">
-                Meal Pack: {meal.size}
-              </h2>
-              <p>Serves: {meal.serves}</p>
-              <p>Price: {meal.price}</p>
-              {restaurant.cart.filter((item) => item.mealPack.id === meal.id)
-                .length === 0 ? (
-                <Button
-                  disabled=""
-                  onClick={() => handleAddToCart(meal)}
-                  className="bg-green-500 hover:bg-green-700 mt-2"
-                >
-                  Add to cart
-                </Button>
-              ) : (
-                <Button
-                  onClick={() => handleRemoveFromCart(meal)}
-                  className="bg-blue-500 hover:bg-blue-700 mt-2"
-                >
-                  Remove from cart
-                </Button>
-              )}
-            </div>
-          ))}
-        </div>
-        <div>
-          <Link to={`/checkout/${id}`}>
-            <Button>Go to Checkout</Button>
-          </Link>
+          {restaurant.cart.length > 0 && restaurant.order.id === res.id && (
+            <Link to={`/checkout/${id}`}>
+              <Button>Go to Checkout</Button>
+            </Link>
+          )}
         </div>
       </div>
     </>
