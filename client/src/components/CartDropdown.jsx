@@ -34,13 +34,15 @@ const CartDropdown = () => {
             Total Order: {restaurant.cart.length}
           </p>
         </DropdownMenuLabel>
-        <DropdownMenuSeparator />
         {restaurant.cart.length > 0 && (
-          <DropdownMenuGroup className="pointer">
-            <Link to={`/checkout/${restaurant.order.orderId}`}>
-              <DropdownMenuItem>Go To Checkout</DropdownMenuItem>
-            </Link>
-          </DropdownMenuGroup>
+          <>
+            <DropdownMenuSeparator />
+            <DropdownMenuGroup className="pointer">
+              <Link to={`/checkout/${restaurant.order.id}`}>
+                <DropdownMenuItem>Go To Checkout</DropdownMenuItem>
+              </Link>
+            </DropdownMenuGroup>
+          </>
         )}
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={() => dispatch(clearCart())}>

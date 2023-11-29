@@ -106,6 +106,11 @@ const Restaurant = () => {
           </div>
         ))}
       </div>
+      <div>
+        <Link to={`/checkout/${id}`}>
+          <Button>Go to Checkout</Button>
+        </Link>
+      </div>
     </div>
   );
 };

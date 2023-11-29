@@ -1,29 +1,17 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "@/context/AppContext";
+import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import taco from "@/assets/taco.svg";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 import { useLocation } from "react-router-dom";
 import ProfileDropdown from "@/components/ProfileDropdown";
 import CartDropdown from "./CartDropdown";
 
-const Header = (props) => {
+const Header = () => {
   const user = useSelector((state) => state.user);
   const { pathname } = useLocation();
   const isLoginRoute = pathname === "/login";
-
-  const navLinks = [
-    {
-      title: "Dashboard",
-      path: "/dashboard",
-    },
-    {
-      title: "Restaurants",
-      path: "/restaurants",
-    },
-  ];
 
   return (
     <header className="bg-white dark:bg-gray-900">

@@ -1,5 +1,4 @@
 import { createSlice, current } from "@reduxjs/toolkit";
-import { v4 as uuid } from "uuid";
 
 let initialState = {
   value: {
@@ -30,7 +29,6 @@ export const cartSlice = createSlice({
       state.value.restaurant.cart.push(rest);
       let order = {
         ...rest,
-        orderId: uuid(),
         cart: state.value.restaurant.cart,
       };
       state.value.restaurant.order = order;

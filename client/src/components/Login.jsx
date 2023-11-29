@@ -16,13 +16,12 @@ import { loginSchema } from "@/lib/schemas";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { setUser } from "@/features/userSlice";
+import { setUser, setLoading } from "@/features/userSlice";
 import Loading from "./Loading";
 import { useState } from "react";
 
 function Login() {
   const user = useSelector((state) => state.user.value);
-  const [loading, setLoading] = useState(false);
 
   if (user?.isAuthenticated) {
     navigate("/dashboard");
@@ -46,7 +45,7 @@ function Login() {
 
     // Make the API call
     try {
-      setLoading(true);
+      dispatch(setLoading(true));
       const response = await axios.post(apiUrl, values);
       if (response?.data) {
         dispatch(setUser(response.data.session));
@@ -55,13 +54,12 @@ function Login() {
     } catch (error) {
       console.log(error.response.data.error);
     } finally {
-      setLoading(false);
+      dispatch(setLoading(false));
     }
   }
 
   return (
     <>
-      {loading && <Loading />}
       <div className="flex flex-col h-full p-28 items-center gap-10">
         <h1 className="text-5xl font-bold mb-4">Welcome Back!</h1>
         <Form {...form}>
