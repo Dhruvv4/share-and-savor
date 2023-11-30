@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import ThemeToggle from "@/components/ThemeToggle";
-import { useAuth } from "@/context/appContext";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "@/features/userSlice";
 import { Link } from "react-router-dom";
