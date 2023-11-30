@@ -26,15 +26,15 @@ function SearchData() {
               className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg"
             >
               <img
-                src="/Image_not_available.png"
+                src={res.img || "/Image_not_available.png"}
                 alt="No image found"
                 className="mb-4 rounded-md"
               />
-              <h1 className="text-xl font-semibold mb-2">{res.Restaurant}</h1>
-              <h2 className="text-gray-600 mb-2">Cuisine: {res.Cuisine}</h2>
+              <h1 className="text-xl font-semibold mb-2">{res.name}</h1>
+              <h2 className="text-gray-600 mb-2">Cuisine: {res.cuisine}</h2>
               <div className="flex items-center space-x-2 text-gray-600 mb-2">
-                <span>Rating Count: {res.Rating_Count}</span>
-                <span>Rating: {res.Star_Count}</span>
+                <span>Rating Count: {res.ratingCount}</span>
+                <span>Rating: {res.starCount}</span>
               </div>
               <h4 className="text-gray-600 mb-2">
                 Operation hours: Today between {}

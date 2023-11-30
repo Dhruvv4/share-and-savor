@@ -11,12 +11,12 @@ const Search = () => {
   function filter_search(e) {
     e.preventDefault();
 
-    const lowercaseSearch = search.toLowerCase().trim();
+    const lowercaseSearch = search?.toLowerCase()?.trim();
 
     const result = restaurants.filter((req) => {
       return (
-        req.Restaurant.toLowerCase() === lowercaseSearch ||
-        req.Cuisine.toLowerCase().includes(lowercaseSearch)
+        req?.name?.toLowerCase() === lowercaseSearch ||
+        req?.cuisine?.toLowerCase().includes(lowercaseSearch)
       );
     });
 

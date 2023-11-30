@@ -94,20 +94,6 @@ const Restaurant = () => {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-      <div className="m-10 rounded-lg border border-gray-300 p-4 w-full mx-auto text-center ">
-        <img
-          src={res?.img || "/Image_not_available.png"}
-          alt={res?.name}
-          className="mb-2 rounded-md mx-auto"
-        />
-        <h1 className="text-2xl font-semibold mb-2">Name: {res?.name}</h1>
-        <h2 className="truncate mb-2">Cuisine: {res?.cuisine}</h2>
-        <h3 className="font-bold">Rating: {res?.starCount}</h3>
-        <h3>Address: {res?.address}</h3>
-        <h3 className="mb-4">
-          Note: You can either have one small or one large meal pack.
-        </h3>
-        <h4>Available Meal Packs: 10</h4>
 
       <div className="grid grid-cols-2 gap-8 m-10 p-4">
         <div className="mx-auto my-20">
@@ -123,8 +109,8 @@ const Restaurant = () => {
         </div>
         <div className="mx-auto border border-gray-300 rounded-xl shadow-2xl">
           <img
-            src="/Image_not_available.png"
-            alt="No image found"
+            src={res?.img || "/Image_not_available.png"}
+            alt={res?.name}
             className="mx-14 mb-2 rounded-md"
           />
         </div>

@@ -19,7 +19,7 @@ export const createOrder = async (payload) => {
     { returnDocument: "after" }
   );
 
-  if (updateInfo.modifiedCount === 0)
+  if (updateInfo?.modifiedCount === 0)
     throw "Could not add order summary to user";
 
   return { ...payload, orderId: insertedInfo.insertedId.toString() };
