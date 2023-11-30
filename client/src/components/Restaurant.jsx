@@ -92,29 +92,74 @@ const Restaurant = () => {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-      <div className="m-10 rounded-lg border border-gray-300 p-4 w-full mx-auto text-center ">
-        <img
-          src="/Image_not_available.png"
-          alt="No image found"
-          className="mb-2 rounded-md mx-auto"
-        />
-        <h1 className="text-2xl font-semibold mb-2">Name: {res?.name}</h1>
-        <h2 className="truncate mb-2">Cuisine: {res?.cuisine}</h2>
-        <h3 className="font-bold">Rating: {res?.starCount}</h3>
-        <h3>Address: {res?.address}</h3>
-        <h3 className="mb-4">
-          Note: You can either have one small or one large meal pack.
-        </h3>
-        <h4>Available Meal Packs: 10</h4>
 
-        <div
-          style={{
-            height: "300px",
-            width: "50%",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
+      <div className="grid grid-cols-2 gap-8 m-10 p-4">
+        <div className="mx-auto my-20">
+          <h1 className="text-6xl font-semibold mb-2 text-gray-800">
+            Name: {res?.name}
+          </h1>
+          <h2 className="text-4xl truncate mb-2 text-gray-600">
+            Cuisine: {res?.cuisine}
+          </h2>
+          <h3 className="text-2xl font-bold">Rating: {res?.starCount}</h3>
+          <h3 className="text-2xl text-gray-700">Address: {res?.address}</h3>
+          <h3 className="text-2xl text-gray-700">ZipCode: {res?.zipCode}</h3>
+        </div>
+        <div className="mx-auto border border-gray-300 rounded-xl shadow-2xl">
+          <img
+            src="/Image_not_available.png"
+            alt="No image found"
+            className="mx-14 mb-2 rounded-md"
+          />
+        </div>
+
+        <div className="text-center">
+          <h3 className="mb-4 text-xl text-gray-700 font-bold">
+            Note: You can either have one small or one large meal pack.
+          </h3>
+          <h4 className="text-xl text-gray-700 my-10">
+            Available Meal Packs: 10
+          </h4>
+          <div className=" p-8 border border-gray-200 rounded-lg">
+            <div className="flex flex-row justify-center items-center gap-8 px-10 mx-auto space-x-8">
+              {res?.mealPacks?.map((meal) => (
+                <div key={meal.id} className="text-center">
+                  <h2 className="text-lg font-semibold mb-2 first-letter:uppercase text-gray-800">
+                    {meal.size} Meal Pack
+                  </h2>
+                  <p className="text-gray-600">Serves: {meal?.serves}</p>
+                  <p className="text-gray-600">Price: {meal?.price}</p>
+                  {restaurant.cart.filter((item) => item.id === meal.id)
+                    .length === 0 ? (
+                    <Button
+                      disabled=""
+                      onClick={() => handleAddToCart(meal)}
+                      className="mt-2"
+                    >
+                      Add to Cart
+                    </Button>
+                  ) : (
+                    <Button
+                      onClick={() => handleRemoveFromCart(meal)}
+                      className="mt-2"
+                    >
+                      Remove from Cart
+                    </Button>
+                  )}
+                </div>
+              ))}
+            </div>
+            {restaurant.cart.length > 0 && restaurant.order.id === res.id && (
+              <div className="mt-4">
+                <Link to={`/checkout/${id}`}>
+                  <Button className="text-white">Go to Checkout</Button>
+                </Link>
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div style={{ height: "350px", width: "85%" }} className="mx-auto">
           <Link to={`http://maps.google.com/?q=${res?.address}`}>
             <GoogleMapReact
               bootstrapURLKeys={{
@@ -131,42 +176,10 @@ const Restaurant = () => {
             </GoogleMapReact>
           </Link>
         </div>
-        <div className="mx-auto max-w-2xl border border-black/20 p-4 my-8 rounded-lg flex flex-col gap-4">
-          <div className="flex justify-around">
-            {res?.mealPacks?.map((meal) => (
-              <div key={meal.id} className="text-center">
-                <h2 className="text-lg font-semibold mb-2 first-letter:uppercase">
-                  {meal.size} Meal Pack
-                </h2>
-                <p>Serves: {meal?.serves}</p>
-                <p>Price: {meal?.price}</p>
-                {restaurant.cart.filter((item) => item.id === meal.id)
-                  .length === 0 ? (
-                  <Button
-                    disabled=""
-                    onClick={() => handleAddToCart(meal)}
-                    className="bg-green-500 hover:bg-green-700 mt-2"
-                  >
-                    Add to cart
-                  </Button>
-                ) : (
-                  <Button
-                    onClick={() => handleRemoveFromCart(meal)}
-                    className="bg-blue-500 hover:bg-blue-700 mt-2"
-                  >
-                    Remove from cart
-                  </Button>
-                )}
-              </div>
-            ))}
-          </div>
+      </div>
 
-          {restaurant.cart.length > 0 && restaurant.order.id === res.id && (
-            <Link to={`/checkout/${id}`}>
-              <Button>Go to Checkout</Button>
-            </Link>
-          )}
-        </div>
+      <div className="">
+        <h1 className="text-center text-3xl">Hear from our Customers</h1>
       </div>
     </>
   );
