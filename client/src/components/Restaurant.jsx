@@ -51,8 +51,8 @@ const Restaurant = () => {
   };
   const defaultProps = {
     center: {
-      lat: parseFloat(res.geo_coordinates_search?.split(",")[0]),
-      lng: parseFloat(res.geo_coordinates_search?.split(",")[1]),
+      lat: parseFloat(res?.geoCoordinatesSearch?.split(",")[0]),
+      lng: parseFloat(res?.geoCoordinatesSearch?.split(",")[1]),
     },
     zoom: 11,
   };
@@ -68,12 +68,11 @@ const Restaurant = () => {
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>
-              You already have items from {restaurant?.order?.Restaurant}
+              You already have items from {restaurant?.order?.name}
             </DialogTitle>
             <DialogDescription>
-              If you want to add items from {res.Restaurant}, you will lose your
-              items from {restaurant?.order?.Restaurant}. Do you want to
-              continue?
+              If you want to add items from {res?.name}, you will lose your
+              items from {restaurant?.order?.name}. Do you want to continue?
             </DialogDescription>
           </DialogHeader>
           <div className="flex items-center space-x-2">
@@ -99,10 +98,10 @@ const Restaurant = () => {
           alt="No image found"
           className="mb-2 rounded-md mx-auto"
         />
-        <h1 className="text-2xl font-semibold mb-2">Name: {res.Restaurant}</h1>
-        <h2 className="truncate mb-2">Cuisine: {res.Cuisine}</h2>
-        <h3 className="font-bold">Rating: {res.Star_Count}</h3>
-        <h3>Address: {res.Address}</h3>
+        <h1 className="text-2xl font-semibold mb-2">Name: {res?.name}</h1>
+        <h2 className="truncate mb-2">Cuisine: {res?.cuisine}</h2>
+        <h3 className="font-bold">Rating: {res?.starCount}</h3>
+        <h3>Address: {res?.address}</h3>
         <h3 className="mb-4">
           Note: You can either have one small or one large meal pack.
         </h3>
@@ -116,7 +115,7 @@ const Restaurant = () => {
             marginRight: "auto",
           }}
         >
-          <Link to={`http://maps.google.com/?q=${res.Address}`}>
+          <Link to={`http://maps.google.com/?q=${res?.address}`}>
             <GoogleMapReact
               bootstrapURLKeys={{
                 key: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
@@ -136,12 +135,12 @@ const Restaurant = () => {
           <div className="flex justify-around">
             {res?.mealPacks?.map((meal) => (
               <div key={meal.id} className="text-center">
-                <h2 className="text-lg font-semibold mb-2">
-                  Meal Pack: {meal.size}
+                <h2 className="text-lg font-semibold mb-2 first-letter:uppercase">
+                  {meal.size} Meal Pack
                 </h2>
-                <p>Serves: {meal.serves}</p>
-                <p>Price: {meal.price}</p>
-                {restaurant.cart.filter((item) => item.mealPack.id === meal.id)
+                <p>Serves: {meal?.serves}</p>
+                <p>Price: {meal?.price}</p>
+                {restaurant.cart.filter((item) => item.id === meal.id)
                   .length === 0 ? (
                   <Button
                     disabled=""

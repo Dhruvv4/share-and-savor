@@ -13,7 +13,8 @@ router.post("/login", async (req, res) => {
     const data = await user_functions.checkUser(email, password);
     if (data) {
       req.session.user = data;
-      //console.log(req.session.user);
+      req.session.save();
+      console.log("User session stored", req.session.user);
       res
         .status(200)
         .json({ message: "User successfully logged in", session: data });

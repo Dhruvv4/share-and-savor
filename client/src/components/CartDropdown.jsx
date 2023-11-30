@@ -31,24 +31,29 @@ const CartDropdown = () => {
       <DropdownMenuContent className="w-40" align="end" forceMount>
         <DropdownMenuLabel className="flex justify-between font-normal">
           <p className="text-sm font-medium leading-none">
-            Total Order: {restaurant.cart.length}
+            Total Items: {restaurant.cart.length}
           </p>
         </DropdownMenuLabel>
         {restaurant.cart.length > 0 && (
           <>
             <DropdownMenuSeparator />
-            <DropdownMenuGroup className="pointer">
+            <DropdownMenuGroup>
               <Link to={`/checkout/${restaurant.order.id}`}>
-                <DropdownMenuItem>Go To Checkout</DropdownMenuItem>
+                <DropdownMenuItem className="cursor-pointer">
+                  Go To Checkout
+                </DropdownMenuItem>
               </Link>
             </DropdownMenuGroup>
+            <DropdownMenuSeparator />
+            <DropdownMenuItem
+              onClick={() => dispatch(clearCart())}
+              className="cursor-pointer"
+            >
+              Clear Cart
+              {/* <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut> */}
+            </DropdownMenuItem>
           </>
         )}
-        <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => dispatch(clearCart())}>
-          Clear Cart
-          {/* <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut> */}
-        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

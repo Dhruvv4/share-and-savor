@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Loading from "./Loading";
 import { useSelector } from "react-redux";
 import { Toaster } from "@/components/ui/toaster";
@@ -13,7 +13,9 @@ const Layout = () => {
       <div className="flex h-full flex-col">
         <Header />
         <div className="h-full">
-          <Outlet />
+          <Suspense fallback={<Loading />}>
+            <Outlet />
+          </Suspense>
         </div>
         <Toaster />
       </div>

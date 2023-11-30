@@ -1,5 +1,3 @@
-import { AuthProvider } from "@/context/AppContext";
-
 import { ThemeProvider } from "./context/themeContext";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";

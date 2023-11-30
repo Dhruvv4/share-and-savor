@@ -15,18 +15,17 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     addToCart: (state, action) => {
-      let { toast, ...rest } = action?.payload;
+      let { toast, mealPack, ...rest } = action?.payload;
 
       if (
-        state.value.restaurant.cart.filter(
-          (item) => item.mealPack.id === rest.mealPack.id,
-        ).length > 0
+        state.value.restaurant.cart.filter((item) => item.id === mealPack.id)
+          .length > 0
       ) {
         return;
       }
 
       state.value.restaurant.data = rest;
-      state.value.restaurant.cart.push(rest);
+      state.value.restaurant.cart.push({ ...mealPack, resId: rest.id });
       let order = {
         ...rest,
         cart: state.value.restaurant.cart,
@@ -34,7 +33,9 @@ export const cartSlice = createSlice({
       state.value.restaurant.order = order;
       toast({
         title: "Added to cart",
-        description: `${state.value.restaurant.data.mealPack.size} meal pack added to cart.`,
+        description: `${
+          mealPack.size.charAt(0).toUpperCase() + mealPack.size.slice(1)
+        } meal pack added to cart.`,
         status: "success",
         duration: 2500,
         className:
@@ -42,13 +43,15 @@ export const cartSlice = createSlice({
       });
     },
     removeFromCart: (state, action) => {
-      let { toast, ...rest } = action?.payload;
+      let { toast, mealPack, ...rest } = action?.payload;
       state.value.restaurant.cart = state.value.restaurant.cart.filter(
-        (item) => item.mealPack.id !== rest.mealPack.id,
+        (item) => item.id !== mealPack.id,
       );
       toast({
         title: "Removed from cart",
-        description: `${state.value.restaurant.data.mealPack.size} meal pack removed from the cart.`,
+        description: `${
+          mealPack.size.charAt(0).toUpperCase() + mealPack.size.slice(1)
+        } meal pack removed from the cart.`,
         status: "success",
         duration: 2500,
         className:
