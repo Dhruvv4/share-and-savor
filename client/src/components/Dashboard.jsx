@@ -17,8 +17,8 @@ function Dashboard() {
             <Link key={res.id} to={`/restaurants/${res.id}`}>
               <div className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg">
                 <img
-                  src="/Image_not_available.png"
-                  alt="No image found"
+                  src={res?.img || "/Image_not_available.png"}
+                  alt={res?.name}
                   className="mb-4 rounded-md"
                 />
                 <h1 className="text-xl font-semibold mb-2">{res?.name}</h1>

@@ -1,7 +1,7 @@
 import resData from "./data/NJData.json" assert { type: "json" };
 import { closeConnection, dbConnection } from "./config/mongoConnection.js";
 import {
-  restuarants as resRef,
+  restaurants as resRef,
   users as usersRef,
 } from "./config/mongoCollections.js";
 import bcrypt from "bcrypt";

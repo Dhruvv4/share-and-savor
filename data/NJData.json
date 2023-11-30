@@ -25,16 +25,18 @@
         "size": "personal",
         "price": 5,
         "id": "246daa13-e878-4e9a-a0db-45eadafda46e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d6046958-039b-48bf-9275-2e690e9c7445",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.44%20PM-dd14982d-7cd6-4e71-981f-f126963fbaa2.png"
   },
   {
     "name": "Barcade",
@@ -61,16 +63,18 @@
         "size": "personal",
         "price": 5,
         "id": "77c52738-cdfa-4894-8717-52a67c049395",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "543d7ae4-1c49-4afc-a559-3699ae0322f8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://barcade.com/wp-content/uploads/2020/04/BarcadeOriginalArcadeBarLogo.png"
   },
   {
     "name": "Bonchon Chicken",
@@ -97,16 +101,18 @@
         "size": "personal",
         "price": 5,
         "id": "de7203e3-bb5e-4bbd-9115-27d6e740ead7",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "715951d6-8b51-4a9f-8027-9444c0a96be8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://image.similarpng.com/very-thumbnail/2021/09/Happy-chicken-for-restaurant-logo-on-transparent-background-PNG.png"
   },
   {
     "name": "Burger King",
@@ -133,16 +139,18 @@
         "size": "personal",
         "price": 5,
         "id": "2f6e89df-73c3-4ef5-a6ca-a44bb64ebe4f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1f015399-f540-4fee-871e-1633ee9444d1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "Busy Bee Organics",
@@ -169,16 +177,18 @@
         "size": "personal",
         "price": 5,
         "id": "f8181712-d7e7-402c-b0e6-b55a4eebb444",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "0eba8c34-14be-46e7-bcde-0aec74710798",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.busybeesorganics.org/wp/wp-content/uploads/2018/09/BBO_Logo_dark.png"
   },
   {
     "name": "Cabalen Bar & Grill",
@@ -205,16 +215,18 @@
         "size": "personal",
         "price": 5,
         "id": "b908db73-5e32-4e12-a1a5-099fee06a021",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "00a1b1c4-b2e6-44e9-8b7c-f18bada2b900",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://1518barandgrill.com/wp-content/uploads/2019/05/poi1.jpg"
   },
   {
     "name": "Central Bistro Restaurant",
@@ -241,16 +253,18 @@
         "size": "personal",
         "price": 5,
         "id": "1894d1c0-7873-43d0-b86a-02e39b48a6cf",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9930728a-603d-41fc-8dad-26f844efa187",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/04/central-bistro-jersey-city-1024x1024.jpg"
   },
   {
     "name": "City Diner",
@@ -277,16 +291,18 @@
         "size": "personal",
         "price": 5,
         "id": "37294b39-323e-4214-ac99-af62b1cfaf61",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "ef636676-d1ae-4716-9bbf-62988b9609ff",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://i0.wp.com/newjerseyisntboring.com/wp-content/uploads/2021/11/IMG_6997.jpg?w=1322&ssl=1"
   },
   {
     "name": "Corkscrew Bar and Grill",
@@ -313,16 +329,18 @@
         "size": "personal",
         "price": 5,
         "id": "819b9bfb-ac2b-4407-8925-2c169634c34f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "2d83b3a3-acb7-4d52-ab99-58f1b786fce8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "http://corkscrewjc.com/wp-content/uploads/2015/11/CorkscrewLogo14.png"
   },
   {
     "name": "Cryo Cream",
@@ -349,16 +367,18 @@
         "size": "personal",
         "price": 5,
         "id": "4584f6a1-799a-4ff3-9a36-b37218027a2f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "0365ab87-002e-444a-85e1-a6b583c4e663",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/01/cryo-cream-ice-cream-sundae-500x448.png"
   },
   {
     "name": "Delenio",
@@ -385,16 +405,18 @@
         "size": "personal",
         "price": 5,
         "id": "2820b35d-0276-43c2-be77-d8dfda2b4192",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5e8ada3b-08da-4bfb-8899-989b6ddb1fc4",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://deleniojc.com/img/logo.png"
   },
   {
     "name": "Eat JC",
@@ -421,16 +443,18 @@
         "size": "personal",
         "price": 5,
         "id": "32bb8f5a-e6f2-4268-bcb6-7c6cd6d39221",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1fc8f07a-bad1-4f57-9249-fd0966612eff",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.timeout.com/images/103428093/750/562/image.jpg"
   },
   {
     "name": "Freetown Road Project",
@@ -457,16 +481,18 @@
         "size": "personal",
         "price": 5,
         "id": "85951922-4b58-4261-a834-43e65849b20e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3da31bbc-ed64-4c83-a53a-f8918b90dcd0",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://img1.wsimg.com/isteam/ip/1be57a7a-778b-4e0a-a7b8-dfbdeeeeb8cf/blob-0014.png/:/rs=w:384,h:384,cg:true,m/cr=w:384,h:384/qt=q:95"
   },
   {
     "name": "Gia Gelato and Cafe",
@@ -493,16 +519,18 @@
         "size": "personal",
         "price": 5,
         "id": "d6301f09-a5c1-44a3-9c7e-16cd6e1b8ba0",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "196793ae-4020-44f8-be1f-b30e1ee94d4d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2022/02/IMG_2104-1024x1024.jpg"
   },
   {
     "name": "Grace Carol Restaurant & Event Catering",
@@ -529,16 +557,18 @@
         "size": "personal",
         "price": 5,
         "id": "8aefa34b-df0e-46ec-8d4b-38b8be32e49d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "948948f9-dba8-42e9-ab21-be3fead5bdb9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.foodiesfeed.com/wp-content/uploads/2023/05/american-diner-interior.jpg"
   },
   {
     "name": "Griot Cafe",
@@ -565,16 +595,18 @@
         "size": "personal",
         "price": 5,
         "id": "96e2caf0-1771-4645-b822-fc09fff59b0f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a2d35034-26ab-442d-933e-ecb078a3775c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-21-at-5.04.16-PM.png"
   },
   {
     "name": "Hamilton Pork",
@@ -601,16 +633,18 @@
         "size": "personal",
         "price": 5,
         "id": "16570d62-d9cb-47b1-8a88-74cfcd69494d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "db2bcf7b-db54-4b85-a215-8a6db4ceaaf7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.getbento.com/hlv1t8esTrq7D4Dfbw6v_hplogo.png"
   },
   {
     "name": "Hudson Hall",
@@ -637,16 +671,18 @@
         "size": "personal",
         "price": 5,
         "id": "cab7dd77-4d99-41c3-a547-5f3ac26d3241",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "76766826-a1d4-4484-bfc5-edb4e6edfb6b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1506040435075-HGHNU4OYEQ9HBWSBHU0Y/image-asset.jpeg?format=1500w"
   },
   {
     "name": "Hybrid Coffee & Kitchen",
@@ -661,7 +697,7 @@
     "coordinates": "40.74653247, -74.04760769",
     "status": "Open",
     "geoCoordinatesSearch": "40.74653247,-74.04760769",
-    "cuisine": "Barbecue",
+    "cuisine": "Coffee",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -673,16 +709,18 @@
         "size": "personal",
         "price": 5,
         "id": "370fc81e-e37f-4fbf-a484-49a708fcf3df",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "00765c28-a447-4ef5-8a40-ea0c57bdc5fc",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hybridcoffee.square.site/uploads/b/c7acd8e0-6ea1-11ea-a439-a99104ed2d8a/HybridShake.jpg"
   },
   {
     "name": "Jersey Social",
@@ -709,16 +747,18 @@
         "size": "personal",
         "price": 5,
         "id": "ea98a4b2-ebe0-40f3-b3ea-f1c07ff6bb4e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "218be659-e861-454d-a782-2f2eab5a0004",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.otstatic.com/prod1/47144079/2/huge.jpg"
   },
   {
     "name": "John's & Mr. B's Kitchen",
@@ -745,16 +785,18 @@
         "size": "personal",
         "price": 5,
         "id": "520854ab-363a-4b1e-b6c1-cff926d96020",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "384ae493-8900-413f-a8ed-34d983c8d1fc",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/vaxe3ghpenccje0ggtza"
   },
   {
     "name": "Koro Koro",
@@ -781,16 +823,18 @@
         "size": "personal",
         "price": 5,
         "id": "53853646-5539-4462-9cc9-ec0bb2f423b9",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "79f38f70-eea7-4dd6-a657-fa779a712c05",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://korokorocafe.com/riceballcafe/wp-content/uploads/2022/09/cropped-logo_koro_koro-3.jpg"
   },
   {
     "name": "Lighten Up",
@@ -817,16 +861,18 @@
         "size": "personal",
         "price": 5,
         "id": "2a60772c-6438-472b-82bb-a9e633d03872",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "203d1818-2613-4e7a-8c74-5cfd3050f959",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://idc.edu/wp-content/uploads/2018/07/Traditional-American-Food-You-Must-Try-While-Studying-in-Washington-DC.jpg"
   },
   {
     "name": "McDonald's",
@@ -853,16 +899,18 @@
         "size": "personal",
         "price": 5,
         "id": "1f315694-fd67-4936-896c-75ecd7412ea6",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d5fe31d0-5da5-4a0b-9bf6-60b9ac7d781c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "New Park Tavern",
@@ -889,16 +937,18 @@
         "size": "personal",
         "price": 5,
         "id": "e90c769e-4369-47c7-869b-0c10b5b0cdb4",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3da1ae78-4ffc-47fc-8e0b-d995564c2abf",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://shop-logos.imgix.net/shops/30425/original/parktavern.PNG"
   },
   {
     "name": "Nukkad",
@@ -913,7 +963,7 @@
     "coordinates": "40.71591423, -74.03594345",
     "status": "Open",
     "geoCoordinatesSearch": "40.71591423,-74.03594345",
-    "cuisine": "Fast Food",
+    "cuisine": "Indian, Fast Food",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.9,
@@ -925,16 +975,18 @@
         "size": "personal",
         "price": 5,
         "id": "c7a4f23d-12d4-4715-8133-b8e59bbe8f73",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "53e7172e-75a4-41f1-9675-958fe68a5f15",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.secretfoodtours.com/blog/wp-content/uploads/2022/10/Semma.jpg"
   },
   {
     "name": "Orale Mexican Kitchen",
@@ -961,16 +1013,18 @@
         "size": "personal",
         "price": 5,
         "id": "dbdce151-03ba-423b-84d5-e57be1508ad5",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "ba1c611f-e7d0-4a96-bb07-dbcd64caa982",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://oralemk.com/wp-content/uploads/2018/02/orale.0.jpg"
   },
   {
     "name": "Pico Taco",
@@ -985,7 +1039,7 @@
     "coordinates": "40.71561303, -74.03409882",
     "status": "Open",
     "geoCoordinatesSearch": "40.71561303,-74.03409882",
-    "cuisine": "Indian, Street Food",
+    "cuisine": "Mexican",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -997,16 +1051,18 @@
         "size": "personal",
         "price": 5,
         "id": "2766f12f-d49f-44e2-a0e5-c11b79bfb0a4",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d40b28ee-a6ac-42f4-996f-42dee132bb7b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.beyondthechickencoop.com/wp-content/uploads/2022/12/Ground-Venison-Tacos.jpg"
   },
   {
     "name": "Pompei Pizza",
@@ -1021,7 +1077,7 @@
     "coordinates": "40.72518501, -74.07756641",
     "status": "Open",
     "geoCoordinatesSearch": "40.72518501,-74.07756641",
-    "cuisine": "Mexican",
+    "cuisine": "Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -1033,16 +1089,18 @@
         "size": "personal",
         "price": 5,
         "id": "c01346e1-9404-4e93-8d3f-99a1ff7d106d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1f7fcdb7-8730-476d-b2bb-e3f4273727ec",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/7a/05/4d/pompei-pizza.jpg"
   },
   {
     "name": "Prato Bakery",
@@ -1057,7 +1115,7 @@
     "coordinates": "40.72447716, -74.05107288",
     "status": "Open",
     "geoCoordinatesSearch": "40.72447716,-74.05107288",
-    "cuisine": "Mexican",
+    "cuisine": "Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -1069,16 +1127,18 @@
         "size": "personal",
         "price": 5,
         "id": "373e4923-60fe-4754-9827-5da4db1c6590",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6ac0b49d-ec02-4b36-8d0d-d0c9f45546c5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1580679257347-0YL2402YS4YT0TNEPMAR/Prato+bakery-facade1.jpg"
   },
   {
     "name": "Rustique Pizza",
@@ -1105,16 +1165,18 @@
         "size": "personal",
         "price": 5,
         "id": "9ac5556a-d8a5-43ee-b0d6-16464a620a75",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d507f06c-77fc-4535-b603-0b261e6ae1dc",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://production-assets.cf.slicelife.com/shops/10727/medium_square/10727.jpg"
   },
   {
     "name": "Salumeria Ercolano",
@@ -1141,16 +1203,18 @@
         "size": "personal",
         "price": 5,
         "id": "4a0668ac-817d-492f-9070-0d64590d8603",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "0d5e307d-e7c1-426d-8030-224102513fbd",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://salumeriaercolano.com/wp-content/uploads/2021/05/catering3-1024x715.png"
   },
   {
     "name": "Sub Culture",
@@ -1177,16 +1241,18 @@
         "size": "personal",
         "price": 5,
         "id": "359d4e55-d6e3-4d48-b8d9-3e5d9f132469",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "495e584c-1cb1-451a-908f-029d309375ff",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.getbento.com/accounts/13bd8eb4f876ab37f5a8cc03746e3961/media/images/2566subculture.png"
   },
   {
     "name": "The Daily Grind Express",
@@ -1213,16 +1279,18 @@
         "size": "personal",
         "price": 5,
         "id": "4f4d9e15-5eb5-4db9-b685-56cd3185c74a",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d3898c95-c6c5-4fc3-a7d5-7a3d9f226fca",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/EBepCahCCZKBd6nipwSlVw/348s.jpg"
   },
   {
     "name": "The Little Sandwich Shop",
@@ -1249,16 +1317,18 @@
         "size": "personal",
         "price": 5,
         "id": "619d6f7f-48fa-4a4d-83f6-299e44773990",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "53696dfe-1cfa-4426-9e70-d495b5caea9b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://littlesandwichshopjc.com/images/LSS_Logo.png"
   },
   {
     "name": "Tropix Latin Food",
@@ -1285,16 +1355,18 @@
         "size": "personal",
         "price": 5,
         "id": "73573c7f-fcb9-4650-b05e-947a4829e789",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "415ff30b-5631-4e04-b984-874211f9ad87",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/gRNEFkYgAsBSZIRMnUyQ0w/348s.jpg"
   },
   {
     "name": "VaibhaV Indian Spice Journey",
@@ -1309,7 +1381,7 @@
     "coordinates": "40.73514199, -74.06221165",
     "status": "Open",
     "geoCoordinatesSearch": "40.73514199,-74.06221165",
-    "cuisine": "Sandwiches, Deli",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -1321,19 +1393,21 @@
         "size": "personal",
         "price": 5,
         "id": "32db6c71-a79d-4ca3-9361-04313d681394",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8209d1cb-958f-439e-89d3-82a07f12662d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/U3Q20BFB3gXKxvju_M-sPQ/348s.jpg"
   },
   {
-    "name": "Vibez Juice & Vegan Caf\u00e9",
+    "name": "Vibez Juice & Vegan Cafe",
     "phone": "(201) 367-9277",
     "address": "82  Hutton St",
     "zipCode": 7030,
@@ -1345,7 +1419,7 @@
     "coordinates": "40.74437322, -74.04925821",
     "status": "Open",
     "geoCoordinatesSearch": "40.74437322,-74.04925821",
-    "cuisine": "Latin, Caribbean",
+    "cuisine": "Juice Bar",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -1357,19 +1431,21 @@
         "size": "personal",
         "price": 5,
         "id": "c2115488-b3ff-4fbb-b1c7-2b5ee7acbb08",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5f0f4ad3-08f8-422b-92c1-4c07d712a92b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/10/unnamed-file.jpg"
   },
   {
-    "name": "Angry Archie\u2019s",
+    "name": "Angry Archie's",
     "phone": "(973) 747-2124",
     "address": "210 Hudson St",
     "zipCode": 7302,
@@ -1381,7 +1457,7 @@
     "coordinates": "40.719072, -74.033388",
     "status": "Closed",
     "geoCoordinatesSearch": "40.719072,-74.033388",
-    "cuisine": "Indian",
+    "cuisine": "Caribbean",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -1393,16 +1469,18 @@
         "size": "personal",
         "price": 5,
         "id": "7e75bbe5-fa72-400d-8a8d-5ffc6d2c1c30",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "697c606c-9885-4875-b700-23c6557adc20",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/angry-archiesf-food-truck.jpg"
   },
   {
     "name": "Baldwin Pizzeria",
@@ -1417,7 +1495,7 @@
     "coordinates": "40.73649999, -74.05167222",
     "status": "Open",
     "geoCoordinatesSearch": "40.73649999,-74.05167222",
-    "cuisine": "Vegan, Juice Bar",
+    "cuisine": "Italian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -1429,19 +1507,21 @@
         "size": "personal",
         "price": 5,
         "id": "103302d4-d664-4c26-bb68-27b3bf68ecb2",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "07632d69-51e8-4330-b909-10a62c747865",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/qr5NvZKtZHg7xOnOUmgBgw/348s.jpg"
   },
   {
-    "name": "Bang Cookies",
+    "name": "Bang Seafood",
     "phone": "(888) 834-8885",
     "address": "128 Newark Ave",
     "zipCode": 7302,
@@ -1465,16 +1545,18 @@
         "size": "personal",
         "price": 5,
         "id": "31c85d48-02f2-4e37-aaa9-e7386924dece",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f9f28972-76f0-4194-9fee-66c4ddcedc0f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.23%20PM-e60a636e-d5a8-49cc-8447-21631c7f956e.png"
   },
   {
     "name": "Bawarchi Biryani Corner",
@@ -1489,7 +1571,7 @@
     "coordinates": "40.73566741, -74.06653155",
     "status": "Open",
     "geoCoordinatesSearch": "40.73566741,-74.06653155",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.9,
@@ -1501,16 +1583,18 @@
         "size": "personal",
         "price": 5,
         "id": "3ea814c3-ca90-4b77-889e-a45f7427540f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d553d830-cc3f-4b07-bba5-324454067c31",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://toast-sites-prod.nyc3.cdn.digitaloceanspaces.com/restaurantImages/6bf5a92f-2441-4406-94fd-a0578a1bfa4b/logo(2).png"
   },
   {
     "name": "Berri Berri Smoothies & Juice Bar",
@@ -1525,7 +1609,7 @@
     "coordinates": "40.71159509, -74.06479057",
     "status": "Open",
     "geoCoordinatesSearch": "40.71159509,-74.06479057",
-    "cuisine": "Desserts, Cookies",
+    "cuisine": "Smoothies, Juice Bar",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -1537,16 +1621,18 @@
         "size": "personal",
         "price": 5,
         "id": "36f939be-2edf-47d2-bb61-d9138c485d8d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a324d523-04a9-4cec-8550-1cd4fbaa410f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://threebestrated.com/images/BerriBerriSmoothieandJuiceBar-JerseyCity-NJ.jpeg"
   },
   {
     "name": "Bucket & Bay / Pie 66",
@@ -1561,7 +1647,7 @@
     "coordinates": "40.72076169, -74.03975364",
     "status": "Open",
     "geoCoordinatesSearch": "40.72076169,-74.03975364",
-    "cuisine": "Indian",
+    "cuisine": "Italian, Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -1573,16 +1659,18 @@
         "size": "personal",
         "price": 5,
         "id": "b1727dd3-fee3-47b5-80d5-27dca4f26d8c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7903bae0-c9a0-4e0a-8cf3-f7fd4aeaf489",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://njmonthly.com/wp-content/uploads/cache/2019/11/pies/2385322913.jpg"
   },
   {
     "name": "Burger King",
@@ -1609,16 +1697,18 @@
         "size": "personal",
         "price": 5,
         "id": "0ab85ab1-8f64-457b-a5e0-3a7bf75ae7b8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "03c140c3-03b1-401f-abf2-6afd83b74051",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "Cafe Dolma",
@@ -1645,16 +1735,18 @@
         "size": "personal",
         "price": 5,
         "id": "7bdb5707-b41b-4adf-b301-946fea5ad1d1",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5eb241eb-e56f-4524-bb39-6dffc90add7e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/10/cafe-dolma-jersey-city.png"
   },
   {
     "name": "Cafe Esme",
@@ -1669,7 +1761,7 @@
     "coordinates": "40.71159509, -74.06479057",
     "status": "Open",
     "geoCoordinatesSearch": "40.71159509,-74.06479057",
-    "cuisine": "Fast Food, Burgers",
+    "cuisine": "Coffee, Sandwiches",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -1681,19 +1773,21 @@
         "size": "personal",
         "price": 5,
         "id": "7a6d0496-0dfe-473f-a9fb-738817d3d5e7",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d6fce0c9-1898-4a10-81b1-a4dfcdc2b000",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://cafeesme.com/wp-content/themes/CafeEsme/img/cafe-esme-5.jpg"
   },
   {
-    "name": "Caf\u00e9 Madelaine",
+    "name": "Cafe Madelaine",
     "phone": "(201) 499-3691",
     "address": "34 Coles St",
     "zipCode": 7302,
@@ -1705,7 +1799,7 @@
     "coordinates": "40.72273534, -74.04748367",
     "status": "Open",
     "geoCoordinatesSearch": "40.72273534,-74.04748367",
-    "cuisine": "Mediterranean",
+    "cuisine": "Italian, Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -1717,16 +1811,18 @@
         "size": "personal",
         "price": 5,
         "id": "b8d68601-0fc7-401e-af31-d139f175ded1",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "36c76b21-3ee8-4421-8652-ae7d5afbf3e9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/02/cafe-madelaine-1-1024x1024.png"
   },
   {
     "name": "Chicken Delight",
@@ -1753,16 +1849,18 @@
         "size": "personal",
         "price": 5,
         "id": "cdade67e-c51f-4963-a306-cdec8da93a3f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "78423082-477f-4de5-bfe4-c8cd8726c65b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.chickendelightny.com/wp-content/uploads/2016/09/logo.png"
   },
   {
     "name": "Cocoa Bakery",
@@ -1777,7 +1875,7 @@
     "coordinates": "40.7508296, -74.04615739",
     "status": "Open",
     "geoCoordinatesSearch": "40.7508296,-74.04615739",
-    "cuisine": "French",
+    "cuisine": "Coffee, Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -1789,16 +1887,18 @@
         "size": "personal",
         "price": 5,
         "id": "fd350089-aca7-4313-8851-14a643775774",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "b5fd1e72-124e-4dba-842c-ba10e92265cd",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2019/06/Cocoa-Bakery-Cafe-475-Central-Avenue-Jersey-City-4.jpg"
   },
   {
     "name": "CoolVines on Grove",
@@ -1813,7 +1913,7 @@
     "coordinates": "40.71760417, -74.04396783",
     "status": "Open",
     "geoCoordinatesSearch": "40.71760417,-74.04396783",
-    "cuisine": "American, Chicken",
+    "cuisine": "French",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -1825,16 +1925,18 @@
         "size": "personal",
         "price": 5,
         "id": "76feb074-26fe-4ed9-9352-28c314147f2d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9de12136-8f3b-4097-bb47-810249130b8b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://everythingjerseycity.com/wp-content/uploads/2020/03/CoolVines-wine-shelf-Insta.jpg"
   },
   {
     "name": "Corto",
@@ -1861,16 +1963,18 @@
         "size": "personal",
         "price": 5,
         "id": "028e2358-eed7-4d8f-8a3a-f046045f4f2b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "72ab90da-1245-48d7-ab97-1867f163c625",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://cdn.shopify.com/s/files/1/0044/7764/8967/files/cortologofine_350x_2x_png.webp?v=1687794699"
   },
   {
     "name": "Crave Cafe and Cigars",
@@ -1897,16 +2001,18 @@
         "size": "personal",
         "price": 5,
         "id": "bf4fd707-5e8e-407f-b975-ff11e73bad67",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "dd5c2867-8a61-4afc-875f-53e4803e20e5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://d3sf0q5ysofrg.cloudfront.net/pictures/pics/000/102/255/medium/crave-burger-cafe-and-cigars-3.jpg?1629642356"
   },
   {
     "name": "Domino's",
@@ -1921,7 +2027,7 @@
     "coordinates": "40.75595414, -74.04671858",
     "status": "Open",
     "geoCoordinatesSearch": "40.75595414,-74.04671858",
-    "cuisine": "Italian",
+    "cuisine": "Italian, Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -1933,16 +2039,18 @@
         "size": "personal",
         "price": 5,
         "id": "801c2c5c-7cd9-478f-bedc-9627963a93e0",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "915a7d78-f3f1-4263-b554-d23506c19720",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1024px-Dominos_pizza_logo.svg.png"
   },
   {
     "name": "Downtown Yogurt",
@@ -1957,7 +2065,7 @@
     "coordinates": "40.720052, -74.04287794",
     "status": "Open",
     "geoCoordinatesSearch": "40.720052,-74.04287794",
-    "cuisine": "American, Cafe",
+    "cuisine": "Desserts, Yogurt",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -1969,16 +2077,18 @@
         "size": "personal",
         "price": 5,
         "id": "fd477440-00a3-47a5-9608-7c011b3d4b1c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "39211176-65f6-434a-a2af-fb88567b42a5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://downtownyogurt.com/wp-content/uploads/2023/05/DY-2023_DY_Brand_MASTER_DY-LOGO-2b-2-line-color-e1683916621700.png"
   },
   {
     "name": "Dunkin Donuts",
@@ -1993,7 +2103,7 @@
     "coordinates": "40.71703101, -74.05229908",
     "status": "Closed",
     "geoCoordinatesSearch": "40.71703101,-74.05229908",
-    "cuisine": "Italian",
+    "cuisine": "Coffee, Donuts",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -2005,16 +2115,18 @@
         "size": "personal",
         "price": 5,
         "id": "0a2c6cdc-2433-4fdc-a743-eedc7a483fad",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e2fd4963-6ac4-49d5-80f0-fbc4524714a7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png"
   },
   {
     "name": "Dunkin Donuts",
@@ -2029,7 +2141,7 @@
     "coordinates": "40.73559558, -74.04377483",
     "status": "Closed",
     "geoCoordinatesSearch": "40.73559558,-74.04377483",
-    "cuisine": "Desserts, Yogurt",
+    "cuisine": "Coffee, Donuts",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -2041,16 +2153,18 @@
         "size": "personal",
         "price": 5,
         "id": "04131ff3-1755-49a4-8515-c301893fc501",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3e3b2498-f4c8-4d9c-80f5-71bc96c9bbea",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png"
   },
   {
     "name": "Five Guys",
@@ -2065,7 +2179,7 @@
     "coordinates": "40.71565936, -74.03427343",
     "status": "Open",
     "geoCoordinatesSearch": "40.71565936,-74.03427343",
-    "cuisine": "Coffee, Donuts",
+    "cuisine": "Fast Food, Burgers",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -2077,13 +2191,15 @@
         "size": "personal",
         "price": 5,
         "id": "8596d17e-7fad-4c12-80ef-5df88b7970e2",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1454dbaf-0d64-44eb-9ab6-6ce21f8e74ac",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
     "img": ""
@@ -2101,7 +2217,7 @@
     "coordinates": "40.71631628, -74.08572439",
     "status": "Open",
     "geoCoordinatesSearch": "40.71631628,-74.08572439",
-    "cuisine": "Fast Food, Burgers",
+    "cuisine": "Desserts, Candy",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -2113,16 +2229,18 @@
         "size": "personal",
         "price": 5,
         "id": "2f3faf51-0eeb-4e76-a1e9-1ec87ac2c9ac",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "026ddcbb-45e7-4260-9064-3f4dbd4b945f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://tapinto-production.s3.amazonaws.com/uploads/articles/im/best_crop_647be69ff6acd87bb2d9_IMG_0154.jpeg"
   },
   {
     "name": "Guatemalteco Restaurant & Bakery",
@@ -2137,7 +2255,7 @@
     "coordinates": "40.71175178, -74.06236217",
     "status": "Open",
     "geoCoordinatesSearch": "40.71175178,-74.06236217",
-    "cuisine": "Desserts, Candy",
+    "cuisine": "Guatemalan, Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.9,
@@ -2149,16 +2267,18 @@
         "size": "personal",
         "price": 5,
         "id": "2d036cc3-e1cd-49b2-8267-7b0cd6dcac86",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6a1915d8-6553-4809-ad40-cc4039dec730",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://themenustar6.com/upload/2021-05-12/logo-LMP609bf97c2d1cf.jpg"
   },
   {
     "name": "Harrys Daughter",
@@ -2173,7 +2293,7 @@
     "coordinates": "40.71085619, -74.06203318",
     "status": "Open",
     "geoCoordinatesSearch": "40.71085619,-74.06203318",
-    "cuisine": "Guatemalan, Bakery",
+    "cuisine": "Caribbean",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -2185,16 +2305,18 @@
         "size": "personal",
         "price": 5,
         "id": "c2ff76a3-eb26-4389-b2ca-3551d7163f3d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7d2760da-84a5-44a3-8c16-56b751a20b42",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2017/11/Harrys-Daughter-Bar-Chris-Fry.jpg"
   },
   {
     "name": "Heavenly Chicken and Ribs",
@@ -2209,7 +2331,7 @@
     "coordinates": "40.74993646, -74.06026819",
     "status": "Open",
     "geoCoordinatesSearch": "40.74993646,-74.06026819",
-    "cuisine": "Caribbean",
+    "cuisine": "American, Chicken",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -2221,16 +2343,18 @@
         "size": "personal",
         "price": 5,
         "id": "17d65eef-20b9-4da6-8385-bb5aecfb5cf5",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f4dcd8c9-f0a0-4795-b143-aa554ec56282",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://static01.nyt.com/images/2017/02/07/dining/07COOKING-MAPLE-CHICKNRIBS2/07COOKING-MAPLE-CHICKNRIBS2-articleLarge.jpg"
   },
   {
     "name": "Helen's Pizza",
@@ -2245,7 +2369,7 @@
     "coordinates": "40.72123993, -74.04559664",
     "status": "Open",
     "geoCoordinatesSearch": "40.72123993,-74.04559664",
-    "cuisine": "American, Chicken",
+    "cuisine": "Indian, Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -2257,16 +2381,18 @@
         "size": "personal",
         "price": 5,
         "id": "6748b3ae-579c-4b06-a92d-67e441d109ea",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6253e863-b2f5-4bbc-87c2-1be40b803d7b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/4xbg_Z3yK9_ZqwHxO_t8VA/348s.jpg"
   },
   {
     "name": "Honshu",
@@ -2281,7 +2407,7 @@
     "coordinates": "40.71582038, -74.03596215",
     "status": "Open",
     "geoCoordinatesSearch": "40.71582038,-74.03596215",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "Japanese",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -2293,16 +2419,18 @@
         "size": "personal",
         "price": 5,
         "id": "53b0e1ff-00f0-4b46-9d76-bd5dccdebf61",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8eb9a6c2-e4e3-4085-89fb-fd842e5f6521",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.honshulounge.com/sites/default/files/inspirob/slide/2.jpg"
   },
   {
     "name": "King Szechuan Palace",
@@ -2317,7 +2445,7 @@
     "coordinates": "40.739761, -74.051633",
     "status": "Open",
     "geoCoordinatesSearch": "40.739761,-74.051633",
-    "cuisine": "Irish, Pub",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -2329,16 +2457,18 @@
         "size": "personal",
         "price": 5,
         "id": "81cccf8b-dc96-4cf6-b353-2b90b4f19044",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e4f6a994-0e26-4de9-ac3a-a48434a37fa4",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/rYI7tk4CPDtLQ1jLi2kqkw/348s.jpg"
   },
   {
     "name": "La Unica Bakery and Cafe",
@@ -2353,7 +2483,7 @@
     "coordinates": "40.75019402, -74.04637226",
     "status": "Open",
     "geoCoordinatesSearch": "40.75019402,-74.04637226",
-    "cuisine": "Italian",
+    "cuisine": "Italian, Bakery",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -2365,16 +2495,18 @@
         "size": "personal",
         "price": 5,
         "id": "a2320605-f6ac-49f7-8f3f-f48f58585999",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "99f7993f-c474-4bf0-8163-eccd3f44b044",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://pbs.twimg.com/profile_images/1043146291214200834/XbgaF9hx_400x400.jpg"
   },
   {
     "name": "Latham House",
@@ -2389,7 +2521,7 @@
     "coordinates": "40.71159509, -74.06479057",
     "status": "Closed",
     "geoCoordinatesSearch": "40.71159509,-74.06479057",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "American",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -2401,16 +2533,18 @@
         "size": "personal",
         "price": 5,
         "id": "9ab5e3f0-381c-4bfe-81fd-b5e82e882713",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3ff1e659-1c11-494f-80b2-19298c1b1cf3",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2023/03/latham-house-jersey-city-closing.jpg"
   },
   {
     "name": "Light Horse Tavern",
@@ -2437,16 +2571,18 @@
         "size": "personal",
         "price": 5,
         "id": "8980c87b-5b98-484a-9406-d04ab1c54842",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "722fcdde-4948-4910-80be-0f02e7f3dda7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.otstatic.com/prod1/49715544/1/huge.jpg"
   },
   {
     "name": "Little Italy Pizzeria & Deli",
@@ -2461,7 +2597,7 @@
     "coordinates": "40.72640674, -74.07668961",
     "status": "Open",
     "geoCoordinatesSearch": "40.72640674,-74.07668961",
-    "cuisine": "American, Bar Food",
+    "cuisine": "Italian, Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -2473,16 +2609,18 @@
         "size": "personal",
         "price": 5,
         "id": "249925d6-09b6-4d1e-adf9-6e2d4f8c8397",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7b2af9f0-ff25-48a8-b8d3-b89509c4aa4b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/XXom58ZSZVCZFvq92Mt1UQ/348s.jpg"
   },
   {
     "name": "Loradella's Family Pizzeria",
@@ -2497,7 +2635,7 @@
     "coordinates": "40.73044659, -74.03179529",
     "status": "Open",
     "geoCoordinatesSearch": "40.73044659,-74.03179529",
-    "cuisine": "Latin, Caribbean",
+    "cuisine": "Italian, Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -2509,16 +2647,18 @@
         "size": "personal",
         "price": 5,
         "id": "8a3338b7-1276-4578-8b4c-b7e57df624a9",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "928ffc23-b5f4-430e-9a9a-5183477f9d02",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://production-assets.cf.slicelife.com/shops/7491/medium_square/Loradellas.png"
   },
   {
     "name": "Low Fidelity",
@@ -2533,7 +2673,7 @@
     "coordinates": "40.73995154, -74.04678146",
     "status": "Open",
     "geoCoordinatesSearch": "40.73995154,-74.04678146",
-    "cuisine": "American, Bar Food",
+    "cuisine": "Italian, Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -2545,19 +2685,21 @@
         "size": "personal",
         "price": 5,
         "id": "09cee580-c58b-4ea4-ab61-bde749674554",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "698c8261-659f-4cce-8cbc-3d8ade5610a0",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2023/05/low-fidelity-4-650x650.jpg"
   },
   {
-    "name": "Mauricio\u2019s Restaurant",
+    "name": "Mauricio's Restaurant",
     "phone": "(201) 333-9389",
     "address": "209 Ocean Ave",
     "zipCode": 7030,
@@ -2581,16 +2723,18 @@
         "size": "personal",
         "price": 5,
         "id": "3ca499fd-5621-4f16-9d94-86c3aacbe051",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5a750e5b-a489-421f-9f93-03d2a09b5fd3",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/5d96d524052c897425394aaf/1583912093552-Q8O52V3ERA1GH8DK541S/latin-menu-idea.jpg"
   },
   {
     "name": "McDonald's",
@@ -2605,7 +2749,7 @@
     "coordinates": "40.74365946, -74.05085375",
     "status": "Open",
     "geoCoordinatesSearch": "40.74365946,-74.05085375",
-    "cuisine": "American, Barbecue",
+    "cuisine": "Fast Food, Burgers",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -2617,16 +2761,18 @@
         "size": "personal",
         "price": 5,
         "id": "1e8b6da4-f71c-4e43-8f5e-494f4a9ec0a3",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "096caa45-5431-4346-9b14-8f0d7a15a691",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "My Mexico",
@@ -2653,16 +2799,18 @@
         "size": "personal",
         "price": 5,
         "id": "c7422834-d0ee-4d0e-ba7d-d6493af26f6b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "ce0c5214-7df8-4245-932f-80c60bad2293",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://menufyproduction.imgix.net/637892550542737928+823220.png?auto=compress,format&fit=max&w=1024&h=1024"
   },
   {
     "name": "No. 1 GreatWall Chinese Restaurant",
@@ -2677,7 +2825,7 @@
     "coordinates": "40.70349672, -74.08042304",
     "status": "Open",
     "geoCoordinatesSearch": "40.70349672,-74.08042304",
-    "cuisine": "Mexican",
+    "cuisine": "Chinese",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -2689,19 +2837,21 @@
         "size": "personal",
         "price": 5,
         "id": "17f3f033-0e43-42a0-954c-150da6b5be7a",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c502a1c4-cfd5-4410-b568-239b0ccf7c78",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg"
   },
   {
-    "name": "O\u2019Lala Empanadas",
+    "name": "O Lala Empanadas",
     "phone": "(201) 360-3546",
     "address": "600 Communipaw Ave",
     "zipCode": 7304,
@@ -2713,7 +2863,7 @@
     "coordinates": "40.71743688, -74.07275577",
     "status": "Open",
     "geoCoordinatesSearch": "40.71743688,-74.07275577",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "Latin, Caribbean",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.9,
@@ -2725,16 +2875,18 @@
         "size": "personal",
         "price": 5,
         "id": "4a2b166e-d26e-4ec2-a4c4-409ca4b35097",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "062ecb73-18fb-44eb-887c-9e4d811fe825",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/5a53b775bff20081ac772244/1515502669824-KUP7AHIN8K5SGG3L7QG2/3N5A9861.jpg?format=1000w"
   },
   {
     "name": "O'hara's Downtown",
@@ -2749,7 +2901,7 @@
     "coordinates": "40.72154563, -74.04021473",
     "status": "Open",
     "geoCoordinatesSearch": "40.72154563,-74.04021473",
-    "cuisine": "Italian, Bakery",
+    "cuisine": "Irish, Pub",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -2761,16 +2913,18 @@
         "size": "personal",
         "price": 5,
         "id": "ea4ce530-4712-48ca-b9b0-c025c472a16b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "174df7fa-2bf7-41b8-a755-55639dad4baa",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://spothopper-static.s3.amazonaws.com/website_images/ab_websites/56357_website/shared_link_image.png"
   },
   {
     "name": "Pasta Dal Cuore",
@@ -2797,16 +2951,18 @@
         "size": "personal",
         "price": 5,
         "id": "d057c6d9-ee93-4261-844f-ad7d5cae9b1c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c0f916de-6c3a-408d-b930-4cc2b903e015",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hobokengirl.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-14-at-10.23.25-PM.jpg"
   },
   {
     "name": "Plant Base",
@@ -2833,16 +2989,18 @@
         "size": "personal",
         "price": 5,
         "id": "c88a9d8c-45bb-4d17-9265-edb0ce7e2ac8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9527e45e-881b-4fe8-8ae8-6c9266f5aab9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://content.health.harvard.edu/wp-content/uploads/2023/04/c92020e0-e209-403d-a334-2b544b03a9d4.jpg"
   },
   {
     "name": "Rosita's Yah",
@@ -2857,7 +3015,7 @@
     "coordinates": "40.72748, -74.063528",
     "status": "Open",
     "geoCoordinatesSearch": "40.72748,-74.063528",
-    "cuisine": "Latin, Caribbean",
+    "cuisine": "Mexican",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -2869,19 +3027,21 @@
         "size": "personal",
         "price": 5,
         "id": "87a9d6fa-8ba7-41d5-9179-3114626756bc",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "601d646e-9dd1-4953-818e-b56467eec5fd",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2020/02/Rositas-Yah-entrance-Jersey-City-3.jpg"
   },
   {
-    "name": "St. Mark\u2019s Pizzeria & Deli",
+    "name": "St. Mark's Pizzeria & Deli",
     "phone": "(201) 408-6222",
     "address": "420 West Side Ave",
     "zipCode": 7304,
@@ -2905,16 +3065,18 @@
         "size": "personal",
         "price": 5,
         "id": "16689cd2-6ab7-49d5-a8e3-5279ecc699fb",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8d14da19-dda2-43a3-84a1-17469a5f0d1a",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.rochesterfirst.com/wp-content/uploads/sites/66/2023/10/marks-firefighter.png"
   },
   {
     "name": "The Belgian Plate by Waffle It & Co.",
@@ -2929,7 +3091,7 @@
     "coordinates": "40.71159509, -74.06479057",
     "status": "Open",
     "geoCoordinatesSearch": "40.71159509,-74.06479057",
-    "cuisine": "American",
+    "cuisine": "Desserts, Cookies",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -2941,16 +3103,18 @@
         "size": "personal",
         "price": 5,
         "id": "40a0686f-996e-4443-9f79-346003b529b8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "85ff2476-7096-4f90-9282-e481ccc412a3",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://static.wixstatic.com/media/95ad83_defa1f0e1a5f4abf94b86e23aed72f6b~mv2_d_1600_1506_s_2.png"
   },
   {
     "name": "The Hamilton Inn",
@@ -2977,16 +3141,18 @@
         "size": "personal",
         "price": 5,
         "id": "d1256eaa-5512-46b0-a20d-a4155b8bb7b6",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4d3ff23b-5f2d-437c-9cc1-023a7169f89e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/7d/ea/21/the-hamilton-inn.jpg"
   },
   {
     "name": "VB3 Pizzeria",
@@ -3013,16 +3179,18 @@
         "size": "personal",
         "price": 5,
         "id": "ce484bcc-4cb2-453d-9e20-048e70946f4e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7f1cf410-853c-42ae-9df9-bc7900912738",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.vb3pizzeria.com/wp-content/uploads/2023/06/logo.png"
   },
   {
     "name": "Vinnie's III Pizzeria",
@@ -3049,16 +3217,18 @@
         "size": "personal",
         "price": 5,
         "id": "2c9c59f0-5ba1-4ccc-b4a0-1793163e9d85",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "900ded8b-c23e-4caf-9fb3-bf1fec1a8a96",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.vinniesofjerseycity.com/wp-content/uploads/2021/10/menu-pizza-1.jpg"
   },
   {
     "name": "White Mana",
@@ -3085,16 +3255,18 @@
         "size": "personal",
         "price": 5,
         "id": "7dfcca84-ca04-4896-9e37-4f2037dcac8c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "0c0be9a4-3670-4937-9d6b-5e62819c5ea3",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/11/white-mana-diner-jersey-city.jpg"
   },
   {
     "name": "Wisp Express",
@@ -3121,16 +3293,18 @@
         "size": "personal",
         "price": 5,
         "id": "c389c83c-a181-45b0-8d7d-a9be45b63028",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "41887347-0fa6-42a1-987c-7d754ad1ea39",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/08/wisp-express-truck.jpg"
   },
   {
     "name": "YuYa",
@@ -3157,19 +3331,21 @@
         "size": "personal",
         "price": 5,
         "id": "48c3e8f7-225e-486a-aaae-fe3421a5d59b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c95bcb54-97ed-47a0-9ec3-1bc83bb7ed6b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/r2pAaSsDdykO8pp6OCch1g/348s.jpg"
   },
   {
-    "name": "9 Bar Caf\u00e9 at Urby",
+    "name": "9 Bar Cafe at Urby",
     "phone": "(201) 333-8311",
     "address": "200 Greene St",
     "zipCode": 7306,
@@ -3193,19 +3369,21 @@
         "size": "personal",
         "price": 5,
         "id": "5df88bba-d217-4199-aac1-49efaf017c90",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "bf1b5d93-fa81-4f9b-9d4f-a7122a3241d9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://patch.com/img/cdn20/users/23738927/20220224/075108/styles/patch_image/public/img-8349___24195010856.jpg"
   },
   {
-    "name": "AlNooor",
+    "name": "AlNoor",
     "phone": "(201) 324-0050",
     "address": "774 West Side Ave",
     "zipCode": 7305,
@@ -3217,7 +3395,7 @@
     "coordinates": "40.7267617, -74.07646013",
     "status": "Open",
     "geoCoordinatesSearch": "40.7267617,-74.07646013",
-    "cuisine": "Middle Eastern",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -3229,16 +3407,18 @@
         "size": "personal",
         "price": 5,
         "id": "9272cf04-fb0c-433e-b5ab-a45b616d9d0c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "70c46122-0fb0-45f8-a915-0c1674fc4881",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.happycow.net/venues/1024/17/16/hcmp171682_2227367.jpeg"
   },
   {
     "name": "Astor Bar & Grill",
@@ -3265,16 +3445,18 @@
         "size": "personal",
         "price": 5,
         "id": "78b3bd81-ed75-412f-a1fc-f3d2f7428edd",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "b47b5ef0-c7b8-45f4-b9cd-e4a8dbd04d88",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/ThlSHxLhKmd9L3VJnTtbiA/348s.jpg"
   },
   {
     "name": "Bang Cookies",
@@ -3301,16 +3483,18 @@
         "size": "personal",
         "price": 5,
         "id": "3f780734-de1d-46f6-9625-5de7f49bf048",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c6c01564-193a-4770-90bb-2768fdeea62e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hobokengirl.com/wp-content/uploads/2017/10/IMG_8500-819x1024.jpg"
   },
   {
     "name": "Bobwhite Counter",
@@ -3325,7 +3509,7 @@
     "coordinates": "40.71237807, -74.03991895",
     "status": "Open",
     "geoCoordinatesSearch": "40.71237807,-74.03991895",
-    "cuisine": "Southern",
+    "cuisine": "Fast Food, Burgers",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -3337,16 +3521,18 @@
         "size": "personal",
         "price": 5,
         "id": "5b6d7b9e-69c3-44ab-bc28-44587f15d47f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4e0d22d2-76cd-45db-baee-a2519e7eba3c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/runglmtz/659eb7cd-0c20-40d2-900a-69b05251ef2d.jpg"
   },
   {
     "name": "Carmine's Pizza Factory",
@@ -3373,16 +3559,18 @@
         "size": "personal",
         "price": 5,
         "id": "34f6e37a-ced8-46b0-a4dd-91f2fa65f806",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "fa9de57e-8e5f-4616-83b5-237c80ae90ac",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://carminespizzajc.com/images/slide7.jpg"
   },
   {
     "name": "Carvao BBQ",
@@ -3409,16 +3597,18 @@
         "size": "personal",
         "price": 5,
         "id": "6b32d7c4-ee06-4914-89ab-0bcfaecb743b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e9beb5f5-7fee-4863-9692-ed89f1ae1ed2",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://image.nj.com/home/njo-media/pgfull/img/jersey-journal/photo/2015/08/26/carvao-bbq-opens-in-jersey-city-2fd9ea5d923f6c98.jpg"
   },
   {
     "name": "Casa Cubana",
@@ -3445,16 +3635,18 @@
         "size": "personal",
         "price": 5,
         "id": "40723f60-208f-4fce-ab5c-5acf1c24df4f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1f4c9719-8600-4e70-8f82-10ce7828369d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2020/12/casa-cubana-jersey-city-menu.jpg"
   },
   {
     "name": "Chennai Flavors and Pizza King",
@@ -3481,16 +3673,18 @@
         "size": "personal",
         "price": 5,
         "id": "6f146671-c0d7-4189-80e2-aa2a61ca1699",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9b6a8ba6-5ae3-433e-9e97-aa02edfc851a",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://shop-logos.imgix.net/shops/21293/original/Chennai_Flavors_and_Pizza_King.png"
   },
   {
     "name": "City Cafe",
@@ -3517,16 +3711,18 @@
         "size": "personal",
         "price": 5,
         "id": "92d3486f-6422-4ef5-8ac8-831d83412804",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "fa435973-3f37-412b-a598-cdc1ed623450",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.cntraveler.com/photos/586eb8449d2b725a71af8123/master/pass/hot-dogs-gene-and-judes-photo-credit-Nick-Holmes.jpg"
   },
   {
     "name": "Dairy Queen",
@@ -3553,16 +3749,18 @@
         "size": "personal",
         "price": 5,
         "id": "0c3a1dc4-edbf-4fef-aed9-6f722aae6bd8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "948161a3-a6d6-4616-bee3-8de20dc2db33",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1200px-Dairy_Queen_logo.svg.png"
   },
   {
     "name": "Dark Side Of The Moo",
@@ -3589,16 +3787,18 @@
         "size": "personal",
         "price": 5,
         "id": "5a2b3f22-9427-4501-a3b2-91b1d8f063cf",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "ae5d943c-a5bd-4996-962e-91fbed032b26",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://img1.wsimg.com/isteam/ip/781ed898-327b-46a0-9b62-cd1d6ece1a9c/Group%202.jpg/:/"
   },
   {
     "name": "Domino's",
@@ -3625,16 +3825,18 @@
         "size": "personal",
         "price": 5,
         "id": "cdd596fd-aed0-485e-88cf-5f7d2e2af9d2",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cea3c92b-bab1-4b64-9c2b-f5d4fc7ff057",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png"
   },
   {
     "name": "DOMODOMO Jersey City",
@@ -3661,16 +3863,18 @@
         "size": "personal",
         "price": 5,
         "id": "19d12a1b-2ba6-4237-a336-2a5e27b84e2e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3eadc576-1192-4620-9595-3d74f4a0982d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2019/10/DomoDomo-Jersey-City-5.jpg"
   },
   {
     "name": "Dream Spicy II",
@@ -3685,7 +3889,7 @@
     "coordinates": "40.730641, -74.062023",
     "status": "Open",
     "geoCoordinatesSearch": "40.730641,-74.062023",
-    "cuisine": "Korean, Spicy Food",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -3697,16 +3901,18 @@
         "size": "personal",
         "price": 5,
         "id": "23679ebd-cf4e-4cbb-99b7-a127e3e9c248",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5baaf2c9-daad-4caf-b553-da1ab2f7e3f5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spicy-Indian-Butter-Chicken-1.jpg"
   },
   {
     "name": "Five Guys",
@@ -3733,16 +3939,18 @@
         "size": "personal",
         "price": 5,
         "id": "7526d6d1-8a7d-43f5-8a3d-01bc64b06146",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6c93f7c3-c105-4462-9496-73360fdea230",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://logos-world.net/wp-content/uploads/2023/03/Five-Guys-Logo.jpg"
   },
   {
     "name": "Gusto Latino",
@@ -3769,16 +3977,18 @@
         "size": "personal",
         "price": 5,
         "id": "365dc007-3ea3-4669-8596-03934fa80e89",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4bd4ecdb-b7f6-46d1-b178-5aaca0218f6f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.gustolatino.net/sites/2714/images/2714image002.jpg"
   },
   {
     "name": "Health Bar Cafe",
@@ -3805,16 +4015,18 @@
         "size": "personal",
         "price": 5,
         "id": "1a31284e-c998-49a5-b96c-7f05a2d99688",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "340fbf66-660b-49f8-9e0b-4d74d60ad449",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/3lXoYfpa9pDmROQzUpulzg/348s.jpg"
   },
   {
     "name": "Karen Bakery",
@@ -3841,16 +4053,18 @@
         "size": "personal",
         "price": 5,
         "id": "74fefc4e-a9ff-44ce-b233-7255360e8c81",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a718e04e-3305-4855-8ef0-5c574fa13d4e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://m.media-amazon.com/images/I/91SBfs5O8vL.jpg"
   },
   {
     "name": "Krispy Pizza",
@@ -3877,16 +4091,18 @@
         "size": "personal",
         "price": 5,
         "id": "9d97db89-23a4-44f0-8b05-ca45d8964e5d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5b286e38-d44d-4820-8dc9-81a210951313",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://krispypizza.com/wp-content/uploads/2017/01/Krispy-Logo-Long-Red.png"
   },
   {
     "name": "L' Atelier Du Chocolat",
@@ -3913,16 +4129,18 @@
         "size": "personal",
         "price": 5,
         "id": "bd600fe2-48e5-46a0-988b-2b8b901159e3",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "95386f46-9ee9-4797-943e-13769b16b5da",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://menufyproduction.imgix.net/637830592024510736+736567.png?auto=compress,format&h=1080&w=1920&fit=max"
   },
   {
     "name": "La Primicia Restaurant",
@@ -3949,16 +4167,18 @@
         "size": "personal",
         "price": 5,
         "id": "182c6a57-7723-4132-af7b-9a94e09ec985",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "79dce91b-4fc6-4bfe-aab1-0986529caedc",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://static.wixstatic.com/media/4d0dc6_a3f25f9a69174c3789d8c6d598a3c567.png"
   },
   {
     "name": "Light Rail Cafe",
@@ -3985,16 +4205,18 @@
         "size": "personal",
         "price": 5,
         "id": "2fd93b4e-588f-4bac-9a32-fc3eb97a89a8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6ce61d0f-9555-44eb-b163-6257fbe97245",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.lightrailroaster.com/wp-content/uploads/2018/01/LR_Cafe_Logo_R.png"
   },
   {
     "name": "Luna Restaurant",
@@ -4021,16 +4243,18 @@
         "size": "personal",
         "price": 5,
         "id": "97758de3-4fcc-4957-bb9b-c1359d086c0d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "3a9f5559-5112-426e-8b73-e7fecb1b8f00",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.otstatic.com/prod1/42587560/2/huge.jpg"
   },
   {
     "name": "Marsha\u2019s Taste of Caribbean",
@@ -4057,16 +4281,18 @@
         "size": "personal",
         "price": 5,
         "id": "3377d3a3-fb9d-47f6-8577-c46adfd9a889",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cfa8343f-6cef-4f07-b595-ef4f6be26e6d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.oliverstravels.com/blog/wp-content/uploads/2022/01/Curry-chicken.png"
   },
   {
     "name": "Martha\u2019s",
@@ -4093,16 +4319,18 @@
         "size": "personal",
         "price": 5,
         "id": "5d3289b8-9825-49f2-ba21-8aded73f7a4c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c1e32b18-69ad-493d-97ff-19666229fa49",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg"
   },
   {
     "name": "McDonald's",
@@ -4117,7 +4345,7 @@
     "coordinates": "40.71721108, -74.05399389",
     "status": "Open",
     "geoCoordinatesSearch": "40.71721108,-74.05399389",
-    "cuisine": "Coffee",
+    "cuisine": "Fast Food, Burgers",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -4129,13 +4357,15 @@
         "size": "personal",
         "price": 5,
         "id": "0aa5d037-792e-4705-979d-17dbd03870ba",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "2ddd2559-4118-427b-b304-9ba2a2a22dca",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
     "img": ""
@@ -4165,16 +4395,18 @@
         "size": "personal",
         "price": 5,
         "id": "90f452dd-c0b8-4a84-8ca4-1dc7fbdb3121",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9a6ff066-0b96-4b8a-929d-db0bd2ff670d",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "Mordi's Sandwich Shop",
@@ -4201,16 +4433,18 @@
         "size": "personal",
         "price": 5,
         "id": "054b5ea0-218c-4424-8ec6-3f5ad054f612",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "21ec37f3-a9ca-4138-9c3a-415db80f39cf",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/22/ff/f6/45/sandwich-platter.jpg"
   },
   {
     "name": "O'Leary's Publik House",
@@ -4225,7 +4459,7 @@
     "coordinates": "40.70643085, -74.07328683",
     "status": "Open",
     "geoCoordinatesSearch": "40.70643085,-74.07328683",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "American",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.9,
@@ -4237,16 +4471,18 @@
         "size": "personal",
         "price": 5,
         "id": "8d851607-29d8-43af-912b-4247d0fd03ae",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c043bf4a-350e-448f-a8fa-c3a8f3cd25dd",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2017/10/olearys-publik-house-jersey-city-2-1.jpg"
   },
   {
     "name": "Ozu Foods",
@@ -4261,7 +4497,7 @@
     "coordinates": "40.74487432, -74.05050027",
     "status": "Open",
     "geoCoordinatesSearch": "40.74487432,-74.05050027",
-    "cuisine": "Irish, Pub",
+    "cuisine": "Japanese",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -4273,16 +4509,18 @@
         "size": "personal",
         "price": 5,
         "id": "0ce3bdf1-620c-4ce7-bdf6-48be142bd097",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "2e9e557b-6ee6-4e67-b1ff-a4317f7e4c11",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/03/ozu-outside.jpg"
   },
   {
     "name": "Papa Johns",
@@ -4297,7 +4535,7 @@
     "coordinates": "40.73440945, -74.0393405",
     "status": "Closed",
     "geoCoordinatesSearch": "40.73440945,-74.0393405",
-    "cuisine": "Japanese",
+    "cuisine": "Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -4309,16 +4547,18 @@
         "size": "personal",
         "price": 5,
         "id": "28fa76c4-7fd1-4cad-9d6c-ef2b2e301dd1",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "be95f832-3019-4e1a-83d2-4b15896b7fd5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.papajohns.com/pizza-pages/img/hero.jpg"
   },
   {
     "name": "Park Tavern",
@@ -4345,16 +4585,18 @@
         "size": "personal",
         "price": 5,
         "id": "f02bc45d-6178-482d-9eb1-594764298a34",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "da9f9199-fb98-4fc0-a0bf-b086cfedec79",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2023/06/Pepperoni-Pizza-1.jpg"
   },
   {
     "name": "Paulie's Brickhouse",
@@ -4381,16 +4623,18 @@
         "size": "personal",
         "price": 5,
         "id": "bec5b51f-e1b3-45dd-87b5-f6639086a862",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d1fcd89d-3808-47b8-9412-6a2b570522b8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.getbento.com/accounts/197ab9ec8e53de981dde4a5cebc69553/media/images/2519logo.png"
   },
   {
     "name": "Razza",
@@ -4417,16 +4661,18 @@
         "size": "personal",
         "price": 5,
         "id": "3ac36f4d-a649-4e77-9c0e-715659a6b551",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "1ddb97de-8798-41ba-8b71-47116893a5c1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://njmonthly.com/wp-content/uploads/cache/2022/10/Image-2-scaled-e1665685636574/2691737520.jpeg"
   },
   {
     "name": "Romano's Pizzeria",
@@ -4453,16 +4699,18 @@
         "size": "personal",
         "price": 5,
         "id": "0a8560e1-9a1b-46af-afaf-1c1ba146e293",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "eb38fd6e-8ec5-4952-b249-e2d574b76ce6",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://as1.ftcdn.net/v2/jpg/05/61/84/60/1000_F_561846048_xkvO9yWc8RzrpY4mVq18bJ6KGyqzLTIX.jpg"
   },
   {
     "name": "Sagoto Bubble Tea",
@@ -4489,16 +4737,18 @@
         "size": "personal",
         "price": 5,
         "id": "4bde9f52-67ae-4417-99f7-7ff342aff893",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "402dc11d-8239-4257-8dc3-993a97a54e40",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jcfamilies.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-19-at-11.08.42-AM-810x815.png"
   },
   {
     "name": "Singas Famous Pizza",
@@ -4525,16 +4775,18 @@
         "size": "personal",
         "price": 5,
         "id": "8c440d31-7517-42c0-81a8-74457bdb2e7e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "69a69d9d-b553-43e0-91d3-dea91d86b10e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://t4.ftcdn.net/jpg/00/18/66/99/360_F_18669964_Txz4BS0OErzj9v9DHM3N51d8yFVa85dR.jpg"
   },
   {
     "name": "Subway",
@@ -4561,16 +4813,18 @@
         "size": "personal",
         "price": 5,
         "id": "347ec23e-7dca-462f-b6e3-17af1a990923",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "305454de-0090-4e52-8405-962b190c0f0a",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
   },
   {
     "name": "Sugartown Bakery & Cafe",
@@ -4597,16 +4851,18 @@
         "size": "personal",
         "price": 5,
         "id": "d731ee22-3630-4dbe-a6c0-b3e7a6dc8784",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8aed96d2-a230-4620-a69c-7f5432d4df5c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.crowdspring.com/blog/wp-content/uploads/2023/05/16174534/bakery-hero.png"
   },
   {
     "name": "Taco Bell",
@@ -4633,16 +4889,18 @@
         "size": "personal",
         "price": 5,
         "id": "59b5b525-8bb7-4bd1-bc31-497fcb1a0ae6",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6761c858-a72a-4ed8-80fd-308c59022ce8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Taco_Bell_2016.svg/1200px-Taco_Bell_2016.svg.png"
   },
   {
     "name": "Tea NJ",
@@ -4669,16 +4927,18 @@
         "size": "personal",
         "price": 5,
         "id": "0861856c-5500-4f67-959e-2e3527a731dc",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cc1333a4-b160-473d-89ef-1f87497a4104",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://teatimemagazine.com/wp-content/uploads/2015/09/HarmonyTeaRoom-2up.jpg"
   },
   {
     "name": "The Franklin",
@@ -4705,16 +4965,18 @@
         "size": "personal",
         "price": 5,
         "id": "5cd3d418-481b-478f-b747-5ac2e42edcc1",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "de8e1ad0-9c1e-4925-8af8-838b795c1bc9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://a.cdn-hotels.com/gdcs/production1/d1836/9f51d5ff-0029-4bf5-906d-119f57a0e44a.jpg"
   },
   {
     "name": "Tidal Poke Co",
@@ -4729,7 +4991,7 @@
     "coordinates": "40.72041636, -74.04291794",
     "status": "Open",
     "geoCoordinatesSearch": "40.72041636,-74.04291794",
-    "cuisine": "Italian, Pizza",
+    "cuisine": "Japanese",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -4741,16 +5003,18 @@
         "size": "personal",
         "price": 5,
         "id": "febb3847-7e94-4e0d-8f38-616c041c1cdf",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d8130cf1-5a8d-4a59-a67a-b7135c159326",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-27077000000000000/banner_1626285097.jpg?size=medium"
   },
   {
     "name": "Tony Boloney's",
@@ -4765,7 +5029,7 @@
     "coordinates": "40.72111271, -74.04281459",
     "status": "Open",
     "geoCoordinatesSearch": "40.72111271,-74.04281459",
-    "cuisine": "American, Diner",
+    "cuisine": "Mexican",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -4777,16 +5041,18 @@
         "size": "personal",
         "price": 5,
         "id": "86bb8b6f-b6dc-41c6-a1c4-08ca29d16f6e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "b3d745b5-1613-4b93-a23b-917c274d40a4",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0f/33/53/dd/photo1jpg.jpg"
   },
   {
     "name": "3 Guys From Italy",
@@ -4813,16 +5079,18 @@
         "size": "personal",
         "price": 5,
         "id": "45bc595b-067e-4190-880c-1698ca971785",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e74fd720-f638-4459-9c8f-27111c6805e2",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://shop-logos.imgix.net/shops/21253/original/renditionDownload_(1).jpg?auto=compress,format"
   },
   {
     "name": "Beechwood Cafe",
@@ -4837,7 +5105,7 @@
     "coordinates": "40.718327, -74.043436",
     "status": "Open",
     "geoCoordinatesSearch": "40.718327,-74.043436",
-    "cuisine": "Indian",
+    "cuisine": "American",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.8,
@@ -4849,16 +5117,18 @@
         "size": "personal",
         "price": 5,
         "id": "64125237-25f7-4b4f-8a91-21a39b5341bb",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "306b057e-4420-44f4-9eba-dff5d1d20db8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hobokengirl.com/wp-content/uploads/2018/05/beechwood-cafe-jersey-city_8555.jpg"
   },
   {
     "name": "Bistro La Source",
@@ -4885,16 +5155,18 @@
         "size": "personal",
         "price": 5,
         "id": "739e5bb2-5c44-41c9-b2aa-2a68b2d49a25",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e490c3ad-a79d-4b1b-8328-50d2188312f7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/04/bistro-la-source-jersey-city.png"
   },
   {
     "name": "Blimpie",
@@ -4909,7 +5181,7 @@
     "coordinates": "40.73146084, -74.05643957",
     "status": "Open",
     "geoCoordinatesSearch": "40.73146084,-74.05643957",
-    "cuisine": "American, Cafe",
+    "cuisine": "Sandwiches, Deli",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -4921,16 +5193,18 @@
         "size": "personal",
         "price": 5,
         "id": "a07c1d3d-75c4-4cd4-a662-fbbe9b5134d2",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "25818e19-b5d1-4193-9650-c3ab6ba8c34e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.blimpie.com/assets/images/product/hobokenhero.png"
   },
   {
     "name": "Carolyn\u2019s Soul Food",
@@ -4945,7 +5219,7 @@
     "coordinates": "40.71060921, -74.07978708",
     "status": "Open",
     "geoCoordinatesSearch": "40.71060921,-74.07978708",
-    "cuisine": "Indian",
+    "cuisine": "American",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.7,
@@ -4957,16 +5231,18 @@
         "size": "personal",
         "price": 5,
         "id": "3902a95b-e783-406a-b0a5-80b45b1bff3f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f4e63b9d-7e1f-497e-acd5-01bdb2091462",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.jacksonhillms.com/images/listing/upload/fullsize/1574874191-1-carolyn.jpg"
   },
   {
     "name": "Checkers",
@@ -4993,16 +5269,18 @@
         "size": "personal",
         "price": 5,
         "id": "a79b0998-1ec3-44bb-a098-fd76fcdda109",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "ded872ef-47c4-4ee6-be8a-a036a8213ea5",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/9d/e2/ca/2-drive-thru-s-at-checker.jpg"
   },
   {
     "name": "Clove Garden of India",
@@ -5017,7 +5295,7 @@
     "coordinates": "40.72371005, -74.05060741",
     "status": "Open",
     "geoCoordinatesSearch": "40.72371005,-74.05060741",
-    "cuisine": "Soul Food",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.6,
@@ -5029,16 +5307,18 @@
         "size": "personal",
         "price": 5,
         "id": "cc4d3bae-1020-49bb-9f69-5a3f75e4e0fb",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "956fe17d-13a4-4a7d-928d-a4e1eb6e33b1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/l-intro-1645057933.jpg"
   },
   {
     "name": "Curry On Indian Restaurant",
@@ -5053,7 +5333,7 @@
     "coordinates": "40.7352844, -74.06333116",
     "status": "Closed",
     "geoCoordinatesSearch": "40.7352844,-74.06333116",
-    "cuisine": "Fast Food, Burgers",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.2,
@@ -5065,16 +5345,18 @@
         "size": "personal",
         "price": 5,
         "id": "27ab037d-9439-4951-a120-e8d5beae0ad5",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f106eafe-9fa4-48a1-9a42-e79515f9894e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/200914101814-01-indian-food-jersey-city.jpg?q=x_0,y_0,h_900,w_1599,c_fill/h_720,w_1280"
   },
   {
     "name": "Ghost Truck Kitchen",
@@ -5089,7 +5371,7 @@
     "coordinates": "40.72064037, -74.04837413",
     "status": "Open",
     "geoCoordinatesSearch": "40.72064037,-74.04837413",
-    "cuisine": "Indian",
+    "cuisine": "American",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.4,
@@ -5101,16 +5383,18 @@
         "size": "personal",
         "price": 5,
         "id": "d189351e-6517-43a7-b218-3a87e5451d36",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c89dbb5e-1190-48de-acda-5c7881b8a550",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg"
   },
   {
     "name": "Green Pear Heights",
@@ -5137,16 +5421,18 @@
         "size": "personal",
         "price": 5,
         "id": "7a3aff3d-7f45-47c5-9082-750da2ab03dd",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "766da288-9186-48f6-8df7-298a64a0b0b2",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/5e3b05ebbec94f561443a682/1586278053100-D58JH2YNM3G340R9FOKP/Grean+Pear+PHoto.jpg"
   },
   {
     "name": "Hidden Grounds Coffee",
@@ -5173,16 +5459,18 @@
         "size": "personal",
         "price": 5,
         "id": "a7705401-e2d1-4a94-aa80-dcda67a25749",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f1d61a1b-9021-4f15-bd5e-ab0123a6724f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.thehiddengrounds.com/cdn/shop/files/Screenshot_2023-07-23_at_12.22.38_AM.png?v=1690086172&width=1500"
   },
   {
     "name": "Hudson Greene Market",
@@ -5209,16 +5497,18 @@
         "size": "personal",
         "price": 5,
         "id": "cc5a678f-1a2b-48b6-88d8-7081fa414d3b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e945d2f6-ae00-4d8a-8ae0-57385408ffd1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hudsongreenemarket.com/wp-content/uploads/2021/10/HG-logo.jpeg"
   },
   {
     "name": "Jade House",
@@ -5245,16 +5535,18 @@
         "size": "personal",
         "price": 5,
         "id": "5e9b26a4-9c01-437d-b2bd-1bd6eb35fca8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "b555d0f4-a2be-4c17-9a59-011fe7e6a9ed",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0b/f4/72/4b/photo0jpg.jpg"
   },
   {
     "name": "Jerkin Chicken",
@@ -5269,7 +5561,7 @@
     "coordinates": "40.71113143, -74.0931194",
     "status": "Open",
     "geoCoordinatesSearch": "40.71113143,-74.0931194",
-    "cuisine": "Jamaican",
+    "cuisine": "American, Chicken",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.5,
@@ -5281,16 +5573,18 @@
         "size": "personal",
         "price": 5,
         "id": "7a3ddd9a-7611-49e9-97cb-57563d02984a",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4231a4d0-66f9-448b-8346-ddc730c823d4",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://insanelygoodrecipes.com/wp-content/uploads/2020/04/Fried_Chicken.png"
   },
   {
     "name": "Jollibee",
@@ -5317,16 +5611,18 @@
         "size": "personal",
         "price": 5,
         "id": "ae91281c-4af3-48e1-8975-e7b17556d338",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "be568146-41d4-4e64-beb2-b0ab69640ce3",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Jollibee_2011_logo.svg/800px-Jollibee_2011_logo.svg.png"
   },
   {
     "name": "Komegashi Too",
@@ -5353,16 +5649,18 @@
         "size": "personal",
         "price": 5,
         "id": "a4a09bac-87be-4f4f-86d6-d333ed266d4d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "56d4fe4e-00eb-45c9-8897-5fd3eca0e6c0",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://komegashi.m988.com/phone/img/home/lb_2.jpg"
   },
   {
     "name": "Korai Kitchen",
@@ -5389,16 +5687,18 @@
         "size": "personal",
         "price": 5,
         "id": "61e00353-bc30-4213-ab82-7a1bb3e3d709",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "929f4c85-f806-4e68-9991-cf984784719a",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/06/korai-kitchen-jersey-city.jpg"
   },
   {
     "name": "La Concha Restaurant",
@@ -5425,16 +5725,18 @@
         "size": "personal",
         "price": 5,
         "id": "b4728480-b4d5-4ea6-b82c-f4e6c15dc95f",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cdf64146-7cde-4787-90ee-149d9b57ec7b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/e0/88/50/la-concha.jpg"
   },
   {
     "name": "Maggie's Farm Espresso",
@@ -5461,19 +5763,21 @@
         "size": "personal",
         "price": 5,
         "id": "dec8997a-1878-44e1-be9c-a5b3d9acf678",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "25cba6f9-2992-4c26-b8af-e1df79331c67",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://jerseydigs.com/wp-content/uploads/2018/11/maggies-farm-espresso-dixon-projects-jersey-city-3.jpg"
   },
   {
-    "name": "Max\u2019s Restaurant",
+    "name": "Max's Restaurant",
     "phone": "(201) 798-2700",
     "address": "687 Newark Ave",
     "zipCode": 7306,
@@ -5497,16 +5801,18 @@
         "size": "personal",
         "price": 5,
         "id": "60c4dcdb-4fb9-450a-822f-5955a6f98f1a",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c626104a-f06c-4eab-882b-3d2906db289b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://popmenucloud.com/arufwdik/4c58be6b-0181-4745-97eb-d285f255bb72.jpg"
   },
   {
     "name": "McDonald's",
@@ -5533,16 +5839,18 @@
         "size": "personal",
         "price": 5,
         "id": "3fa5cf7d-e8ad-498d-ba61-14f53b0efc49",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a711fad5-7d08-44cc-ab68-12ec986dd5f9",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
   },
   {
     "name": "Mezcal Kitchen JC",
@@ -5569,52 +5877,18 @@
         "size": "personal",
         "price": 5,
         "id": "aa92a7e3-420e-4b4b-8b55-beaa01cd6936",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "594b35d2-86fa-424b-b572-d1885920e636",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "Milk Sugar Love - Hamilton Park",
-    "phone": "(201) 984-0530",
-    "address": "19 McWilliams Pl",
-    "zipCode": 7302,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "http://www.milksugarlove.com",
-    "operationHours": "Monday: 2:00 PM - 8:00 PM\nTuesday: 2:00 PM - 8:00 PM\nWednesday: 2:00 PM - 8:00 PM\nThursday: 2:00 PM - 8:00 PM\nFriday: 2:00 PM - 8:00 PM\nSaturday: 2:00 PM - 8:00 PM\nSunday: 2:00 PM - 8:00 PM",
-    "coordinates": "40.72747807, -74.04407868",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.72747807,-74.04407868",
-    "cuisine": "Desserts, Ice Cream",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.6,
-    "ratingCount": 2352,
-    "city": "Jersey City",
-    "id": "45ee94b7-9e50-42b3-b345-2aa2085b5d8d",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "2677e577-c1ab-4698-801a-01133d152d66",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "69c77c3a-92b0-4273-9bce-31bae3285aa5",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://static.wixstatic.com/media/92a3ff_b79d747d7b084bd89f7f29124192ee02~mv2.png"
   },
   {
     "name": "Milk Sugar Love - The Heights",
@@ -5641,16 +5915,18 @@
         "size": "personal",
         "price": 5,
         "id": "c869dfee-59f7-4dd2-93f3-4dd750b446a3",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f9aa7207-5d61-4905-9808-acabe79990a0",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://89a98c5f353d54810d35.cdn6.editmysite.com/uploads/b/b1830c10-dcc4-11ea-a34f-5506d61f9598/37fedcf84a24b1ef8e14faa4e83bfc7c.jpeg?width=2400&optimize=medium"
   },
   {
     "name": "Neptune Cafe",
@@ -5677,16 +5953,18 @@
         "size": "personal",
         "price": 5,
         "id": "21871cac-ff8f-40a4-968f-f0107de51283",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c33bf8a6-8475-4b65-b33f-8afcf9a2ab33",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/59e62172dc2b4a72ea63dd39/1619505962272-W1P5LP960T4T0MI6ACWO/IMG_7966.jpg"
   },
   {
     "name": "O Kafe",
@@ -5713,52 +5991,18 @@
         "size": "personal",
         "price": 5,
         "id": "1279d4de-abca-4305-ac43-a303aee48ae3",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7c1052d9-a4e8-413d-bbae-9eb3e286244e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "O\u2019Learys Publik House",
-    "phone": "(281) 435-7269",
-    "address": "778 Garfield Ave",
-    "zipCode": 7305,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "",
-    "operationHours": "Monday : 10:00 AM - 8:00 PM\nTuesday: 10:00 AM - 8:00 PM\nWednesday: 10:00 AM - 8:00 PM\nThursday: 10:00 AM - 8:00 PM\nFriday: 10:00 AM - 8:00 PM\nSaturday: 10:00 AM - 8:00 AM\nSunday: 10:00 AM - 8:00 PM",
-    "coordinates": "40.70627418, -74.07336128",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.70627418,-74.07336128",
-    "cuisine": "Irish, Pub",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.9,
-    "ratingCount": 7898,
-    "city": "Jersey City",
-    "id": "bb8ce41e-0326-4b3f-805d-bfb9418f4048",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "2268b92f-c44c-495d-b484-f204e60c13ea",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "46d1dd50-ac7e-44d1-94c3-c6987f79267e",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://www.thedailymeal.com/img/gallery/15-brazilian-foods-that-you-must-try-other-than-barbecue/l-intro-1686069431.jpg"
   },
   {
     "name": "Ocean Halal Pizza",
@@ -5785,16 +6029,18 @@
         "size": "personal",
         "price": 5,
         "id": "ca4673fe-e7dd-42e3-a0b2-70c90d6a1464",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "906338a4-3484-44df-96de-b9597fe65298",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*"
   },
   {
     "name": "Palm Breeze Caribbean Kitchen",
@@ -5821,16 +6067,18 @@
         "size": "personal",
         "price": 5,
         "id": "ad09621c-0abe-45e4-91ae-79b508bf5844",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e4fdabea-814d-4518-819e-35daef42f924",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://imageio.forbes.com/specials-images/imageserve/63ee53c21ae3f7d1862ed0fa/Jamaican-Jerk-Chicken--Rice-And-Peas-And-Grilled-Corn/960x0.jpg?format=jpg&width=960"
   },
   {
     "name": "Pokay",
@@ -5857,16 +6105,18 @@
         "size": "personal",
         "price": 5,
         "id": "7311371d-d9aa-4928-babf-5d168cf6a2e2",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "f59f0d2a-28dd-4ffb-9b35-b4ed9bfd5782",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/tnKJY2BADGq_6jTe5GNNog/348s.jpg"
   },
   {
     "name": "Short Grain",
@@ -5893,52 +6143,18 @@
         "size": "personal",
         "price": 5,
         "id": "a878cdfb-6925-49b6-a7fa-d3a9311cbecd",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "78eae2f5-3e7e-44cf-83b2-d98009f1ba2c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "The Corkscrew Bar",
-    "phone": "(973) 610-5423",
-    "address": "61 Congress St",
-    "zipCode": 7307,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "http://www.corkscrewjc.com",
-    "operationHours": "Monday: 11:30 AM - 7:45 PM\nTuesday: 11:30 AM - 7:45 PM\nWednesday: 11:30 AM - 7:45 PM\nThursday: 11:30 AM - 7:45 PM\nFriday: 11:30 AM - 7:45 PM\nSaturday: 11:00 AM - 7:45 PM\nSunday: 11:00 AM - 8:45 PM",
-    "coordinates": "40.7495214, -74.04292324",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.7495214,-74.04292324",
-    "cuisine": "American",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.2,
-    "ratingCount": 9021,
-    "city": "Jersey City",
-    "id": "69d35571-a3fc-4bb8-ae89-2255e9a756f4",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "ac4e8bdc-b2f3-44b2-813a-78d2211f5fdf",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "80b869f0-dfa8-45d4-91fe-4592c532b553",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/5517700be4b0c99d03d5a0f2/1464911759849-F68FJD3O098OCDL7NJ9X/IMG_0220.jpg?format=1500w"
   },
   {
     "name": "Treehouse Coffee Shop",
@@ -5965,16 +6181,18 @@
         "size": "personal",
         "price": 5,
         "id": "382c2336-aabb-46f4-914c-b1acf02d0bbe",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "38cc6af6-f9f5-4a63-96e7-3475e11aa168",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg"
   },
   {
     "name": "Two Boots Pizza",
@@ -6001,16 +6219,18 @@
         "size": "personal",
         "price": 5,
         "id": "c041835b-5ecc-444a-94a6-bcc7bafd6cd5",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "caa05761-9bea-42db-94e6-a9965d8936a1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://myminichefs.com/wp-content/uploads/2023/01/pizza-boats-5.jpeg"
   },
   {
     "name": "WHEALTH",
@@ -6037,16 +6257,18 @@
         "size": "personal",
         "price": 5,
         "id": "793f859b-f27d-4923-9e4b-4758ac94f18e",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "b8254c00-70af-4fca-8ddb-8086db377abc",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://whealthyrestaurant.com/wp-content/uploads/2021/07/Side-2.jpg"
   },
   {
     "name": "Amelia's Bistro",
@@ -6073,16 +6295,18 @@
         "size": "personal",
         "price": 5,
         "id": "d01fbddc-19fb-44bc-8631-9154d75283df",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cd218548-0116-4aae-935b-1fe0b2f4bca4",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/amelias-jersey-city.jpg"
   },
   {
     "name": "Amiya Restaurant",
@@ -6097,7 +6321,7 @@
     "coordinates": "40.71565936, -74.03427343",
     "status": "Open",
     "geoCoordinatesSearch": "40.71565936,-74.03427343",
-    "cuisine": "American, Cafe",
+    "cuisine": "Indian",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -6109,16 +6333,18 @@
         "size": "personal",
         "price": 5,
         "id": "9e52780b-84fc-40d4-a8ac-02af44637453",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5730b2f1-202e-44df-982a-5cf70e846090",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.amiyarestaurant.com/content/website/accounts/1037/1600-edcfce1d43077a342593bf8f619ab386.jpg"
   },
   {
     "name": "Basic Cafe",
@@ -6145,16 +6371,18 @@
         "size": "personal",
         "price": 5,
         "id": "583409e1-c979-4958-8ab8-3c789bfdac19",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "440ff4db-f259-4501-8ade-a7698d468e14",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://images.squarespace-cdn.com/content/v1/577964b4be65944fd9c06a63/1485121188287-1LXRWOP2B7RBLEACGOA0/basic+009.JPG?format=2500w"
   },
   {
     "name": "Butler Cafe",
@@ -6181,16 +6409,18 @@
         "size": "personal",
         "price": 5,
         "id": "f9dff3a7-6874-481e-a6be-eb2f174472f8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c29e12eb-0593-48f0-b1e4-451b408b5fdf",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://blog.resy.com/wp-content/uploads/2023/07/Cafe_Chelsea_II_00293-2000x1125.jpg"
   },
   {
     "name": "Cafe Peanut",
@@ -6217,16 +6447,18 @@
         "size": "personal",
         "price": 5,
         "id": "8e252d34-5361-428a-a939-a73d3c277ac0",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "2d5a2222-f076-4949-b259-2c1b5f268e2b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://cafepeanut.com/wp-content/uploads/2019/09/Cafe_Peanut_Logo_white.png"
   },
   {
     "name": "Chef of India",
@@ -6253,16 +6485,18 @@
         "size": "personal",
         "price": 5,
         "id": "1e74cffb-b696-4096-8260-dadb5c89f484",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "679300d2-7059-4ef3-bd2e-6c3334297c8b",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hips.hearstapps.com/hmg-prod/images/chicken-tikka-masala1-1663341991.jpg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
   },
   {
     "name": "Chef Tan",
@@ -6289,16 +6523,18 @@
         "size": "personal",
         "price": 5,
         "id": "90d737c6-6528-45da-a0d2-e5d022530538",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "712937a7-be32-43b5-aab8-a5238db5b95e",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.guatemala.com/fotos/2021/08/Cafe-en-San-Cristobal.jpg"
   },
   {
     "name": "Cherry\u2019s Lounge",
@@ -6325,52 +6561,18 @@
         "size": "personal",
         "price": 5,
         "id": "912e692e-bb3c-4dd6-82dc-f3eb7558a185",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e239deb2-f90b-485d-8490-9d28f9250506",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "Daily Grind Express",
-    "phone": "(201) 332-3335",
-    "address": "352 West Side Ave",
-    "zipCode": 7305,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "",
-    "operationHours": "Monday: 6:00 AM - 3:00 PM\nTuesday: 6:00 AM - 3:00 PM\nWednesday: 6:00 AM - 3:00 PM\nThursday: 6:00 AM - 3:00 PM\nFriday: 6:00 AM - 7:00 PM",
-    "coordinates": "40.71394328, -74.08883484",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.71394328,-74.08883484",
-    "cuisine": "American, Cafe",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.8,
-    "ratingCount": 789,
-    "city": "Jersey City",
-    "id": "ea27b79b-6900-4bbd-83aa-45ebe424db93",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "8e8ac39e-f9ed-499b-a551-30623f7e3b34",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "f6f32d78-a09e-4ab1-a803-52bc48ac8d85",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://bpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/3/3186/files/2021/07/Untitled-design-24.png"
   },
   {
     "name": "Deccan Spice",
@@ -6397,16 +6599,18 @@
         "size": "personal",
         "price": 5,
         "id": "492add3f-50ef-427a-8948-03cab61a38ce",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7202cc69-fa22-43a9-999b-8aaca33cd60f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.deccanspice.com/wp-content/uploads/2020/11/Website-Logo.png"
   },
   {
     "name": "Departed Soles Brewing Company",
@@ -6433,52 +6637,18 @@
         "size": "personal",
         "price": 5,
         "id": "00a71b9b-efc1-4ab5-beb0-5d123543b42d",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "62874bc7-86eb-4f61-8f95-290ebeff90a7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "El Paradero Restaurant",
-    "phone": "(201) 383-9710",
-    "address": "3196 Kennedy Blvd",
-    "zipCode": 7306,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "http://elparaderorestaurant.com/",
-    "operationHours": "Tuesday: 8:00 AM - 4:30 PM\nWednesday: 8:00 AM - 4:30 PM\nThursday: 8:00 AM - 4:30 PM\nFriday: 8:00 AM - 4:30 PM\nSaturday: 8:00 AM - 6:00 PM\nSunday: 8:00 AM - 6:00 PM",
-    "coordinates": "40.71159509, -74.06479057",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.71159509,-74.06479057",
-    "cuisine": "Dominican",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.7,
-    "ratingCount": 890,
-    "city": "Jersey City",
-    "id": "0f8da45d-5cb6-4b78-bba0-c121a64fc842",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "cc5fcb92-2adc-4f3a-9926-9a0cf39fe098",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "7a29a7b4-a489-45dd-b564-afb335d77dfb",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://static.wixstatic.com/media/c08f33_5995f7731e6443eeabb3a08a90cc752a~mv2.png"
   },
   {
     "name": "Gypsy Grill",
@@ -6505,16 +6675,18 @@
         "size": "personal",
         "price": 5,
         "id": "49d719ea-d3de-4508-a949-c7c3702b4cb9",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cddb7f73-04cc-4a00-8e74-d8407131210a",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.timeout.com/images/103161880/image.jpg"
   },
   {
     "name": "Hudson Vine",
@@ -6541,16 +6713,18 @@
         "size": "personal",
         "price": 5,
         "id": "888abe18-2479-4589-ad4e-d0ced3c09f99",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "dce6621e-3d72-4694-acdc-c60649ea9a6c",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://st.hzcdn.com/simgs/68835a78041dc585_3-1479/_.jpg"
   },
   {
     "name": "Jimmy John's Gourmet Sandwiches",
@@ -6577,16 +6751,18 @@
         "size": "personal",
         "price": 5,
         "id": "96db9334-fe36-4c9f-99d5-14c2533f5d90",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "d69e866e-adcd-4578-b5d5-44193a8fed35",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg"
   },
   {
     "name": "Miss America Dinner",
@@ -6613,16 +6789,18 @@
         "size": "personal",
         "price": 5,
         "id": "15f8f0b6-8664-4d6e-9ff5-24ab2a2017f8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "5ecf81d1-2098-4d33-9997-74e4ba7c9263",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.southernliving.com/thmb/GfkUDmw4CFUDH63ONbmvpTJ7hCc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-475446644-c3c8a757d88a49aa8f37742d9d7c3dc2.jpg"
   },
   {
     "name": "Noodlefan Journal Square",
@@ -6649,16 +6827,18 @@
         "size": "personal",
         "price": 5,
         "id": "cf2001af-b9ef-412f-8f95-27ea6d6e97ef",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4659ef40-eb45-4709-a433-0ae907f964fe",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1214757157.png"
   },
   {
     "name": "Old Peking Chinese Restaurant",
@@ -6685,16 +6865,18 @@
         "size": "personal",
         "price": 5,
         "id": "abda9648-3e8a-4be2-bef3-7d01395cdcef",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "c35de2bb-c324-41a6-b889-09188d1d7681",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg"
   },
   {
     "name": "Prince of Pizza",
@@ -6709,7 +6891,7 @@
     "coordinates": "40.7291985, -74.06581732",
     "status": "Open",
     "geoCoordinatesSearch": "40.7291985,-74.06581732",
-    "cuisine": "PIzza",
+    "cuisine": "Pizza",
     "country": "United States",
     "state": "New Jersey",
     "starCount": 4.3,
@@ -6721,16 +6903,18 @@
         "size": "personal",
         "price": 5,
         "id": "95535780-3f3e-4f24-951b-72ed26024654",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "7778785f-cbb2-473f-a04a-19507ea41e79",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg"
   },
   {
     "name": "Saigon Cafe",
@@ -6757,16 +6941,18 @@
         "size": "personal",
         "price": 5,
         "id": "0f955135-6111-45bf-b0b5-fed439147f5b",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "cbe09c58-eb3e-43a8-8ee6-c2cba75d5ff7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/160524092144-vietnam-street-food-bot-chien.jpg?q=w_2000,h_1333,x_0,y_0,c_fill"
   },
   {
     "name": "Salt and Seed",
@@ -6793,16 +6979,18 @@
         "size": "personal",
         "price": 5,
         "id": "7dc358b2-1883-4758-afcf-1b9f85e075e8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a40fe0ec-565b-4903-bc8e-83392c7cb448",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.colorado.edu/ecenter/sites/default/files/styles/large/public/callout/image1.png?itok=hsYKMfzq"
   },
   {
     "name": "Sapthagiri  Taste Of India",
@@ -6829,16 +7017,18 @@
         "size": "personal",
         "price": 5,
         "id": "95b29888-4348-4ab0-a3a8-c2ed098a22c8",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "6bbdbd86-fd93-4b0d-9ea3-86529de4c3a8",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://pipingpotcurry.com/wp-content/uploads/2020/11/Dosa-recipe-plain-sada-dosa-Piping-Pot-Curry.jpg"
   },
   {
     "name": "Sober Shot",
@@ -6865,16 +7055,18 @@
         "size": "personal",
         "price": 5,
         "id": "8ed42250-a264-40a2-a8fb-afd105e9d81a",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8e6bb034-62de-41af-b9e4-3c8366627f79",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/1200px-Orange_juice_1.jpg"
   },
   {
     "name": "Stella's 24 Hour Eatery",
@@ -6901,16 +7093,18 @@
         "size": "personal",
         "price": 5,
         "id": "a9b6b559-cdc6-41f9-879f-58e5ced2fe60",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "bcdd9204-624e-4c97-821a-737b2d797744",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ4YHpXQzmpcZW5iZPsPEATv8XYmCndiRvQ&usqp=CAU"
   },
   {
     "name": "Subway",
@@ -6937,16 +7131,18 @@
         "size": "personal",
         "price": 5,
         "id": "1f4284d9-86e6-453b-aa63-627cc859a12c",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "44b99651-cff5-4b58-887a-d14fdf8b3f36",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
   },
   {
     "name": "Subway",
@@ -6973,16 +7169,18 @@
         "size": "personal",
         "price": 5,
         "id": "228c254b-191e-4082-a8d7-5acb87740eba",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a96fbbf0-fae8-4597-a453-b6105c1e3c59",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
   },
   {
     "name": "Sunisland BBQ & Jerk",
@@ -7009,16 +7207,18 @@
         "size": "personal",
         "price": 5,
         "id": "e3abf509-61e1-4628-81cd-ea6415a08963",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "9c5f9fe4-e2e1-4df5-9448-25c3eb45c633",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://c2.staticflickr.com/2/1782/43043802862_9f54abb074_z.jpg"
   },
   {
     "name": "Taqueria Downtown Catering Company",
@@ -7045,16 +7245,18 @@
         "size": "personal",
         "price": 5,
         "id": "d28816da-5aa6-44ca-9294-16a1d572b986",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4734abe8-64a4-4900-b0a2-a1b8c28c979f",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/230320152734-02-mexican-foods-birria.jpg?c=original&q=h_618,c_fill"
   },
   {
     "name": "The Big Straw",
@@ -7081,16 +7283,18 @@
         "size": "personal",
         "price": 5,
         "id": "5c89b09d-5212-4620-80cc-a5471eb90f25",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "4d5e4f0a-e897-48ec-957c-dd91dedbf5f1",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://cdn.britannica.com/43/236443-050-350513F6/Five-glasses-of-boba-with-different-colors-and-flavors.jpg"
   },
   {
     "name": "The Hutton",
@@ -7117,16 +7321,18 @@
         "size": "personal",
         "price": 5,
         "id": "bb273471-0198-4a66-bdf1-0a998295f983",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "a55c871b-4c97-48b1-8c9f-9c4d38eb2722",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/06/fast-food-assortment-soda.jpg?quality=82&strip=1"
   },
   {
     "name": "The Iron Monkey",
@@ -7153,16 +7359,18 @@
         "size": "personal",
         "price": 5,
         "id": "11e28597-14ca-4e9d-90c4-8b8f1e3c6167",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "e1756e04-8e64-4238-b9ea-e8b37c374cc7",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg"
   },
   {
     "name": "Tribos Peri Peri",
@@ -7189,159 +7397,17 @@
         "size": "personal",
         "price": 5,
         "id": "e3e117f4-4e70-494b-97ca-813ad128c4a1",
-        "serves": 1
+        "serves": 1,
+        "availableItems": 10
       },
       {
         "size": "family",
         "price": 12,
         "id": "8f1b7e9e-7209-4a24-9a6e-df5dba9162da",
-        "serves": 3
+        "serves": 3,
+        "availableItems": 10
       }
     ],
-    "img": ""
-  },
-  {
-    "name": "VaibhaV Indian Restaurant",
-    "phone": "(201) 533-8400",
-    "address": "737 Newark Ave",
-    "zipCode": 7306,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "http://vaibhavusa.com",
-    "operationHours": "Monday: 11:30 AM - 11:00 PM\nTuesday: 11:35 AM - 11:00 PM\nWednesday: 11:30 AM - 11:00 PM\nThursday: 11:30 AM - 11:00 PM\nFriday: 11:30 AM - 11:30 PM\nSaturday: 11:30 AM - 11:30 PM\nSunday: 11:30 AM - 11:00 PM",
-    "coordinates": "40.73514199, -74.06221165",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.73514199,-74.06221165",
-    "cuisine": "Indian",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.8,
-    "ratingCount": 890,
-    "city": "Jersey City",
-    "id": "55085ada-5244-46b4-86f0-eeccc688747f",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "6db990bf-6e05-4b5e-8b30-eadac84eb9f9",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "834c59d8-6ddb-43d8-877c-c583d02559e5",
-        "serves": 3
-      }
-    ],
-    "img": ""
-  },
-  {
-    "name": "Villa Borghese III",
-    "phone": "(201) 420-4823 x1",
-    "address": "475 Washington Blvd",
-    "zipCode": 7310,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "https://direct.chownow.com/order/2345/locations/3063",
-    "operationHours": "Monday: 11:00 AM - 9:00 PM\nTuesday: 11:00 AM - 9:00 PM\nWednesday: 11:00 AM - 9:00 PM\nThursday: 11:00 AM - 9:00 PM\nFriday: 11:00 AM - 9:00 PM\nSaturday: 12:00 AM - 9:00 PM\nSunday: 12:00 AM - 9:00 PM",
-    "coordinates": "40.7306457, -74.03463925",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.7306457,-74.03463925",
-    "cuisine": "Italian",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.9,
-    "ratingCount": 123,
-    "city": "Jersey City",
-    "id": "99126912-5b36-41fc-ad02-1a15929e1840",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "d22ec7b3-04b7-4234-ab5c-0dc24354d975",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "11c1bb01-a11c-4356-92e3-e2f12e67488a",
-        "serves": 3
-      }
-    ],
-    "img": ""
-  },
-  {
-    "name": "W\u00fcrstbar",
-    "phone": "(201) 479-8396",
-    "address": "516 Jersey Ave",
-    "zipCode": 7302,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "https://www.wurstbarjc.com",
-    "operationHours": "Monday: 12:00 PM - 10:00 PM\nTuesday: 12:00 PM - 10:00 PM\nWednesday: 12:00 PM - 10:00 PM\nThursday: 12:00 PM - 10:00 PM\nFriday: 12:00 PM - 10:00 PM\nSaturday: 12:00 PM - 10:00 PM\nSunday: 12:00 PM - 10:00 PM",
-    "coordinates": "40.72048089, -74.04668682",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.72048089,-74.04668682",
-    "cuisine": "German",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.3,
-    "ratingCount": 456,
-    "city": "Jersey City",
-    "id": "ca68611b-81d2-42ba-b2c4-4c5dd6711102",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "a2523728-9f6f-4807-a178-5872797b2c50",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "15422a07-0ccb-4858-ac3f-22fcee2c6629",
-        "serves": 3
-      }
-    ],
-    "img": ""
-  },
-  {
-    "name": "Xpress Kitchen",
-    "phone": "(201) 520-2525",
-    "address": "99 Franklin St",
-    "zipCode": 7307,
-    "takeOut": "Yes",
-    "delivery": "Yes",
-    "email": "",
-    "website": "",
-    "operationHours": "Monday: 9:00 AM - 9:00 PM\nMonday: 9:00 AM - 9:00 PM\nTuesday: 9:00 AM - 9:00 PM\nWednesday: 9:00 AM - 9:00 PM\nThursday: 9:00 AM - 9:00 PM\nFriday: 9:00 AM - 9:00 PM\nSaturday: 9:00 AM - 9:00 PM\nSunday: 12:00 AM - 12:00 AM",
-    "coordinates": "40.74235892, -74.04919235",
-    "status": "Open",
-    "geoCoordinatesSearch": "40.74235892,-74.04919235",
-    "cuisine": "American, Fast Food",
-    "country": "United States",
-    "state": "New Jersey",
-    "starCount": 4.7,
-    "ratingCount": 789,
-    "city": "Jersey City",
-    "id": "c54d495b-f244-4470-914e-d77981aa8a33",
-    "mealPacks": [
-      {
-        "size": "personal",
-        "price": 5,
-        "id": "ac383473-69ab-4cc1-982b-3ea7ca2d7852",
-        "serves": 1
-      },
-      {
-        "size": "family",
-        "price": 12,
-        "id": "4152a281-e1af-4787-814a-0a1a9b98f2ac",
-        "serves": 3
-      }
-    ],
-    "img": ""
+    "img": "https://afar.brightspotcdn.com/dims4/default/31872a8/2147483647/strip/true/crop/5580x3720+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ff3%2F13%2Fdbe1723b4d268f175ebd3fa19843%2Fshutterstock-1021082725.jpg"
   }
 ]
