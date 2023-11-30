@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
-import Search from "./Search";
 
 function SearchData() {
   const { state } = useLocation();
-
-  console.log(state);
 
   return (
     <>

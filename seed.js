@@ -23,7 +23,7 @@ const users = [
 
 const seed = async () => {
   // Your code to seed the database goes here
-  const db = await dbConnection();
+  const { db } = await dbConnection();
   db.dropDatabase();
 
   let resCollection = await resRef();

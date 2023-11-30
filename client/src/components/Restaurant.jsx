@@ -119,37 +119,42 @@ const Restaurant = () => {
           <h3 className="mb-4 text-xl text-gray-700 font-bold">
             Note: You can either have one small or one large meal pack.
           </h3>
-          <h4 className="text-xl text-gray-700 my-10">
-            Available Meal Packs: 10
-          </h4>
           <div className=" p-8 border border-gray-200 rounded-lg">
             <div className="flex flex-row justify-center items-center gap-8 px-10 mx-auto space-x-8">
-              {res?.mealPacks?.map((meal) => (
-                <div key={meal.id} className="text-center">
-                  <h2 className="text-lg font-semibold mb-2 first-letter:uppercase text-gray-800">
-                    {meal.size} Meal Pack
-                  </h2>
-                  <p className="text-gray-600">Serves: {meal?.serves}</p>
-                  <p className="text-gray-600">Price: {meal?.price}</p>
-                  {restaurant.cart.filter((item) => item.id === meal.id)
-                    .length === 0 ? (
-                    <Button
-                      disabled=""
-                      onClick={() => handleAddToCart(meal)}
-                      className="mt-2"
-                    >
-                      Add to Cart
-                    </Button>
-                  ) : (
-                    <Button
-                      onClick={() => handleRemoveFromCart(meal)}
-                      className="mt-2"
-                    >
-                      Remove from Cart
-                    </Button>
-                  )}
-                </div>
-              ))}
+              {res?.mealPacks?.map((meal) =>
+                meal?.availableItems > 0 ? (
+                  <div key={meal.id} className="text-center">
+                    <h2 className="text-lg font-semibold mb-2 first-letter:uppercase text-gray-800">
+                      {meal.size} Meal Pack
+                    </h2>
+                    <p>
+                      Available for Pick Up: {meal.availableItems}{" "}
+                      {meal.availableItems > 1 ? "packs" : "pack"}
+                    </p>
+                    <p className="text-gray-600">Serves: {meal?.serves}</p>
+                    <p className="text-gray-600">Price: {meal?.price}</p>
+                    {restaurant.cart.filter((item) => item.id === meal.id)
+                      .length === 0 ? (
+                      <Button
+                        disabled=""
+                        onClick={() => handleAddToCart(meal)}
+                        className="mt-2"
+                      >
+                        Add to Cart
+                      </Button>
+                    ) : (
+                      <Button
+                        onClick={() => handleRemoveFromCart(meal)}
+                        className="mt-2"
+                      >
+                        Remove from Cart
+                      </Button>
+                    )}
+                  </div>
+                ) : (
+                  ""
+                ),
+              )}
             </div>
             {restaurant.cart.length > 0 && restaurant.order.id === res.id && (
               <div className="mt-4">
