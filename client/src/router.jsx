@@ -5,7 +5,13 @@ import Register from "@/components/Register";
 import Login from "@/components/Login";
 import Dashboard from "@/components/Dashboard";
 import ProtectedRoute from "@/components/ProtectedRoute";
-import Restuarants from "./components/Restuarants";
+import Restaurant from "@/components/Restaurant";
+import Checkout from "./components/Checkout";
+import SearchData from "./components/SearchData";
+import Profile from "./components/Profile";
+import ChangePassword from "./components/Changepassword";
+import History from "./components/History";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -14,15 +20,27 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Landing />,
+        element: (
+          <ProtectedRoute>
+            <Landing />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/register",
-        element: <Register />,
+        element: (
+          <ProtectedRoute>
+            <Register />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/login",
-        element: <Login />,
+        element: (
+          <ProtectedRoute>
+            <Login />
+          </ProtectedRoute>
+        ),
       },
       {
         path: "/dashboard",
@@ -33,10 +51,50 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "/restuaraunts",
+        path: "/restaurants/:id",
         element: (
           <ProtectedRoute>
-            <Restuarants />
+            <Restaurant />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/checkout/:id",
+        element: (
+          <ProtectedRoute>
+            <Checkout />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/search",
+        element: (
+          <ProtectedRoute>
+            <SearchData />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/profile",
+        element: (
+          <ProtectedRoute>
+            <Profile />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/change-password",
+        element: (
+          <ProtectedRoute>
+            <ChangePassword />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/history",
+        element: (
+          <ProtectedRoute>
+            <History />
           </ProtectedRoute>
         ),
       },

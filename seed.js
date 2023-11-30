@@ -1,19 +1,53 @@
-import res from "./data/restaurants.json" assert { type: "json" };
+import resData from "./data/NJData.json" assert { type: "json" };
 import { closeConnection, dbConnection } from "./config/mongoConnection.js";
-import { restaurants as resRef } from "./config/mongoCollections.js";
+import {
+  restaurants as resRef,
+  users as usersRef,
+} from "./config/mongoCollections.js";
+import bcrypt from "bcrypt";
+
+const saltRounds = 10;
+
+const users = [
+  {
+    firstName: "Dhruv",
+    lastName: "Vaghela",
+    gender: "male",
+    dateOfBirth: "02/04/1997",
+    university: "stevens",
+    email: "dhruv@stevens.edu",
+    password: await bcrypt.hash("Dhruv@123", saltRounds),
+    orders: [],
+  },
+  {
+    firstName: "Yuvaraj",
+    lastName: "Nagi",
+    gender: "male",
+    dateOfBirth: "06/30/1997",
+    university: "stevens",
+    email: "ynagi@stevens.edu",
+    password: await bcrypt.hash("test@1234", saltRounds),
+    orders: [],
+  },
+];
 
 const seed = async () => {
   // Your code to seed the database goes here
-  const db = await dbConnection();
+  const { db } = await dbConnection();
   db.dropDatabase();
 
-  const resCollection = await resRef();
-  const insertInfo = await resCollection.insertMany(res);
+  let resCollection = await resRef();
+  let insertInfo = await resCollection.insertMany(resData);
   if (insertInfo.insertedCount === 0) throw "Could not add restaurants";
 
-  console.log(`Done seeding database with ${res.length} restaurants`);
+  let usersCollection = await usersRef();
+  let insertUsers = await usersCollection.insertMany(users);
+
+  if (insertUsers.insertedCount === 0) throw "Could not add users";
+
+  console.log(`Done seeding database with ${resData.length} restaurants`);
+
   closeConnection();
-  return true;
 };
 
 await seed();

@@ -138,6 +138,16 @@ const validObjectId = (str) => {
   return str;
 };
 
+const validAge = (dob) => {
+  const birthdate = new Date(dob);
+  // calculate the age
+  const ageInMilliseconds = Date.now() - birthdate.getTime();
+  const ageDate = new Date(ageInMilliseconds);
+  const age = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+  // display the age
+  return age;
+}
 const checkUrl = (url) => {
   const checkUrl = isUrl(url);
   if (!checkUrl) throw "Invalid Url";
@@ -161,6 +171,7 @@ export default {
   validString,
   validStringWithNumAndSpecialChar,
   validObjectId,
+  validAge,
   checkUrl,
   checkNumeric,
 };

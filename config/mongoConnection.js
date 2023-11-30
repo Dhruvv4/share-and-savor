@@ -10,11 +10,12 @@ const dbConnection = async () => {
     _db = _connection.db(mongoConfig.database);
   }
 
-  return _db;
+  return { db: _db, client: _connection };
 };
 
 const closeConnection = async () => {
   await _connection.close();
+  console.log("MongoDB connection closed");
 };
 
 export { dbConnection, closeConnection };

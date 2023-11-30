@@ -1,17 +1,21 @@
-import { Outlet } from "react-router-dom";
-import { AuthProvider } from "@/context/AppContext";
-import Header from "@/components/Header";
+import { ThemeProvider } from "./context/themeContext";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistStore } from "redux-persist";
+import store from "@/store";
+import { Provider } from "react-redux";
+import Layout from "./components/Layout";
 
 function App() {
+  let persistor = persistStore(store);
+
   return (
-    <AuthProvider>
-      <div className="flex flex-col h-full">
-        <Header />
-        <div className="h-full">
-          <Outlet />
-        </div>
-      </div>
-    </AuthProvider>
+    <Provider store={store}>
+      <PersistGate persistor={persistor}>
+        <ThemeProvider>
+          <Layout />
+        </ThemeProvider>
+      </PersistGate>
+    </Provider>
   );
 }
 
