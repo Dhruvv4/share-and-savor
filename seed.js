@@ -19,6 +19,16 @@ const users = [
     password: await bcrypt.hash("Dhruv@123", saltRounds),
     orders: [],
   },
+  {
+    firstName: "Yuvaraj",
+    lastName: "Nagi",
+    gender: "male",
+    dateOfBirth: "06/30/1997",
+    university: "stevens",
+    email: "dhruv@stevens.edu",
+    password: await bcrypt.hash("test@1234", saltRounds),
+    orders: [],
+  },
 ];
 
 const seed = async () => {
