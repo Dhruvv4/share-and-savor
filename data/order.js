@@ -7,6 +7,7 @@ import {
 import { dbConnection } from "../config/mongoConnection.js";
 
 export const createOrder = async (payload) => {
+  console.log(payload);
   const ordersCollection = await ordersRef();
   const usersCollection = await usersRef();
   const restaurantsCollection = await restaurantsRef();
@@ -21,6 +22,7 @@ export const createOrder = async (payload) => {
     { $push: { orders: payload } },
     { returnDocument: "after" }
   );
+  console.log(updatedUserInfo);
 
   if (!updatedUserInfo) throw "Error: Could not update user data";
 

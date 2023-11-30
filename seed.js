@@ -25,7 +25,7 @@ const users = [
     gender: "male",
     dateOfBirth: "06/30/1997",
     university: "stevens",
-    email: "dhruv@stevens.edu",
+    email: "ynagi@stevens.edu",
     password: await bcrypt.hash("test@1234", saltRounds),
     orders: [],
   },
