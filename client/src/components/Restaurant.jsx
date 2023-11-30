@@ -111,7 +111,7 @@ const Restaurant = () => {
           <img
             src={res?.img || "/Image_not_available.png"}
             alt={res?.name}
-            className="mx-14 mb-2 rounded-md"
+            className="rounded-md object-fill h-96 w-auto "
           />
         </div>
 
