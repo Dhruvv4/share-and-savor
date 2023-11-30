@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createOrder } from "../data/order.js";
+import { createOrder, getOrderHistory } from "../data/order.js";
 
 const router = Router();
 
@@ -21,4 +21,13 @@ router.post("/", async (req, res) => {
   }
 });
 
+router.get("/history/:id", async (req, res) => {
+  try {
+    let user_id = req.params.id;
+    const history = await getOrderHistory(user_id);
+    res.status(200).json(history);
+  } catch (e) {
+    res.status(500).json({ error: e });
+  }
+});
 export default router;

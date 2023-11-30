@@ -10,6 +10,7 @@ import Checkout from "./components/Checkout";
 import SearchData from "./components/SearchData";
 import Profile from "./components/Profile";
 import ChangePassword from "./components/Changepassword";
+import History from "./components/History";
 
 export const router = createBrowserRouter([
   {
@@ -86,6 +87,14 @@ export const router = createBrowserRouter([
         element: (
           <ProtectedRoute>
             <ChangePassword />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "/history",
+        element: (
+          <ProtectedRoute>
+            <History />
           </ProtectedRoute>
         ),
       },

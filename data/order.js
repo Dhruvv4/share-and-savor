@@ -7,7 +7,6 @@ import {
 import { dbConnection } from "../config/mongoConnection.js";
 
 export const createOrder = async (payload) => {
-  console.log(payload);
   const ordersCollection = await ordersRef();
   const usersCollection = await usersRef();
   const restaurantsCollection = await restaurantsRef();
@@ -22,7 +21,6 @@ export const createOrder = async (payload) => {
     { $push: { orders: payload } },
     { returnDocument: "after" }
   );
-  console.log(updatedUserInfo);
 
   if (!updatedUserInfo) throw "Error: Could not update user data";
 
@@ -90,3 +88,29 @@ export const createOrder = async (payload) => {
 //     await session.endSession();
 //   }
 // };
+
+// To do : use mongo ID's for orders array in users collection
+export const getOrderHistory = async (userId) => {
+  const ordersCollection = await ordersRef();
+  const usersCollection = await usersRef();
+  const restaurantsCollection = await restaurantsRef();
+  try {
+    const data = await usersCollection.findOne({ _id: new ObjectId(userId) });
+    const orders = data.orders;
+    console.log(orders[0].resId);
+    let res_history = [];
+
+    res_history = await Promise.all(
+      orders.map(async (res) => {
+        const restaurant = await restaurantsCollection.findOne({
+          _id: new ObjectId(res.resId),
+        });
+        return restaurant;
+      })
+    );
+
+    return res_history;
+  } catch (e) {
+    console.log(e);
+  }
+};
