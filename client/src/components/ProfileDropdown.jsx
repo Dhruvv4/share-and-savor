@@ -14,6 +14,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import { useAuth } from "@/context/appContext";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "@/features/userSlice";
+import { Link } from "react-router-dom";
 
 export default function ProfileDropdown() {
   const userState = useSelector((state) => state.user);
@@ -48,10 +49,12 @@ export default function ProfileDropdown() {
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-          <DropdownMenuItem>
-            Profile
-            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
-          </DropdownMenuItem>
+          <Link to={"/profile"}>
+            <DropdownMenuItem>
+              Profile
+              <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+            </DropdownMenuItem>
+          </Link>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={() => dispatch(logout())}>
