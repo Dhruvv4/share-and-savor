@@ -1,15 +1,17 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useToast } from "./ui/use-toast";
 import { useNavigate } from "react-router-dom";
+import { clearCart } from "@/features/cartSlice";
 
 const Checkout = () => {
   const { id } = useParams();
   const { toast } = useToast();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   let {
     restaurant: { order },
@@ -35,6 +37,7 @@ const Checkout = () => {
         className:
           "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
+      dispatch(clearCart());
       navigate("/dashboard");
     } catch (e) {
       console.log(e);
