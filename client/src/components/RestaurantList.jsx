@@ -4,7 +4,6 @@ import restaurants from "./../../../data/restaurants.json";
 import { Link } from "react-router-dom";
 
 const RestaurantsList = () => {
-
   return (
     <div className="h-full bg-black/10">
       <p>This is placeholder text for the restaurant list.</p>
