@@ -36,7 +36,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.44%20PM-dd14982d-7cd6-4e71-981f-f126963fbaa2.png"
+    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.44%20PM-dd14982d-7cd6-4e71-981f-f126963fbaa2.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Barcade",
@@ -74,7 +76,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://barcade.com/wp-content/uploads/2020/04/BarcadeOriginalArcadeBarLogo.png"
+    "img": "https://barcade.com/wp-content/uploads/2020/04/BarcadeOriginalArcadeBarLogo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bonchon Chicken",
@@ -112,7 +116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://image.similarpng.com/very-thumbnail/2021/09/Happy-chicken-for-restaurant-logo-on-transparent-background-PNG.png"
+    "img": "https://image.similarpng.com/very-thumbnail/2021/09/Happy-chicken-for-restaurant-logo-on-transparent-background-PNG.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Burger King",
@@ -150,7 +156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://imageio.forbes.com/specials-images/dam/imageserve/1058912512/960x0.jpg"
+    "img": "https://imageio.forbes.com/specials-images/dam/imageserve/1058912512/960x0.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Busy Bee Organics",
@@ -188,7 +196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.busybeesorganics.org/wp/wp-content/uploads/2018/09/BBO_Logo_dark.png"
+    "img": "https://www.busybeesorganics.org/wp/wp-content/uploads/2018/09/BBO_Logo_dark.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cabalen Bar & Grill",
@@ -226,7 +236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://1518barandgrill.com/wp-content/uploads/2019/05/poi1.jpg"
+    "img": "https://1518barandgrill.com/wp-content/uploads/2019/05/poi1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Central Bistro Restaurant",
@@ -264,7 +276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/04/central-bistro-jersey-city-1024x1024.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/04/central-bistro-jersey-city-1024x1024.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "City Diner",
@@ -302,7 +316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://i0.wp.com/newjerseyisntboring.com/wp-content/uploads/2021/11/IMG_6997.jpg?w=1322&ssl=1"
+    "img": "https://i0.wp.com/newjerseyisntboring.com/wp-content/uploads/2021/11/IMG_6997.jpg?w=1322&ssl=1",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Corkscrew Bar and Grill",
@@ -340,7 +356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "http://corkscrewjc.com/wp-content/uploads/2015/11/CorkscrewLogo14.png"
+    "img": "http://corkscrewjc.com/wp-content/uploads/2015/11/CorkscrewLogo14.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cryo Cream",
@@ -378,7 +396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/01/cryo-cream-ice-cream-sundae-500x448.png"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/01/cryo-cream-ice-cream-sundae-500x448.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Delenio",
@@ -416,7 +436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://deleniojc.com/img/logo.png"
+    "img": "https://deleniojc.com/img/logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Eat JC",
@@ -454,7 +476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.timeout.com/images/103428093/750/562/image.jpg"
+    "img": "https://media.timeout.com/images/103428093/750/562/image.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Freetown Road Project",
@@ -492,7 +516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://img1.wsimg.com/isteam/ip/1be57a7a-778b-4e0a-a7b8-dfbdeeeeb8cf/blob-0014.png/:/rs=w:384,h:384,cg:true,m/cr=w:384,h:384/qt=q:95"
+    "img": "https://img1.wsimg.com/isteam/ip/1be57a7a-778b-4e0a-a7b8-dfbdeeeeb8cf/blob-0014.png/:/rs=w:384,h:384,cg:true,m/cr=w:384,h:384/qt=q:95",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Gia Gelato and Cafe",
@@ -530,7 +556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2022/02/IMG_2104-1024x1024.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2022/02/IMG_2104-1024x1024.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Grace Carol Restaurant & Event Catering",
@@ -568,7 +596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.foodiesfeed.com/wp-content/uploads/2023/05/american-diner-interior.jpg"
+    "img": "https://www.foodiesfeed.com/wp-content/uploads/2023/05/american-diner-interior.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Griot Cafe",
@@ -606,7 +636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-21-at-5.04.16-PM.png"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-21-at-5.04.16-PM.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hamilton Pork",
@@ -644,7 +676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.getbento.com/hlv1t8esTrq7D4Dfbw6v_hplogo.png"
+    "img": "https://images.getbento.com/hlv1t8esTrq7D4Dfbw6v_hplogo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hudson Hall",
@@ -682,7 +716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1506040435075-HGHNU4OYEQ9HBWSBHU0Y/image-asset.jpeg?format=1500w"
+    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1506040435075-HGHNU4OYEQ9HBWSBHU0Y/image-asset.jpeg?format=1500w",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hybrid Coffee & Kitchen",
@@ -720,7 +756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hybridcoffee.square.site/uploads/b/c7acd8e0-6ea1-11ea-a439-a99104ed2d8a/HybridShake.jpg"
+    "img": "https://hybridcoffee.square.site/uploads/b/c7acd8e0-6ea1-11ea-a439-a99104ed2d8a/HybridShake.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Jersey Social",
@@ -758,7 +796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.otstatic.com/prod1/47144079/2/huge.jpg"
+    "img": "https://images.otstatic.com/prod1/47144079/2/huge.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "John's & Mr. B's Kitchen",
@@ -796,7 +836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/vaxe3ghpenccje0ggtza"
+    "img": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/vaxe3ghpenccje0ggtza",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Koro Koro",
@@ -834,7 +876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://korokorocafe.com/riceballcafe/wp-content/uploads/2022/09/cropped-logo_koro_koro-3.jpg"
+    "img": "https://korokorocafe.com/riceballcafe/wp-content/uploads/2022/09/cropped-logo_koro_koro-3.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Lighten Up",
@@ -872,7 +916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://idc.edu/wp-content/uploads/2018/07/Traditional-American-Food-You-Must-Try-While-Studying-in-Washington-DC.jpg"
+    "img": "https://idc.edu/wp-content/uploads/2018/07/Traditional-American-Food-You-Must-Try-While-Studying-in-Washington-DC.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "McDonald's",
@@ -910,7 +956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "New Park Tavern",
@@ -948,7 +996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://shop-logos.imgix.net/shops/30425/original/parktavern.PNG"
+    "img": "https://shop-logos.imgix.net/shops/30425/original/parktavern.PNG",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Nukkad",
@@ -986,7 +1036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.secretfoodtours.com/blog/wp-content/uploads/2022/10/Semma.jpg"
+    "img": "https://www.secretfoodtours.com/blog/wp-content/uploads/2022/10/Semma.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Orale Mexican Kitchen",
@@ -1024,7 +1076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://oralemk.com/wp-content/uploads/2018/02/orale.0.jpg"
+    "img": "https://oralemk.com/wp-content/uploads/2018/02/orale.0.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Pico Taco",
@@ -1062,7 +1116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.beyondthechickencoop.com/wp-content/uploads/2022/12/Ground-Venison-Tacos.jpg"
+    "img": "https://www.beyondthechickencoop.com/wp-content/uploads/2022/12/Ground-Venison-Tacos.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Pompei Pizza",
@@ -1100,7 +1156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/7a/05/4d/pompei-pizza.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0e/7a/05/4d/pompei-pizza.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Prato Bakery",
@@ -1138,7 +1196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1580679257347-0YL2402YS4YT0TNEPMAR/Prato+bakery-facade1.jpg"
+    "img": "https://images.squarespace-cdn.com/content/v1/53cc1616e4b0f4361f8ace24/1580679257347-0YL2402YS4YT0TNEPMAR/Prato+bakery-facade1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Rustique Pizza",
@@ -1176,7 +1236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://production-assets.cf.slicelife.com/shops/10727/medium_square/10727.jpg"
+    "img": "https://production-assets.cf.slicelife.com/shops/10727/medium_square/10727.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Salumeria Ercolano",
@@ -1214,7 +1276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://salumeriaercolano.com/wp-content/uploads/2021/05/catering3-1024x715.png"
+    "img": "https://salumeriaercolano.com/wp-content/uploads/2021/05/catering3-1024x715.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sub Culture",
@@ -1252,7 +1316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.getbento.com/accounts/13bd8eb4f876ab37f5a8cc03746e3961/media/images/2566subculture.png"
+    "img": "https://images.getbento.com/accounts/13bd8eb4f876ab37f5a8cc03746e3961/media/images/2566subculture.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Daily Grind Express",
@@ -1290,7 +1356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/EBepCahCCZKBd6nipwSlVw/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/EBepCahCCZKBd6nipwSlVw/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Little Sandwich Shop",
@@ -1328,7 +1396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://littlesandwichshopjc.com/images/LSS_Logo.png"
+    "img": "https://littlesandwichshopjc.com/images/LSS_Logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Tropix Latin Food",
@@ -1366,7 +1436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/gRNEFkYgAsBSZIRMnUyQ0w/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/gRNEFkYgAsBSZIRMnUyQ0w/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "VaibhaV Indian Spice Journey",
@@ -1404,7 +1476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/U3Q20BFB3gXKxvju_M-sPQ/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/U3Q20BFB3gXKxvju_M-sPQ/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Vibez Juice & Vegan Cafe",
@@ -1442,7 +1516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/10/unnamed-file.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/10/unnamed-file.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Angry Archie's",
@@ -1480,7 +1556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/angry-archiesf-food-truck.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/angry-archiesf-food-truck.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Baldwin Pizzeria",
@@ -1518,7 +1596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/qr5NvZKtZHg7xOnOUmgBgw/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/qr5NvZKtZHg7xOnOUmgBgw/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bang Seafood",
@@ -1556,7 +1636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.23%20PM-e60a636e-d5a8-49cc-8447-21631c7f956e.png"
+    "img": "https://scenenow.com/Content/editor_api/images/Screen%20Shot%202021-12-26%20at%2012.53.23%20PM-e60a636e-d5a8-49cc-8447-21631c7f956e.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bawarchi Biryani Corner",
@@ -1594,7 +1676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://toast-sites-prod.nyc3.cdn.digitaloceanspaces.com/restaurantImages/6bf5a92f-2441-4406-94fd-a0578a1bfa4b/logo(2).png"
+    "img": "https://toast-sites-prod.nyc3.cdn.digitaloceanspaces.com/restaurantImages/6bf5a92f-2441-4406-94fd-a0578a1bfa4b/logo(2).png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Berri Berri Smoothies & Juice Bar",
@@ -1632,7 +1716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://threebestrated.com/images/BerriBerriSmoothieandJuiceBar-JerseyCity-NJ.jpeg"
+    "img": "https://threebestrated.com/images/BerriBerriSmoothieandJuiceBar-JerseyCity-NJ.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bucket & Bay / Pie 66",
@@ -1670,7 +1756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://njmonthly.com/wp-content/uploads/cache/2019/11/pies/2385322913.jpg"
+    "img": "https://njmonthly.com/wp-content/uploads/cache/2019/11/pies/2385322913.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Burger King",
@@ -1708,7 +1796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://imageio.forbes.com/specials-images/dam/imageserve/1058912512/960x0.jpg?format=jpg&width=1440"
+    "img": "https://imageio.forbes.com/specials-images/dam/imageserve/1058912512/960x0.jpg?format=jpg&width=1440",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cafe Dolma",
@@ -1746,7 +1836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/10/cafe-dolma-jersey-city.png"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/10/cafe-dolma-jersey-city.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cafe Esme",
@@ -1784,7 +1876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://cafeesme.com/wp-content/themes/CafeEsme/img/cafe-esme-5.jpg"
+    "img": "https://cafeesme.com/wp-content/themes/CafeEsme/img/cafe-esme-5.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cafe Madelaine",
@@ -1822,7 +1916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/02/cafe-madelaine-1-1024x1024.png"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/02/cafe-madelaine-1-1024x1024.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Chicken Delight",
@@ -1860,7 +1956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.chickendelightny.com/wp-content/uploads/2016/09/logo.png"
+    "img": "https://www.chickendelightny.com/wp-content/uploads/2016/09/logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cocoa Bakery",
@@ -1898,7 +1996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2019/06/Cocoa-Bakery-Cafe-475-Central-Avenue-Jersey-City-4.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2019/06/Cocoa-Bakery-Cafe-475-Central-Avenue-Jersey-City-4.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "CoolVines on Grove",
@@ -1936,7 +2036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://everythingjerseycity.com/wp-content/uploads/2020/03/CoolVines-wine-shelf-Insta.jpg"
+    "img": "https://everythingjerseycity.com/wp-content/uploads/2020/03/CoolVines-wine-shelf-Insta.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Corto",
@@ -1974,7 +2076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://cdn.shopify.com/s/files/1/0044/7764/8967/files/cortologofine_350x_2x_png.webp?v=1687794699"
+    "img": "https://cdn.shopify.com/s/files/1/0044/7764/8967/files/cortologofine_350x_2x_png.webp?v=1687794699",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Crave Cafe and Cigars",
@@ -2012,7 +2116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://d3sf0q5ysofrg.cloudfront.net/pictures/pics/000/102/255/medium/crave-burger-cafe-and-cigars-3.jpg?1629642356"
+    "img": "https://d3sf0q5ysofrg.cloudfront.net/pictures/pics/000/102/255/medium/crave-burger-cafe-and-cigars-3.jpg?1629642356",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Domino's",
@@ -2050,7 +2156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1024px-Dominos_pizza_logo.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1024px-Dominos_pizza_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Downtown Yogurt",
@@ -2088,7 +2196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://downtownyogurt.com/wp-content/uploads/2023/05/DY-2023_DY_Brand_MASTER_DY-LOGO-2b-2-line-color-e1683916621700.png"
+    "img": "https://downtownyogurt.com/wp-content/uploads/2023/05/DY-2023_DY_Brand_MASTER_DY-LOGO-2b-2-line-color-e1683916621700.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Dunkin Donuts",
@@ -2126,7 +2236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png"
+    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Dunkin Donuts",
@@ -2164,7 +2276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png"
+    "img": "https://shipbottom.org/wp-content/uploads/2020/03/Dunkin_Donuts_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Five Guys",
@@ -2202,7 +2316,9 @@
         "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Gary's Sweet Shop",
@@ -2240,7 +2356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://tapinto-production.s3.amazonaws.com/uploads/articles/im/best_crop_647be69ff6acd87bb2d9_IMG_0154.jpeg"
+    "img": "https://tapinto-production.s3.amazonaws.com/uploads/articles/im/best_crop_647be69ff6acd87bb2d9_IMG_0154.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Guatemalteco Restaurant & Bakery",
@@ -2278,7 +2396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://themenustar6.com/upload/2021-05-12/logo-LMP609bf97c2d1cf.jpg"
+    "img": "https://themenustar6.com/upload/2021-05-12/logo-LMP609bf97c2d1cf.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Harrys Daughter",
@@ -2316,7 +2436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2017/11/Harrys-Daughter-Bar-Chris-Fry.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2017/11/Harrys-Daughter-Bar-Chris-Fry.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Heavenly Chicken and Ribs",
@@ -2354,7 +2476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://static01.nyt.com/images/2017/02/07/dining/07COOKING-MAPLE-CHICKNRIBS2/07COOKING-MAPLE-CHICKNRIBS2-articleLarge.jpg"
+    "img": "https://static01.nyt.com/images/2017/02/07/dining/07COOKING-MAPLE-CHICKNRIBS2/07COOKING-MAPLE-CHICKNRIBS2-articleLarge.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Helen's Pizza",
@@ -2392,7 +2516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/4xbg_Z3yK9_ZqwHxO_t8VA/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/4xbg_Z3yK9_ZqwHxO_t8VA/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Honshu",
@@ -2430,7 +2556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.honshulounge.com/sites/default/files/inspirob/slide/2.jpg"
+    "img": "https://www.honshulounge.com/sites/default/files/inspirob/slide/2.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "King Szechuan Palace",
@@ -2468,7 +2596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/rYI7tk4CPDtLQ1jLi2kqkw/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/rYI7tk4CPDtLQ1jLi2kqkw/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "La Unica Bakery and Cafe",
@@ -2506,7 +2636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://pbs.twimg.com/profile_images/1043146291214200834/XbgaF9hx_400x400.jpg"
+    "img": "https://pbs.twimg.com/profile_images/1043146291214200834/XbgaF9hx_400x400.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Latham House",
@@ -2544,7 +2676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2023/03/latham-house-jersey-city-closing.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2023/03/latham-house-jersey-city-closing.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Light Horse Tavern",
@@ -2582,7 +2716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.otstatic.com/prod1/49715544/1/huge.jpg"
+    "img": "https://images.otstatic.com/prod1/49715544/1/huge.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Little Italy Pizzeria & Deli",
@@ -2620,7 +2756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/XXom58ZSZVCZFvq92Mt1UQ/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/XXom58ZSZVCZFvq92Mt1UQ/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Loradella's Family Pizzeria",
@@ -2658,7 +2796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://production-assets.cf.slicelife.com/shops/7491/medium_square/Loradellas.png"
+    "img": "https://production-assets.cf.slicelife.com/shops/7491/medium_square/Loradellas.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Low Fidelity",
@@ -2696,7 +2836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2023/05/low-fidelity-4-650x650.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2023/05/low-fidelity-4-650x650.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Mauricio's Restaurant",
@@ -2734,7 +2876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/5d96d524052c897425394aaf/1583912093552-Q8O52V3ERA1GH8DK541S/latin-menu-idea.jpg"
+    "img": "https://images.squarespace-cdn.com/content/v1/5d96d524052c897425394aaf/1583912093552-Q8O52V3ERA1GH8DK541S/latin-menu-idea.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "McDonald's",
@@ -2772,7 +2916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "My Mexico",
@@ -2810,7 +2956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://menufyproduction.imgix.net/637892550542737928+823220.png?auto=compress,format&fit=max&w=1024&h=1024"
+    "img": "https://menufyproduction.imgix.net/637892550542737928+823220.png?auto=compress,format&fit=max&w=1024&h=1024",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "No. 1 GreatWall Chinese Restaurant",
@@ -2848,7 +2996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg"
+    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "O Lala Empanadas",
@@ -2886,7 +3036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/5a53b775bff20081ac772244/1515502669824-KUP7AHIN8K5SGG3L7QG2/3N5A9861.jpg?format=1000w"
+    "img": "https://images.squarespace-cdn.com/content/v1/5a53b775bff20081ac772244/1515502669824-KUP7AHIN8K5SGG3L7QG2/3N5A9861.jpg?format=1000w",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "O'hara's Downtown",
@@ -2924,7 +3076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://spothopper-static.s3.amazonaws.com/website_images/ab_websites/56357_website/shared_link_image.png"
+    "img": "https://spothopper-static.s3.amazonaws.com/website_images/ab_websites/56357_website/shared_link_image.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Pasta Dal Cuore",
@@ -2962,7 +3116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hobokengirl.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-14-at-10.23.25-PM.jpg"
+    "img": "https://hobokengirl.com/wp-content/uploads/2017/07/Screen-Shot-2017-07-14-at-10.23.25-PM.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Plant Base",
@@ -3000,7 +3156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://content.health.harvard.edu/wp-content/uploads/2023/04/c92020e0-e209-403d-a334-2b544b03a9d4.jpg"
+    "img": "https://content.health.harvard.edu/wp-content/uploads/2023/04/c92020e0-e209-403d-a334-2b544b03a9d4.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Rosita's Yah",
@@ -3038,7 +3196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2020/02/Rositas-Yah-entrance-Jersey-City-3.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2020/02/Rositas-Yah-entrance-Jersey-City-3.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "St. Mark's Pizzeria & Deli",
@@ -3076,7 +3236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.rochesterfirst.com/wp-content/uploads/sites/66/2023/10/marks-firefighter.png"
+    "img": "https://www.rochesterfirst.com/wp-content/uploads/sites/66/2023/10/marks-firefighter.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Belgian Plate by Waffle It & Co.",
@@ -3114,7 +3276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://static.wixstatic.com/media/95ad83_defa1f0e1a5f4abf94b86e23aed72f6b~mv2_d_1600_1506_s_2.png"
+    "img": "https://static.wixstatic.com/media/95ad83_defa1f0e1a5f4abf94b86e23aed72f6b~mv2_d_1600_1506_s_2.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Hamilton Inn",
@@ -3152,7 +3316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/7d/ea/21/the-hamilton-inn.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/7d/ea/21/the-hamilton-inn.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "VB3 Pizzeria",
@@ -3190,7 +3356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.vb3pizzeria.com/wp-content/uploads/2023/06/logo.png"
+    "img": "https://www.vb3pizzeria.com/wp-content/uploads/2023/06/logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Vinnie's III Pizzeria",
@@ -3228,7 +3396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.vinniesofjerseycity.com/wp-content/uploads/2021/10/menu-pizza-1.jpg"
+    "img": "https://www.vinniesofjerseycity.com/wp-content/uploads/2021/10/menu-pizza-1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "White Mana",
@@ -3266,7 +3436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/11/white-mana-diner-jersey-city.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/11/white-mana-diner-jersey-city.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Wisp Express",
@@ -3304,7 +3476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/08/wisp-express-truck.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2020/08/wisp-express-truck.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "YuYa",
@@ -3342,7 +3516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/r2pAaSsDdykO8pp6OCch1g/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/r2pAaSsDdykO8pp6OCch1g/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "9 Bar Cafe at Urby",
@@ -3380,7 +3556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://patch.com/img/cdn20/users/23738927/20220224/075108/styles/patch_image/public/img-8349___24195010856.jpg"
+    "img": "https://patch.com/img/cdn20/users/23738927/20220224/075108/styles/patch_image/public/img-8349___24195010856.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "AlNoor",
@@ -3418,7 +3596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.happycow.net/venues/1024/17/16/hcmp171682_2227367.jpeg"
+    "img": "https://images.happycow.net/venues/1024/17/16/hcmp171682_2227367.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Astor Bar & Grill",
@@ -3456,7 +3636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/ThlSHxLhKmd9L3VJnTtbiA/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/ThlSHxLhKmd9L3VJnTtbiA/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bang Cookies",
@@ -3494,7 +3676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hobokengirl.com/wp-content/uploads/2017/10/IMG_8500-819x1024.jpg"
+    "img": "https://hobokengirl.com/wp-content/uploads/2017/10/IMG_8500-819x1024.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bobwhite Counter",
@@ -3532,7 +3716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/runglmtz/659eb7cd-0c20-40d2-900a-69b05251ef2d.jpg"
+    "img": "https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/runglmtz/659eb7cd-0c20-40d2-900a-69b05251ef2d.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Carmine's Pizza Factory",
@@ -3570,7 +3756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://carminespizzajc.com/images/slide7.jpg"
+    "img": "https://carminespizzajc.com/images/slide7.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Carvao BBQ",
@@ -3608,7 +3796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://image.nj.com/home/njo-media/pgfull/img/jersey-journal/photo/2015/08/26/carvao-bbq-opens-in-jersey-city-2fd9ea5d923f6c98.jpg"
+    "img": "https://image.nj.com/home/njo-media/pgfull/img/jersey-journal/photo/2015/08/26/carvao-bbq-opens-in-jersey-city-2fd9ea5d923f6c98.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Casa Cubana",
@@ -3646,7 +3836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2020/12/casa-cubana-jersey-city-menu.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2020/12/casa-cubana-jersey-city-menu.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Chennai Flavors and Pizza King",
@@ -3684,7 +3876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://shop-logos.imgix.net/shops/21293/original/Chennai_Flavors_and_Pizza_King.png"
+    "img": "https://shop-logos.imgix.net/shops/21293/original/Chennai_Flavors_and_Pizza_King.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "City Cafe",
@@ -3722,7 +3916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.cntraveler.com/photos/586eb8449d2b725a71af8123/master/pass/hot-dogs-gene-and-judes-photo-credit-Nick-Holmes.jpg"
+    "img": "https://media.cntraveler.com/photos/586eb8449d2b725a71af8123/master/pass/hot-dogs-gene-and-judes-photo-credit-Nick-Holmes.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Dairy Queen",
@@ -3760,7 +3956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1200px-Dairy_Queen_logo.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dairy_Queen_logo.svg/1200px-Dairy_Queen_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Dark Side Of The Moo",
@@ -3798,7 +3996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://img1.wsimg.com/isteam/ip/781ed898-327b-46a0-9b62-cd1d6ece1a9c/Group%202.jpg/:/"
+    "img": "https://img1.wsimg.com/isteam/ip/781ed898-327b-46a0-9b62-cd1d6ece1a9c/Group%202.jpg/:/",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Domino's",
@@ -3836,7 +4036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "DOMODOMO Jersey City",
@@ -3874,7 +4076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2019/10/DomoDomo-Jersey-City-5.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2019/10/DomoDomo-Jersey-City-5.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Dream Spicy II",
@@ -3912,7 +4116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spicy-Indian-Butter-Chicken-1.jpg"
+    "img": "https://www.halfbakedharvest.com/wp-content/uploads/2020/12/30-Minute-Spicy-Indian-Butter-Chicken-1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Five Guys",
@@ -3950,7 +4156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://logos-world.net/wp-content/uploads/2023/03/Five-Guys-Logo.jpg"
+    "img": "https://logos-world.net/wp-content/uploads/2023/03/Five-Guys-Logo.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Gusto Latino",
@@ -3988,7 +4196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.gustolatino.net/sites/2714/images/2714image002.jpg"
+    "img": "https://www.gustolatino.net/sites/2714/images/2714image002.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Health Bar Cafe",
@@ -4026,7 +4236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/3lXoYfpa9pDmROQzUpulzg/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/3lXoYfpa9pDmROQzUpulzg/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Karen Bakery",
@@ -4064,7 +4276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://m.media-amazon.com/images/I/91SBfs5O8vL.jpg"
+    "img": "https://m.media-amazon.com/images/I/91SBfs5O8vL.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Krispy Pizza",
@@ -4102,7 +4316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://krispypizza.com/wp-content/uploads/2017/01/Krispy-Logo-Long-Red.png"
+    "img": "https://krispypizza.com/wp-content/uploads/2017/01/Krispy-Logo-Long-Red.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "L' Atelier Du Chocolat",
@@ -4140,7 +4356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://menufyproduction.imgix.net/637830592024510736+736567.png?auto=compress,format&h=1080&w=1920&fit=max"
+    "img": "https://menufyproduction.imgix.net/637830592024510736+736567.png?auto=compress,format&h=1080&w=1920&fit=max",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "La Primicia Restaurant",
@@ -4178,7 +4396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://static.wixstatic.com/media/4d0dc6_a3f25f9a69174c3789d8c6d598a3c567.png"
+    "img": "https://static.wixstatic.com/media/4d0dc6_a3f25f9a69174c3789d8c6d598a3c567.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Light Rail Cafe",
@@ -4216,7 +4436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.lightrailroaster.com/wp-content/uploads/2018/01/LR_Cafe_Logo_R.png"
+    "img": "https://www.lightrailroaster.com/wp-content/uploads/2018/01/LR_Cafe_Logo_R.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Luna Restaurant",
@@ -4254,7 +4476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.otstatic.com/prod1/42587560/2/huge.jpg"
+    "img": "https://images.otstatic.com/prod1/42587560/2/huge.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Marsha\u2019s Taste of Caribbean",
@@ -4292,7 +4516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.oliverstravels.com/blog/wp-content/uploads/2022/01/Curry-chicken.png"
+    "img": "https://www.oliverstravels.com/blog/wp-content/uploads/2022/01/Curry-chicken.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Martha\u2019s",
@@ -4330,7 +4556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg"
+    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "McDonald's",
@@ -4368,7 +4596,9 @@
         "availableItems": 10
       }
     ],
-    "img": ""
+    "img": "",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "ModCup",
@@ -4406,7 +4636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Mordi's Sandwich Shop",
@@ -4444,7 +4676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/22/ff/f6/45/sandwich-platter.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/22/ff/f6/45/sandwich-platter.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "O'Leary's Publik House",
@@ -4482,7 +4716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2017/10/olearys-publik-house-jersey-city-2-1.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2017/10/olearys-publik-house-jersey-city-2-1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Ozu Foods",
@@ -4520,7 +4756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/03/ozu-outside.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/03/ozu-outside.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Papa Johns",
@@ -4558,7 +4796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.papajohns.com/pizza-pages/img/hero.jpg"
+    "img": "https://www.papajohns.com/pizza-pages/img/hero.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Park Tavern",
@@ -4596,7 +4836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2023/06/Pepperoni-Pizza-1.jpg"
+    "img": "https://tastesbetterfromscratch.com/wp-content/uploads/2023/06/Pepperoni-Pizza-1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Paulie's Brickhouse",
@@ -4634,7 +4876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.getbento.com/accounts/197ab9ec8e53de981dde4a5cebc69553/media/images/2519logo.png"
+    "img": "https://images.getbento.com/accounts/197ab9ec8e53de981dde4a5cebc69553/media/images/2519logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Razza",
@@ -4672,7 +4916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://njmonthly.com/wp-content/uploads/cache/2022/10/Image-2-scaled-e1665685636574/2691737520.jpeg"
+    "img": "https://njmonthly.com/wp-content/uploads/cache/2022/10/Image-2-scaled-e1665685636574/2691737520.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Romano's Pizzeria",
@@ -4710,7 +4956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://as1.ftcdn.net/v2/jpg/05/61/84/60/1000_F_561846048_xkvO9yWc8RzrpY4mVq18bJ6KGyqzLTIX.jpg"
+    "img": "https://as1.ftcdn.net/v2/jpg/05/61/84/60/1000_F_561846048_xkvO9yWc8RzrpY4mVq18bJ6KGyqzLTIX.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sagoto Bubble Tea",
@@ -4748,7 +4996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jcfamilies.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-19-at-11.08.42-AM-810x815.png"
+    "img": "https://jcfamilies.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-19-at-11.08.42-AM-810x815.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Singas Famous Pizza",
@@ -4786,7 +5036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://t4.ftcdn.net/jpg/00/18/66/99/360_F_18669964_Txz4BS0OErzj9v9DHM3N51d8yFVa85dR.jpg"
+    "img": "https://t4.ftcdn.net/jpg/00/18/66/99/360_F_18669964_Txz4BS0OErzj9v9DHM3N51d8yFVa85dR.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Subway",
@@ -4824,7 +5076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sugartown Bakery & Cafe",
@@ -4862,7 +5116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.crowdspring.com/blog/wp-content/uploads/2023/05/16174534/bakery-hero.png"
+    "img": "https://images.crowdspring.com/blog/wp-content/uploads/2023/05/16174534/bakery-hero.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Taco Bell",
@@ -4900,7 +5156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Taco_Bell_2016.svg/1200px-Taco_Bell_2016.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Taco_Bell_2016.svg/1200px-Taco_Bell_2016.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Tea NJ",
@@ -4938,7 +5196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://teatimemagazine.com/wp-content/uploads/2015/09/HarmonyTeaRoom-2up.jpg"
+    "img": "https://teatimemagazine.com/wp-content/uploads/2015/09/HarmonyTeaRoom-2up.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Franklin",
@@ -4976,7 +5236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://a.cdn-hotels.com/gdcs/production1/d1836/9f51d5ff-0029-4bf5-906d-119f57a0e44a.jpg"
+    "img": "https://a.cdn-hotels.com/gdcs/production1/d1836/9f51d5ff-0029-4bf5-906d-119f57a0e44a.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Tidal Poke Co",
@@ -5014,7 +5276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-27077000000000000/banner_1626285097.jpg?size=medium"
+    "img": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-27077000000000000/banner_1626285097.jpg?size=medium",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Tony Boloney's",
@@ -5052,7 +5316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0f/33/53/dd/photo1jpg.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0f/33/53/dd/photo1jpg.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "3 Guys From Italy",
@@ -5090,7 +5356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://shop-logos.imgix.net/shops/21253/original/renditionDownload_(1).jpg?auto=compress,format"
+    "img": "https://shop-logos.imgix.net/shops/21253/original/renditionDownload_(1).jpg?auto=compress,format",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Beechwood Cafe",
@@ -5128,7 +5396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hobokengirl.com/wp-content/uploads/2018/05/beechwood-cafe-jersey-city_8555.jpg"
+    "img": "https://hobokengirl.com/wp-content/uploads/2018/05/beechwood-cafe-jersey-city_8555.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Bistro La Source",
@@ -5166,7 +5436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/04/bistro-la-source-jersey-city.png"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2021/04/bistro-la-source-jersey-city.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Blimpie",
@@ -5204,7 +5476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.blimpie.com/assets/images/product/hobokenhero.png"
+    "img": "https://www.blimpie.com/assets/images/product/hobokenhero.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Carolyn\u2019s Soul Food",
@@ -5242,7 +5516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.jacksonhillms.com/images/listing/upload/fullsize/1574874191-1-carolyn.jpg"
+    "img": "https://www.jacksonhillms.com/images/listing/upload/fullsize/1574874191-1-carolyn.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Checkers",
@@ -5280,7 +5556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/9d/e2/ca/2-drive-thru-s-at-checker.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/12/9d/e2/ca/2-drive-thru-s-at-checker.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Clove Garden of India",
@@ -5318,7 +5596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/l-intro-1645057933.jpg"
+    "img": "https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/l-intro-1645057933.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Curry On Indian Restaurant",
@@ -5356,7 +5636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.cnn.com/api/v1/images/stellar/prod/200914101814-01-indian-food-jersey-city.jpg?q=x_0,y_0,h_900,w_1599,c_fill/h_720,w_1280"
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/200914101814-01-indian-food-jersey-city.jpg?q=x_0,y_0,h_900,w_1599,c_fill/h_720,w_1280",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Ghost Truck Kitchen",
@@ -5394,7 +5676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg"
+    "img": "https://t3.ftcdn.net/jpg/01/92/00/86/360_F_192008611_KrKZcq3NyiNSksLVPc76SQyBeXOfq1o0.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Green Pear Heights",
@@ -5432,7 +5716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/5e3b05ebbec94f561443a682/1586278053100-D58JH2YNM3G340R9FOKP/Grean+Pear+PHoto.jpg"
+    "img": "https://images.squarespace-cdn.com/content/v1/5e3b05ebbec94f561443a682/1586278053100-D58JH2YNM3G340R9FOKP/Grean+Pear+PHoto.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hidden Grounds Coffee",
@@ -5470,7 +5756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.thehiddengrounds.com/cdn/shop/files/Screenshot_2023-07-23_at_12.22.38_AM.png?v=1690086172&width=1500"
+    "img": "https://www.thehiddengrounds.com/cdn/shop/files/Screenshot_2023-07-23_at_12.22.38_AM.png?v=1690086172&width=1500",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hudson Greene Market",
@@ -5508,7 +5796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hudsongreenemarket.com/wp-content/uploads/2021/10/HG-logo.jpeg"
+    "img": "https://hudsongreenemarket.com/wp-content/uploads/2021/10/HG-logo.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Jade House",
@@ -5546,7 +5836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0b/f4/72/4b/photo0jpg.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/0b/f4/72/4b/photo0jpg.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Jerkin Chicken",
@@ -5584,7 +5876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://insanelygoodrecipes.com/wp-content/uploads/2020/04/Fried_Chicken.png"
+    "img": "https://insanelygoodrecipes.com/wp-content/uploads/2020/04/Fried_Chicken.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Jollibee",
@@ -5622,7 +5916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Jollibee_2011_logo.svg/800px-Jollibee_2011_logo.svg.png"
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Jollibee_2011_logo.svg/800px-Jollibee_2011_logo.svg.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Komegashi Too",
@@ -5660,7 +5956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://komegashi.m988.com/phone/img/home/lb_2.jpg"
+    "img": "https://komegashi.m988.com/phone/img/home/lb_2.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Korai Kitchen",
@@ -5698,7 +5996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/06/korai-kitchen-jersey-city.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/06/korai-kitchen-jersey-city.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "La Concha Restaurant",
@@ -5736,7 +6036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/e0/88/50/la-concha.jpg"
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/e0/88/50/la-concha.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Maggie's Farm Espresso",
@@ -5774,7 +6076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://jerseydigs.com/wp-content/uploads/2018/11/maggies-farm-espresso-dixon-projects-jersey-city-3.jpg"
+    "img": "https://jerseydigs.com/wp-content/uploads/2018/11/maggies-farm-espresso-dixon-projects-jersey-city-3.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Max's Restaurant",
@@ -5812,7 +6116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://popmenucloud.com/arufwdik/4c58be6b-0181-4745-97eb-d285f255bb72.jpg"
+    "img": "https://popmenucloud.com/arufwdik/4c58be6b-0181-4745-97eb-d285f255bb72.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "McDonald's",
@@ -5850,7 +6156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
+    "img": "https://en.m.wikipedia.org/wiki/File:McDonald%27s_Golden_Arches.svg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Mezcal Kitchen JC",
@@ -5888,7 +6196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://static.wixstatic.com/media/92a3ff_b79d747d7b084bd89f7f29124192ee02~mv2.png"
+    "img": "https://static.wixstatic.com/media/92a3ff_b79d747d7b084bd89f7f29124192ee02~mv2.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Milk Sugar Love - The Heights",
@@ -5926,7 +6236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://89a98c5f353d54810d35.cdn6.editmysite.com/uploads/b/b1830c10-dcc4-11ea-a34f-5506d61f9598/37fedcf84a24b1ef8e14faa4e83bfc7c.jpeg?width=2400&optimize=medium"
+    "img": "https://89a98c5f353d54810d35.cdn6.editmysite.com/uploads/b/b1830c10-dcc4-11ea-a34f-5506d61f9598/37fedcf84a24b1ef8e14faa4e83bfc7c.jpeg?width=2400&optimize=medium",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Neptune Cafe",
@@ -5964,7 +6276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/59e62172dc2b4a72ea63dd39/1619505962272-W1P5LP960T4T0MI6ACWO/IMG_7966.jpg"
+    "img": "https://images.squarespace-cdn.com/content/v1/59e62172dc2b4a72ea63dd39/1619505962272-W1P5LP960T4T0MI6ACWO/IMG_7966.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "O Kafe",
@@ -6002,7 +6316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.thedailymeal.com/img/gallery/15-brazilian-foods-that-you-must-try-other-than-barbecue/l-intro-1686069431.jpg"
+    "img": "https://www.thedailymeal.com/img/gallery/15-brazilian-foods-that-you-must-try-other-than-barbecue/l-intro-1686069431.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Ocean Halal Pizza",
@@ -6040,7 +6356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*"
+    "img": "https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Palm Breeze Caribbean Kitchen",
@@ -6078,7 +6396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://imageio.forbes.com/specials-images/imageserve/63ee53c21ae3f7d1862ed0fa/Jamaican-Jerk-Chicken--Rice-And-Peas-And-Grilled-Corn/960x0.jpg?format=jpg&width=960"
+    "img": "https://imageio.forbes.com/specials-images/imageserve/63ee53c21ae3f7d1862ed0fa/Jamaican-Jerk-Chicken--Rice-And-Peas-And-Grilled-Corn/960x0.jpg?format=jpg&width=960",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Pokay",
@@ -6116,7 +6436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/tnKJY2BADGq_6jTe5GNNog/348s.jpg"
+    "img": "https://s3-media0.fl.yelpcdn.com/bphoto/tnKJY2BADGq_6jTe5GNNog/348s.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Short Grain",
@@ -6154,7 +6476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/5517700be4b0c99d03d5a0f2/1464911759849-F68FJD3O098OCDL7NJ9X/IMG_0220.jpg?format=1500w"
+    "img": "https://images.squarespace-cdn.com/content/v1/5517700be4b0c99d03d5a0f2/1464911759849-F68FJD3O098OCDL7NJ9X/IMG_0220.jpg?format=1500w",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Treehouse Coffee Shop",
@@ -6192,7 +6516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg"
+    "img": "https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Two Boots Pizza",
@@ -6230,7 +6556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://myminichefs.com/wp-content/uploads/2023/01/pizza-boats-5.jpeg"
+    "img": "https://myminichefs.com/wp-content/uploads/2023/01/pizza-boats-5.jpeg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "WHEALTH",
@@ -6268,7 +6596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://whealthyrestaurant.com/wp-content/uploads/2021/07/Side-2.jpg"
+    "img": "https://whealthyrestaurant.com/wp-content/uploads/2021/07/Side-2.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Amelia's Bistro",
@@ -6306,7 +6636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/amelias-jersey-city.jpg"
+    "img": "https://www.hobokengirl.com/wp-content/uploads/2019/08/amelias-jersey-city.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Amiya Restaurant",
@@ -6344,7 +6676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.amiyarestaurant.com/content/website/accounts/1037/1600-edcfce1d43077a342593bf8f619ab386.jpg"
+    "img": "https://www.amiyarestaurant.com/content/website/accounts/1037/1600-edcfce1d43077a342593bf8f619ab386.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Basic Cafe",
@@ -6382,7 +6716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://images.squarespace-cdn.com/content/v1/577964b4be65944fd9c06a63/1485121188287-1LXRWOP2B7RBLEACGOA0/basic+009.JPG?format=2500w"
+    "img": "https://images.squarespace-cdn.com/content/v1/577964b4be65944fd9c06a63/1485121188287-1LXRWOP2B7RBLEACGOA0/basic+009.JPG?format=2500w",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Butler Cafe",
@@ -6420,7 +6756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://blog.resy.com/wp-content/uploads/2023/07/Cafe_Chelsea_II_00293-2000x1125.jpg"
+    "img": "https://blog.resy.com/wp-content/uploads/2023/07/Cafe_Chelsea_II_00293-2000x1125.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cafe Peanut",
@@ -6458,7 +6796,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://cafepeanut.com/wp-content/uploads/2019/09/Cafe_Peanut_Logo_white.png"
+    "img": "https://cafepeanut.com/wp-content/uploads/2019/09/Cafe_Peanut_Logo_white.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Chef of India",
@@ -6496,7 +6836,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hips.hearstapps.com/hmg-prod/images/chicken-tikka-masala1-1663341991.jpg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
+    "img": "https://hips.hearstapps.com/hmg-prod/images/chicken-tikka-masala1-1663341991.jpg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Chef Tan",
@@ -6534,7 +6876,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.guatemala.com/fotos/2021/08/Cafe-en-San-Cristobal.jpg"
+    "img": "https://www.guatemala.com/fotos/2021/08/Cafe-en-San-Cristobal.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Cherry\u2019s Lounge",
@@ -6572,7 +6916,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://bpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/3/3186/files/2021/07/Untitled-design-24.png"
+    "img": "https://bpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/3/3186/files/2021/07/Untitled-design-24.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Deccan Spice",
@@ -6610,7 +6956,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.deccanspice.com/wp-content/uploads/2020/11/Website-Logo.png"
+    "img": "https://www.deccanspice.com/wp-content/uploads/2020/11/Website-Logo.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Departed Soles Brewing Company",
@@ -6648,7 +6996,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://static.wixstatic.com/media/c08f33_5995f7731e6443eeabb3a08a90cc752a~mv2.png"
+    "img": "https://static.wixstatic.com/media/c08f33_5995f7731e6443eeabb3a08a90cc752a~mv2.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Gypsy Grill",
@@ -6686,7 +7036,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.timeout.com/images/103161880/image.jpg"
+    "img": "https://media.timeout.com/images/103161880/image.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Hudson Vine",
@@ -6724,7 +7076,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://st.hzcdn.com/simgs/68835a78041dc585_3-1479/_.jpg"
+    "img": "https://st.hzcdn.com/simgs/68835a78041dc585_3-1479/_.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Jimmy John's Gourmet Sandwiches",
@@ -6762,7 +7116,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg"
+    "img": "https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Miss America Dinner",
@@ -6800,7 +7156,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.southernliving.com/thmb/GfkUDmw4CFUDH63ONbmvpTJ7hCc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-475446644-c3c8a757d88a49aa8f37742d9d7c3dc2.jpg"
+    "img": "https://www.southernliving.com/thmb/GfkUDmw4CFUDH63ONbmvpTJ7hCc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-475446644-c3c8a757d88a49aa8f37742d9d7c3dc2.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Noodlefan Journal Square",
@@ -6838,7 +7196,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1214757157.png"
+    "img": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1214757157.png",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Old Peking Chinese Restaurant",
@@ -6876,7 +7236,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg"
+    "img": "https://assets.epicurious.com/photos/624d9590857fa7e509238b59/3:2/w_6948,h_4632,c_limit/RegionalChinese_HERO_033122_31320.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Prince of Pizza",
@@ -6914,7 +7276,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Saigon Cafe",
@@ -6952,7 +7316,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.cnn.com/api/v1/images/stellar/prod/160524092144-vietnam-street-food-bot-chien.jpg?q=w_2000,h_1333,x_0,y_0,c_fill"
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/160524092144-vietnam-street-food-bot-chien.jpg?q=w_2000,h_1333,x_0,y_0,c_fill",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Salt and Seed",
@@ -6990,7 +7356,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.colorado.edu/ecenter/sites/default/files/styles/large/public/callout/image1.png?itok=hsYKMfzq"
+    "img": "https://www.colorado.edu/ecenter/sites/default/files/styles/large/public/callout/image1.png?itok=hsYKMfzq",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sapthagiri  Taste Of India",
@@ -7028,7 +7396,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://pipingpotcurry.com/wp-content/uploads/2020/11/Dosa-recipe-plain-sada-dosa-Piping-Pot-Curry.jpg"
+    "img": "https://pipingpotcurry.com/wp-content/uploads/2020/11/Dosa-recipe-plain-sada-dosa-Piping-Pot-Curry.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sober Shot",
@@ -7066,7 +7436,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/1200px-Orange_juice_1.jpg"
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Orange_juice_1.jpg/1200px-Orange_juice_1.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Stella's 24 Hour Eatery",
@@ -7104,7 +7476,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ4YHpXQzmpcZW5iZPsPEATv8XYmCndiRvQ&usqp=CAU"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ4YHpXQzmpcZW5iZPsPEATv8XYmCndiRvQ&usqp=CAU",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Subway",
@@ -7142,7 +7516,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Subway",
@@ -7180,7 +7556,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg"
+    "img": "https://pbs.twimg.com/profile_images/1605327286810644482/--BZb7WJ_400x400.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Sunisland BBQ & Jerk",
@@ -7218,7 +7596,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://c2.staticflickr.com/2/1782/43043802862_9f54abb074_z.jpg"
+    "img": "https://c2.staticflickr.com/2/1782/43043802862_9f54abb074_z.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Taqueria Downtown Catering Company",
@@ -7256,7 +7636,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://media.cnn.com/api/v1/images/stellar/prod/230320152734-02-mexican-foods-birria.jpg?c=original&q=h_618,c_fill"
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/230320152734-02-mexican-foods-birria.jpg?c=original&q=h_618,c_fill",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Big Straw",
@@ -7294,7 +7676,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://cdn.britannica.com/43/236443-050-350513F6/Five-glasses-of-boba-with-different-colors-and-flavors.jpg"
+    "img": "https://cdn.britannica.com/43/236443-050-350513F6/Five-glasses-of-boba-with-different-colors-and-flavors.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Hutton",
@@ -7332,7 +7716,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/06/fast-food-assortment-soda.jpg?quality=82&strip=1"
+    "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2022/06/fast-food-assortment-soda.jpg?quality=82&strip=1",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "The Iron Monkey",
@@ -7370,7 +7756,9 @@
         "availableItems": 10
       }
     ],
-    "img": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg"
+    "img": "https://howtostartanllc.com/images/business-ideas/business-idea-images/fast-food.jpg",
+    "reviews": [],
+    "overallRating": 0
   },
   {
     "name": "Tribos Peri Peri",
@@ -7408,6 +7796,8 @@
         "availableItems": 10
       }
     ],
-    "img": "https://afar.brightspotcdn.com/dims4/default/31872a8/2147483647/strip/true/crop/5580x3720+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ff3%2F13%2Fdbe1723b4d268f175ebd3fa19843%2Fshutterstock-1021082725.jpg"
+    "img": "https://afar.brightspotcdn.com/dims4/default/31872a8/2147483647/strip/true/crop/5580x3720+0+0/resize/1440x960!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ff3%2F13%2Fdbe1723b4d268f175ebd3fa19843%2Fshutterstock-1021082725.jpg",
+    "reviews": [],
+    "overallRating": 0
   }
 ]
