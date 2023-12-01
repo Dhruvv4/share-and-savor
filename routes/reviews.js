@@ -15,7 +15,7 @@ router
       }
       helpers.validObjectId(req.params.restaurantId);
       let reviews = await reviewsData.getAllReviews(req.params.restaurantId);
-      return res.json(reviews);
+      return res.status(200).json(reviews);
     } catch (e) {
       if (e.includes("401")) {
         res.status(401).json({ error: e });
@@ -45,7 +45,7 @@ router
         reviewInfo.review,
         reviewInfo.rating
       );
-      res.json(createdReview);
+      res.status(200).json(createdReview);
     } catch (e) {
       if (e.includes("401")) {
         res.status(401).json({ error: e });
@@ -69,7 +69,7 @@ router
         req.params.restaurantId,
         userId
       );
-      res.json(deleteReview);
+      res.status(200).json(deleteReview);
     } catch (e) {
       if (e.includes("401")) {
         res.status(401).json({ error: e });
