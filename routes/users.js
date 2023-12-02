@@ -1,20 +1,21 @@
 import { Router } from "express";
 import user_functions from "./../data/users.js";
 const router = Router();
+import userMethods from "../data/users.js";
+import helpers from "../helpers.js";
 
 // User login route
 router.post("/login", async (req, res) => {
   // Handle user login logic here
   let email = req.body.email;
   let password = req.body.password;
-  email = email?.toLowerCase();
+  email = email.toLowerCase();
 
   try {
     const data = await user_functions.checkUser(email, password);
     if (data) {
       req.session.user = data;
-      req.session.save();
-      console.log("User session stored", req.session.user);
+      //console.log(req.session.user);
       res
         .status(200)
         .json({ message: "User successfully logged in", session: data });
@@ -44,6 +45,80 @@ router.post("/register", async (req, res) => {
   } catch (e) {
     console.log(e);
     res.status(500).json({ error: e });
+  }
+});
+
+// User edit profile route
+router.route("/editprofile").post(async (req, res) => {
+  try {
+    if (!req?.session?.user) {
+      throw "Unauthorized(401): User is not logged in.";
+    }
+    let {
+      updatedfirstName,
+      updatedlastName,
+      updatedgender,
+      updateddateOfBirth,
+      updatedcollegeName,
+      updatedphoneNumber,
+      updatedemail,
+      updatedpassword,
+    } = req.body;
+    let id = req.session.user.id;
+    // validating the fields
+    updatedfirstName = helpers.validName(updatedfirstName);
+    updatedlastName = helpers.validName(updatedlastName);
+    updatedgender = helpers.validGender(updatedgender);
+    updateddateOfBirth = helpers.validDOB(updateddateOfBirth);
+    updatedcollegeName = helpers.validName(updatedcollegeName);
+    updatedphoneNumber = helpers.validPhoneNumber(updatedphoneNumber);
+    updatedemail = helpers.validEmail(updatedemail);
+    updatedpassword = helpers.validPassword(updatedpassword);
+    const updatedUser = await userMethods.updateUserByID(
+      id,
+      updatedfirstName,
+      updatedlastName,
+      updatedgender,
+      updateddateOfBirth,
+      updatedcollegeName,
+      updatedphoneNumber,
+      updatedemail,
+      updatedpassword
+    );
+    // res.json(updatedUser);
+    if (updatedUser) {
+      res.status(200).json({ message: "Redirect it to dashboard" });
+    }
+  } catch (e) {
+    if (e.includes("401")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("400")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "Resource is not found" });
+    }
+  }
+});
+
+// User delete profile route
+router.route("/deleteprofile").post(async (req, res) => {
+  try {
+    if (!req?.session?.user) {
+      throw "Unauthorized(401): User is not logged in.";
+    }
+    let id = req.session.user.id;
+    const deletedUser = await userMethods.deleteUserByID(id);
+    if (deletedUser) {
+      res.status(200).json({ message: "Redirect it to register page" });
+    }
+  } catch (e) {
+    if (e.includes("401")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("400")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "Resource is not found" });
+    }
   }
 });
 
