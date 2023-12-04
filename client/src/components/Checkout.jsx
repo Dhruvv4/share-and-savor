@@ -18,7 +18,7 @@ const Checkout = () => {
   } = useSelector((state) => state.cart.value);
   let { user } = useSelector((state) => state.user);
 
-  if (order?.id !== id) {
+  if (order?._id !== id) {
     throw new Response("Not Found", { status: 404 });
   }
 
