@@ -17,7 +17,7 @@ const Checkout = () => {
     restaurant: { order },
   } = useSelector((state) => state.cart.value);
   let { user } = useSelector((state) => state.user);
-
+  console.log(user);
   if (order?._id !== id) {
     throw new Response("Not Found", { status: 404 });
   }

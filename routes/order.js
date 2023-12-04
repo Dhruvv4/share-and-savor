@@ -8,7 +8,7 @@ router.post("/", async (req, res) => {
     let payload = req.body;
 
     const newOrder = await createOrder({
-      resId: payload?.id,
+      resId: payload?._id,
       items: payload?.cart,
       userId: payload?.userId,
       orderAt: new Date().toISOString(),

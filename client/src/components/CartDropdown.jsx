@@ -38,7 +38,7 @@ const CartDropdown = () => {
           <>
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
-              <Link to={`/checkout/${restaurant.order.id}`}>
+              <Link to={`/checkout/${restaurant.order._id}`}>
                 <DropdownMenuItem className="cursor-pointer">
                   Go To Checkout
                 </DropdownMenuItem>
