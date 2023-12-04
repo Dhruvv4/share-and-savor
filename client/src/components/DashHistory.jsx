@@ -36,7 +36,7 @@ const DashHistory = () => {
 
   return (
     <div className="my-10">
-      <h1 className="text-center">Previously Ordered from</h1>
+      <h1 className="text-center font-bold">Previously Ordered from</h1>
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {history?.map((res, idx) => (
@@ -65,14 +65,18 @@ const DashHistory = () => {
                     Location: {res?.restaurant?.address}
                   </h4>
 
-                  <h4>Items ordered</h4>
+                  <div className="my-4">
+                    <h4 className="text-lg">Previously ordered:</h4>
 
-                  {res?.items?.map((orders) => (
-                    <div key={orders?.id}>
-                      <h2>Meal pack type: {orders?.size}</h2>
-                      <h2>Order price: {orders?.price}</h2>
-                    </div>
-                  ))}
+                    {res?.items?.map((orders) => (
+                      <div key={orders?.id} className="my-4">
+                        <h2>Meal pack type: ${orders?.size}</h2>
+                        <h2 className="font-bold">
+                          Order price: ${orders?.price}
+                        </h2>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </Link>
               <Button onClick={() => handleCheckout(res)}>
@@ -83,7 +87,7 @@ const DashHistory = () => {
         </div>
       </div>
       <Link to="/history">
-        <Button className="mx-auto">View Entire History</Button>
+        <Button>View Entire History</Button>
       </Link>
     </div>
   );

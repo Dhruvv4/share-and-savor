@@ -99,8 +99,8 @@ export const getOrderHistory = async (userId) => {
     const data = await usersCollection.findOne({ _id: new ObjectId(userId) });
     const orders = data.orders;
 
-    // Sort orders by order date (ascending)
-    const sortedOrders = orders.sort((a, b) => a.orderAt - b.orderAt);
+    // Sort orders by order date (descending)
+    const sortedOrders = orders.sort((a, b) => b.orderAt - a.orderAt);
 
     // Fetch restaurant data for each order
     const res_history = await Promise.all(
