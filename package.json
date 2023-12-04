@@ -27,8 +27,10 @@
     "google-maps-react": "^2.0.6",
     "is-url": "^1.2.4",
     "mongodb": "^6.2.0",
+    "react": "^18.2.0",
     "redis": "^4.6.10",
-    "session": "^0.1.0"
+    "session": "^0.1.0",
+    "vite": "^5.0.4"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
