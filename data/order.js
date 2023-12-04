@@ -28,7 +28,7 @@ export const createOrder = async (payload) => {
   let mealPackUpdateInfo;
   for (let meal of payload?.items) {
     mealPackUpdateInfo = await restaurantsCollection.updateOne(
-      { id: meal.resId, "mealPacks.id": meal.id },
+      { _id: new ObjectId(payload.resId), "mealPacks.id": meal.id },
       { $inc: { "mealPacks.$.availableItems": -1 } }
     );
     if (!mealPackUpdateInfo?.modifiedCount)
@@ -90,28 +90,34 @@ export const createOrder = async (payload) => {
 //   }
 // };
 
-// To do : use mongo ID's for orders array in users collection
 export const getOrderHistory = async (userId) => {
   const ordersCollection = await ordersRef();
   const usersCollection = await usersRef();
   const restaurantsCollection = await restaurantsRef();
+
   try {
     const data = await usersCollection.findOne({ _id: new ObjectId(userId) });
     const orders = data.orders;
-    console.log(orders[0].resId);
-    let res_history = [];
 
-    res_history = await Promise.all(
-      orders.map(async (res) => {
+    // Sort orders by order date (ascending)
+    const sortedOrders = orders.sort((a, b) => a.orderAt - b.orderAt);
+
+    // Fetch restaurant data for each order
+    const res_history = await Promise.all(
+      sortedOrders.map(async (order) => {
         const restaurant = await restaurantsCollection.findOne({
-          _id: new ObjectId(res.resId),
+          _id: new ObjectId(order.resId),
         });
-        return restaurant;
+        return {
+          ...order,
+          restaurant, // Attach restaurant data to the order object
+        };
       })
     );
 
     return res_history;
   } catch (e) {
     console.log(e);
+    throw e; // Re-throw the error so that the caller can handle it if needed
   }
 };

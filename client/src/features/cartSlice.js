@@ -25,7 +25,7 @@ export const cartSlice = createSlice({
       }
 
       state.value.restaurant.data = rest;
-      state.value.restaurant.cart.push({ ...mealPack, resId: rest.id });
+      state.value.restaurant.cart.push({ ...mealPack, resId: rest._id });
       let order = {
         ...rest,
         cart: state.value.restaurant.cart,

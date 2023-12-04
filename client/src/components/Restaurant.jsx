@@ -36,7 +36,7 @@ const Restaurant = () => {
 
   const handleAddToCart = (mealPack) => {
     const data = { ...res, mealPack, toast };
-    if (restaurant.cart.length !== 0 && restaurant.order.id !== id) {
+    if (restaurant.cart.length !== 0 && restaurant.order._id !== id) {
       setDialogState((prev) => ({ ...prev, open: true, mealPack }));
       return;
     }

@@ -1,18 +1,21 @@
 import { Link } from "react-router-dom";
 import Search from "./Search";
 import Datahook from "./Datahook";
+import DashHistory from "./DashHistory";
 function Dashboard() {
   const restaurants = Datahook({
     url: "http://localhost:3000/api/restaurants/",
   });
+
   return (
     <>
       <h1 className="text-3xl font-semibold text-center my-8">
         Save Meals from your favorite restaurants!
       </h1>
       <Search />
-      <h1 className="my-10">Previously ordered from </h1>
 
+      <DashHistory />
+      <h1 className="text-center">Available restaurants list</h1>
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {restaurants?.map((res, idx) => (
