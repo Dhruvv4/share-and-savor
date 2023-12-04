@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import restaurants from "./../../../data/NJData.json";
 import Search from "./Search";
-
+import Datahook from "./Datahook";
 function Dashboard() {
+  const restaurants = Datahook({
+    url: "http://localhost:3000/api/restaurants/",
+  });
   return (
     <>
       <h1 className="text-3xl font-semibold text-center my-8">
@@ -13,8 +15,8 @@ function Dashboard() {
 
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-          {restaurants.map((res, idx) => (
-            <Link key={res.id} to={`/restaurants/${res.id}`}>
+          {restaurants?.map((res, idx) => (
+            <Link key={res._id} to={`/restaurants/${res._id}`}>
               <div className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg">
                 <img
                   src={res?.img || "/Image_not_available.png"}

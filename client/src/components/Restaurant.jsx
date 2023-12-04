@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import restaurants from "../../../data/NJData.json";
+//import restaurants from "../../../data/NJData.json";
 import { Button } from "@/components/ui/button";
 import { addToCart, clearCart, removeFromCart } from "@/features/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,6 +7,7 @@ import { useToast } from "./ui/use-toast";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import GoogleMapReact from "google-map-react";
+import Datahook from "./Datahook";
 import {
   Dialog,
   DialogContent,
@@ -26,7 +27,10 @@ const Restaurant = () => {
 
   const { toast } = useToast();
   const { id } = useParams();
-  const res = restaurants.find((res) => res.id === id);
+  const res = Datahook({
+    url: `http://localhost:3000/api/restaurants/${id}`,
+  });
+
   const { restaurant } = useSelector((state) => state.cart.value);
   const dispatch = useDispatch();
 
@@ -49,15 +53,15 @@ const Restaurant = () => {
     const data = { ...res, mealPack, toast };
     dispatch(removeFromCart(data));
   };
+
+  // left to fix
   const defaultProps = {
     center: {
-      lat: parseFloat(res?.geoCoordinatesSearch?.split(",")[0]),
-      lng: parseFloat(res?.geoCoordinatesSearch?.split(",")[1]),
+      lat: parseFloat(res?.geoCoordinatesSearch?.split(",")[0] || 0),
+      lng: parseFloat(res?.geoCoordinatesSearch?.split(",")[1] || 0),
     },
     zoom: 11,
   };
-
-  console.log(res);
 
   return (
     <>
@@ -176,8 +180,8 @@ const Restaurant = () => {
               defaultZoom={defaultProps.zoom}
             >
               <AnyReactComponent
-                lat={defaultProps.center.lat}
-                lng={defaultProps.center.lng}
+                lat={defaultProps?.center.lat}
+                lng={defaultProps?.center.lng}
                 text="Restaurant"
               />
             </GoogleMapReact>

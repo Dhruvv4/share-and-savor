@@ -27,9 +27,9 @@ router.post("/", async (req, res) => {
   } = req.body;
 
   try {
-    if (!req?.session?.user) {
-      throw "Unauthorized(401): User is not logged in.";
-    }
+    // if (!req?.session?.user) {
+    //   throw "Unauthorized(401): User is not logged in.";
+    // }
     name = helpers.validStringWithNumAndSpecialChar(name);
     address = helpers.validStringWithNumAndSpecialChar(address);
     phone = helpers.validPhoneNumber(phone);
@@ -72,9 +72,9 @@ router.post("/", async (req, res) => {
 // Get all restaurants
 router.get("/", async (req, res) => {
   try {
-    if (!req?.session?.user) {
-      throw "Unauthorized(401): User is not logged in.";
-    }
+    // if (!req?.session?.user) {
+    //   throw "Unauthorized(401): User is not logged in.";
+    // }
 
     const allRestaurants = await restaurantsData.getAllRestaurants();
     return res.status(200).json(allRestaurants);
@@ -91,9 +91,9 @@ router.get("/", async (req, res) => {
 // Get a restaurant by ID
 router.get("/:id", async (req, res) => {
   try {
-    if (!req?.session?.user) {
-      throw "Unauthorized(401): User is not logged in.";
-    }
+    // if (!req?.session?.user) {
+    //   throw "Unauthorized(401): User is not logged in.";
+    // }
     helpers.validObjectId(req.params.id);
     // Your code to get a restaurant by ID goes here
     const restaurant = await restaurantsData.getRestaurantById(req.params.id);

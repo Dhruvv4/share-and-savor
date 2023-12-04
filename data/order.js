@@ -1,4 +1,5 @@
 import { ObjectId } from "mongodb";
+import restaurants from "./restaurants.js";
 import {
   users as usersRef,
   orders as ordersRef,
