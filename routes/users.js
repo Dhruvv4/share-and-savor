@@ -122,6 +122,35 @@ router.route("/deleteprofile").post(async (req, res) => {
   }
 });
 
+router.route("/changePassword").post(async (req, res) => {
+  try {
+    if (!req?.session?.user) {
+      throw "Unauthorized(401): User is not logged in.";
+    }
+    let { currentPassword, newPassword } = req.body;
+    let id = req.session.user.id;
+    // validating the fields
+
+    const updatedUser = await userMethods.changePassword(
+      id,
+      currentPassword,
+      newPassword
+    );
+    // res.json(updatedUser);
+    if (updatedUser) {
+      res.status(200).json({ message: "Password updated Succesfully" });
+    }
+  } catch (e) {
+    if (e.includes("401")) {
+      res.status(401).json({ error: e });
+    } else if (e.includes("400")) {
+      res.status(400).json({ error: e });
+    } else {
+      res.status(404).json({ error: "Resource is not found" });
+    }
+  }
+});
+
 // User logout route
 router.get("/logout", (req, res) => {
   // Handle user logout logic here

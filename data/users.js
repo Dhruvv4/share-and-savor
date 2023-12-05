@@ -177,6 +177,35 @@ const updateUserByID = async (
   return await getUserByID(id);
 };
 
+const changePassword = async (id, currentPassword, newPassword) => {
+  id = check.validObjectId(id);
+  currentPassword = check.validPassword(currentPassword);
+  newPassword = check.validPassword(newPassword);
+  const usersCollection = await users();
+  // check if user exists or not
+  const user = await usersCollection.findOne({ _id: new ObjectId(id) });
+  if (user == null) throw `No user with that ${id}`;
+
+  let compareToMatch = await bcrypt.compare(currentPassword, user.password);
+  if (compareToMatch) {
+    newPassword = await bcrypt.hash(newPassword, saltRounds);
+    const updateInfo = await usersCollection.updateOne(
+      { _id: new ObjectId(id) },
+      {
+        $set: {
+          password: newPassword,
+        },
+      }
+    );
+    if (updateInfo.modifiedCount === 0) {
+      throw "Could not update password";
+    }
+  } else {
+    throw "Error(400): current password is incorrect";
+  }
+  return { msg: "password updated succesfully" };
+};
+
 export default {
   createUser,
   checkUser,
@@ -184,4 +213,5 @@ export default {
   deleteUserByID,
   updateUserByID,
   getUserByEmail,
+  changePassword,
 };
