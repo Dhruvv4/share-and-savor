@@ -56,7 +56,14 @@ async function updateOverallRating(restaurantId) {
     );
   }
 }
-const createReview = async (restaurantId, userId, review, rating) => {
+const createReview = async (
+  restaurantId,
+  userId,
+  review,
+  rating,
+  userName,
+  lastName
+) => {
   // check whether it is a valid restaurantId
   helpers.validObjectId(restaurantId);
   helpers.validObjectId(userId);
@@ -88,6 +95,8 @@ const createReview = async (restaurantId, userId, review, rating) => {
   const newReview = {
     _id: uniqueId,
     userId: userId,
+    userName: userName,
+    lastName: lastName,
     review: review,
     reviewDate: helpers.date(),
     rating: rating,
