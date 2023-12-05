@@ -5,6 +5,7 @@ import axios from "axios";
 import Datahook from "./Datahook";
 import { Link } from "react-router-dom";
 import { useToast } from "./ui/use-toast";
+
 const DashHistory = () => {
   let { user } = useSelector((state) => state.user);
   const { toast } = useToast();
@@ -55,7 +56,6 @@ const DashHistory = () => {
                     Cuisine: {res?.restaurant?.cuisine}
                   </h2>
                   <div className="flex items-center space-x-2 text-gray-600 mb-2">
-                    <span>Rating Count: {res?.restaurant?.ratingCount}</span>
                     <span>Rating: {res?.restaurant?.starCount}</span>
                   </div>
                   <h4 className="text-gray-600 mb-2">

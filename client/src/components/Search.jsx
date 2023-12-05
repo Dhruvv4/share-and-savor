@@ -16,6 +16,7 @@ const Search = () => {
     const result = restaurants.filter((req) => {
       return (
         req?.name?.toLowerCase() === lowercaseSearch ||
+        req?.name?.toLowerCase().includes(lowercaseSearch) ||
         req?.cuisine?.toLowerCase().includes(lowercaseSearch)
       );
     });
