@@ -40,7 +40,7 @@ const DashHistory = () => {
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {history?.map((res, idx) => (
-            <div>
+            <div key={idx}>
               <Link key={res?.resId} to={`/restaurants/${res?.resId}`}>
                 <div className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg">
                   <img
