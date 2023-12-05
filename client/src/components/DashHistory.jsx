@@ -41,7 +41,7 @@ const DashHistory = () => {
           Previously Ordered Restaurants
         </h1>
         <Link to="/history">
-          <Button>View Entire History</Button>
+          <Button>View All Orders</Button>
         </Link>
       </div>
       <div className="container mx-auto p-4 my-5">
