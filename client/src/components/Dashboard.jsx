@@ -15,27 +15,37 @@ function Dashboard() {
       <Search />
 
       <DashHistory />
-      <h1 className="text-center">Available restaurants list</h1>
+      <h1 className="text-center text-3xl">Available restaurants list</h1>
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {restaurants?.map((res, idx) => (
             <Link key={res._id} to={`/restaurants/${res._id}`}>
-              <div className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg">
+              <div className="border border-solid border-gray-500 rounded p-6 transition transform hover:shadow-lg hover:border-gray-100">
                 <img
                   src={res?.img || "/Image_not_available.png"}
                   alt={res?.name}
-                  className="mb-4 rounded-md"
+                  className="mb-4 rounded-md h-60 w-full object-cover hover:scale-105 transition transform duration-500 ease-in-out"
                 />
                 <h1 className="text-xl font-semibold mb-2">{res?.name}</h1>
-                <h2 className="text-gray-600 mb-2">Cuisine: {res?.cuisine}</h2>
-                <div className="flex items-center space-x-2 text-gray-600 mb-2">
-                  <span>Rating Count: {res?.ratingCount}</span>
-                  <span>Rating: {res?.starCount}</span>
-                </div>
-                <h4 className="text-gray-600 mb-2">
-                  Operation hours: Today between {}
-                </h4>
-                <h4 className="text-gray-600">Location: {res?.address}</h4>
+                <h2>
+                  <span className="font-bold">Cuisine:</span> {res?.cuisine}
+                </h2>
+                <h2>
+                  <span className="font-bold mr-2">Rating:</span>
+                  {res?.starCount}
+                </h2>
+                <h2>
+                  <span className="font-bold mr-2">Rating Count:</span>
+                  {res?.ratingCount}
+                </h2>
+                <h2>
+                  <span className="font-bold mr-2">Operation Hours:</span>
+                  Today between {}
+                </h2>
+                <h2>
+                  <span className="font-bold mr-2">Address:</span>
+                  {res?.address}
+                </h2>
               </div>
             </Link>
           ))}

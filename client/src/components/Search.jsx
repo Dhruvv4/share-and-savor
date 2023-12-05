@@ -41,11 +41,13 @@ const Search = () => {
           value={search}
           name="search_input"
           id="search_input"
-          className="w-full rounded border border-solid border-gray h-10 my-5 placeholder:px-2"
+          className="rounded border border-solid border-gray h-10 my-5 placeholder:px-2"
           placeholder="Enter the restaurant name/cuisines you want to search"
           onChange={(e) => setSearch(e.target.value)}
         />
-        <Button type="submit">Search</Button>
+        <Button className="w-32" type="submit">
+          Search 🔍
+        </Button>
       </div>
     </form>
   );

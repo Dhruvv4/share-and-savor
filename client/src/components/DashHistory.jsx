@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import axios from "axios";
 import Datahook from "./Datahook";
 import { Link } from "react-router-dom";
@@ -49,14 +49,14 @@ const DashHistory = () => {
           {history?.map((res, idx) => (
             <div
               key={idx}
-              className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg flex flex-col justify-between"
+              className="border border-solid border-gray-500 rounded p-6 transition transform hover:shadow-lg flex flex-col justify-between hover:border-gray-100"
             >
               <Link key={res?.resId} to={`/restaurants/${res?.resId}`}>
                 <div className="">
                   <img
                     src={res?.restaurant?.img || "/Image_not_available.png"}
                     alt={res?.restaurant?.name}
-                    className="mb-4 rounded-md h-40 w-full object-cover"
+                    className="mb-4 rounded-md h-60 w-full object-cover hover:scale-105 transition transform duration-500 ease-in-out"
                   />
                   <h1 className="text-xl font-semibold mb-2">
                     {res?.restaurant?.name}
@@ -64,7 +64,7 @@ const DashHistory = () => {
                   <h4>Location: {res?.restaurant?.address}</h4>
 
                   <div className="my-4">
-                    <h4 className="text-lg">Previously ordered:</h4>
+                    <h4 className="text-lg">Previously ordered</h4>
 
                     {res?.items?.map((orders) => (
                       <div key={orders?.id} className="my-4">
@@ -83,7 +83,7 @@ const DashHistory = () => {
                 </div>
               </Link>
               <Button onClick={() => handleCheckout(res)}>
-                Quick Checkout
+                Quick Checkout →
               </Button>
             </div>
           ))}
