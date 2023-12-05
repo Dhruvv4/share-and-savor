@@ -24,8 +24,7 @@ const DashHistory = () => {
       toast({
         title: "Order placed successfully ",
         description: `${payload.items.length} items will be ready for pickup soon.`,
-        status: "success",
-        duration: 2500,
+        duration: 2000,
         className:
           "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
@@ -37,40 +36,44 @@ const DashHistory = () => {
 
   return (
     <div className="my-10">
-      <h1 className="text-center font-bold">Previously Ordered from</h1>
+      <div className="flex justify-center items-center gap-56">
+        <h1 className="text-center font-bold text-2xl">
+          Previously Ordered Restaurants
+        </h1>
+        <Link to="/history">
+          <Button>View Entire History</Button>
+        </Link>
+      </div>
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {history?.map((res, idx) => (
-            <div key={idx}>
+            <div
+              key={idx}
+              className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg flex flex-col justify-between"
+            >
               <Link key={res?.resId} to={`/restaurants/${res?.resId}`}>
-                <div className="border border-solid border-gray-300 rounded p-6 transition transform hover:shadow-lg">
+                <div className="">
                   <img
                     src={res?.restaurant?.img || "/Image_not_available.png"}
                     alt={res?.restaurant?.name}
-                    className="mb-4 rounded-md"
+                    className="mb-4 rounded-md h-40 w-full object-cover"
                   />
                   <h1 className="text-xl font-semibold mb-2">
                     {res?.restaurant?.name}
                   </h1>
-                  <h2 className="text-gray-600 mb-2">
-                    Cuisine: {res?.restaurant?.cuisine}
-                  </h2>
-                  <div className="flex items-center space-x-2 text-gray-600 mb-2">
-                    <span>Rating: {res?.restaurant?.starCount}</span>
-                  </div>
-                  <h4 className="text-gray-600 mb-2">
-                    Operation hours: Today between {}
-                  </h4>
-                  <h4 className="text-gray-600">
-                    Location: {res?.restaurant?.address}
-                  </h4>
+                  <h4>Location: {res?.restaurant?.address}</h4>
 
                   <div className="my-4">
                     <h4 className="text-lg">Previously ordered:</h4>
 
                     {res?.items?.map((orders) => (
                       <div key={orders?.id} className="my-4">
-                        <h2>Meal pack type: ${orders?.size}</h2>
+                        <h2>
+                          Meal pack type:{" "}
+                          <span className="first-letter:uppercase">
+                            {orders?.size}
+                          </span>
+                        </h2>
                         <h2 className="font-bold">
                           Order price: ${orders?.price}
                         </h2>
@@ -86,9 +89,6 @@ const DashHistory = () => {
           ))}
         </div>
       </div>
-      <Link to="/history">
-        <Button>View Entire History</Button>
-      </Link>
     </div>
   );
 };

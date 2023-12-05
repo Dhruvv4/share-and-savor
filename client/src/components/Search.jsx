@@ -1,8 +1,13 @@
 import React from "react";
-import { Button } from "./ui/button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
 import restaurants from "./../../../data/NJData.json";
-import { Navigate, useNavigate } from "react-router-dom";
+
 const Search = () => {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
@@ -20,26 +25,28 @@ const Search = () => {
         req?.cuisine?.toLowerCase().includes(lowercaseSearch)
       );
     });
-
-    setData(result);
-    console.log(result);
     navigate("/search", { state: result });
   }
 
   return (
-    <form onSubmit={filter_search} className="max-w-2xl mx-auto">
-      <label className="text-center font-semibold my-10">
+    <form
+      onSubmit={filter_search}
+      className="max-w-2xl mx-auto border-2 border-gray/10 rounded-lg p-4"
+    >
+      <Label className="text-center font-semibold text-2xl my-6">
         Search for a restaurant
-      </label>
-      <input
-        value={search}
-        name="search_input"
-        id="search_input"
-        className="w-full rounded border border-solid border-gray h-10 my-5"
-        placeholder="Enter the restaurant name/cuisines you want to search"
-        onChange={(e) => setSearch(e.target.value)}
-      ></input>
-      <Button>Search</Button>
+      </Label>
+      <div className="flex items-center gap-4">
+        <Input
+          value={search}
+          name="search_input"
+          id="search_input"
+          className="w-full rounded border border-solid border-gray h-10 my-5 placeholder:px-2"
+          placeholder="Enter the restaurant name/cuisines you want to search"
+          onChange={(e) => setSearch(e.target.value)}
+        />
+        <Button type="submit">Search</Button>
+      </div>
     </form>
   );
 };
