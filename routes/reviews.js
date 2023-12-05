@@ -3,16 +3,15 @@ import { Router } from "express";
 const router = Router();
 
 import helpers from "../helpers.js";
-import restaurantsData from "../data/restaurants.js";
 import reviewsData from "../data/reviews.js";
 
 router
   .route("/:restaurantId")
   .get(async (req, res) => {
     try {
-      if (!req?.session?.user) {
-        throw "Unauthorized(401): User is not logged in.";
-      }
+      // if (!req?.session?.user) {
+      //   throw "Unauthorized(401): User is not logged in.";
+      // }
       helpers.validObjectId(req.params.restaurantId);
       let reviews = await reviewsData.getAllReviews(req.params.restaurantId);
       return res.status(200).json(reviews);
@@ -28,22 +27,25 @@ router
   })
   .post(async (req, res) => {
     let reviewInfo = req.body;
-
     try {
-      if (!req?.session?.user) {
-        throw "Unauthorized(401): User is not logged in.";
-      }
-      let userId = req?.session?.user?.id;
+      // if (!req?.session?.user) {
+      //   throw "Unauthorized(401): User is not logged in.";
+      // }
+      let userId = reviewInfo.user_id;
       helpers.validObjectId(req.params.restaurantId);
       helpers.validObjectId(userId);
       helpers.validStringWithNumAndSpecialChar(reviewInfo.review);
       helpers.checkRatingForReview(reviewInfo.rating);
+      let userName = reviewInfo.userName;
+      let lastName = reviewInfo.lastName;
 
       let createdReview = await reviewsData.createReview(
         req.params.restaurantId,
         userId,
         reviewInfo.review,
-        reviewInfo.rating
+        reviewInfo.rating,
+        userName,
+        lastName
       );
       res.status(200).json(createdReview);
     } catch (e) {
@@ -58,9 +60,9 @@ router
   })
   .delete(async (req, res) => {
     try {
-      if (!req?.session?.user) {
-        throw "Unauthorized(401): User is not logged in.";
-      }
+      // if (!req?.session?.user) {
+      //   throw "Unauthorized(401): User is not logged in.";
+      // }
       let userId = req?.session?.user?.id;
       helpers.validObjectId(req.params.restaurantId);
       helpers.validObjectId(userId);

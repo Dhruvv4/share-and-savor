@@ -6,6 +6,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useToast } from "./ui/use-toast";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Reviews from "./Reviews";
+import ReviewForm from "./ReviewForm";
+
 import GoogleMapReact from "google-map-react";
 import Datahook from "./Datahook";
 import {
@@ -19,6 +22,7 @@ import {
 } from "@/components/ui/dialog";
 
 const Restaurant = () => {
+  const [formVisibility, setFormVisibility] = useState(false);
   const AnyReactComponent = ({ text }) => <div>{text}</div>;
   const [dialogState, setDialogState] = useState({
     open: false,
@@ -52,6 +56,18 @@ const Restaurant = () => {
   const handleRemoveFromCart = (mealPack) => {
     const data = { ...res, mealPack, toast };
     dispatch(removeFromCart(data));
+  };
+
+  const render_form = () => {
+    if (formVisibility === true) {
+      setFormVisibility(false);
+    } else {
+      setFormVisibility(true);
+    }
+  };
+
+  const handleFormClose = () => {
+    setFormVisibility(false);
   };
 
   // left to fix
@@ -188,9 +204,14 @@ const Restaurant = () => {
           </Link>
         </div>
       </div>
+      <div>
+        <Button onClick={render_form}>Add a review</Button>
+        {formVisibility && <ReviewForm id={id} onClose={handleFormClose} />}
+      </div>
 
       <div className="">
         <h1 className="text-center text-3xl">Hear from our Customers</h1>
+        <Reviews id={{ id }} />
       </div>
     </>
   );
