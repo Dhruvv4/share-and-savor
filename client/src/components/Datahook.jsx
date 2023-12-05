@@ -17,7 +17,7 @@ const Datahook = (props) => {
       }
     }
     mongo_fetch();
-  }, []);
+  }, [data]);
   return data;
 };
 

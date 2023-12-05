@@ -3,7 +3,6 @@ import Datahook from "./Datahook";
 
 const Reviews = ({ id }) => {
   const rest_id = id;
-  console.log(rest_id);
   const review_data = Datahook({
     url: `http://localhost:3000/api/reviews/${rest_id.id}`,
   });
