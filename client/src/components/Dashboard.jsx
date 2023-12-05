@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import Search from "./Search";
 import Datahook from "./Datahook";
 import DashHistory from "./DashHistory";
+import { useSelector } from "react-redux";
+
 function Dashboard() {
+  const { user } = useSelector((state) => state.user);
   const restaurants = Datahook({
     url: "http://localhost:3000/api/restaurants/",
   });
@@ -14,7 +17,7 @@ function Dashboard() {
       </h1>
       <Search />
 
-      <DashHistory />
+      {user?.orders?.length && <DashHistory />}
       <h1 className="text-center text-3xl">Available restaurants list</h1>
       <div className="container mx-auto p-4 my-5">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">

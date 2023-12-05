@@ -68,6 +68,7 @@ const checkUser = async (email, password) => {
       firstName: user.firstName,
       lastName: user.lastName,
       email: user.email,
+      orders: user?.orders,
     };
   } else {
     throw "Could not find a user with given email and password combination!";

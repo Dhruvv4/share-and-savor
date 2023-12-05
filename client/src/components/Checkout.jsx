@@ -6,7 +6,7 @@ import axios from "axios";
 import { useToast } from "./ui/use-toast";
 import { useNavigate } from "react-router-dom";
 import { clearCart } from "@/features/cartSlice";
-
+import { updateUserOrders } from "@/features/userSlice";
 const Checkout = () => {
   const { id } = useParams();
   const { toast } = useToast();
@@ -17,7 +17,8 @@ const Checkout = () => {
     restaurant: { order },
   } = useSelector((state) => state.cart.value);
   let { user } = useSelector((state) => state.user);
-  if (order?._id !== id) {
+
+  if (order?._id !== id && order?.cart.length === 0) {
     throw new Response("Not Found", { status: 404 });
   }
 
@@ -28,7 +29,8 @@ const Checkout = () => {
         { ...payload, userId: user.id },
         { withCredentials: true, xsrfCookieName: "AuthCookie" },
       );
-      console.log(data);
+
+      dispatch(updateUserOrders(data?.user?.orders));
       toast({
         title: "Order placed successfully ",
         description: `${order.cart.length} items will be ready for pickup soon.`,
@@ -47,14 +49,13 @@ const Checkout = () => {
   return (
     <div className="max-w-xl border-2 border-black/20 rounded-lg mx-auto p-4">
       <header className="font-bold text-xl text-center mb-8">
-        Checkout - {order.name}
+        Checkout - {order?.name}
       </header>
 
       <div className="text-center">
         {order?.cart.map((cartItem) => (
           <div key={cartItem.id} className="grid grid-cols-2">
             <span className="first-letter:uppercase">{cartItem.size} Pack</span>
-
             <span> ${cartItem.price}</span>
           </div>
         ))}

@@ -46,7 +46,8 @@ const History = () => {
     <>
       <div className="mt-4">
         <h1 className="text-center font-bold text-4xl">
-          So far you have placed {data?.length} orders
+          So far you have placed {data?.length}{" "}
+          {data?.length === 1 ? "order" : "orders"}
         </h1>
         <div className="container mx-auto p-4 my-5">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">

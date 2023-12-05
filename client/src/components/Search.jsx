@@ -11,7 +11,6 @@ import restaurants from "./../../../data/NJData.json";
 const Search = () => {
   const navigate = useNavigate();
   const [search, setSearch] = useState("");
-  const [data, setData] = useState([]);
 
   function filter_search(e) {
     e.preventDefault();
@@ -45,7 +44,11 @@ const Search = () => {
           placeholder="Enter the restaurant name/cuisines you want to search"
           onChange={(e) => setSearch(e.target.value)}
         />
-        <Button className="w-32" type="submit">
+        <Button
+          disabled={!search?.trim().length}
+          className="w-32"
+          type="submit"
+        >
           Search 🔍
         </Button>
       </div>

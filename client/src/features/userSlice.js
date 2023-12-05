@@ -31,9 +31,13 @@ const userSlice = createSlice({
       state.isLoading = false;
       state.error = null;
     },
+    updateUserOrders: (state, action) => {
+      state.user.orders = action.payload;
+    },
   },
 });
 
-export const { setUser, setLoading, setError, logout } = userSlice.actions;
+export const { setUser, setLoading, setError, logout, updateUserOrders } =
+  userSlice.actions;
 
 export default userSlice.reducer;

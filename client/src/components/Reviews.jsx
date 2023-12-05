@@ -6,6 +6,7 @@ const Reviews = ({ id }) => {
   const { data } = Datahook({
     url: `http://localhost:3000/api/reviews/${rest_id.id}`,
   });
+
   return (
     <>
       {data?.length > 0 &&

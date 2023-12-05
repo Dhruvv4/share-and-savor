@@ -38,8 +38,6 @@ export const cartSlice = createSlice({
         } meal pack added to cart.`,
         status: "success",
         duration: 2500,
-        className:
-          "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
     },
     removeFromCart: (state, action) => {
@@ -54,8 +52,6 @@ export const cartSlice = createSlice({
         } meal pack removed from the cart.`,
         status: "success",
         duration: 2500,
-        className:
-          "top-0 right-0 flex fixed md:max-w-[420px] md:top-4 md:right-4",
       });
     },
     clearCart: (state) => {

@@ -20,10 +20,11 @@ export const createOrder = async (payload) => {
   const updatedUserInfo = await usersCollection.findOneAndUpdate(
     { _id: new ObjectId(payload?.userId) },
     { $push: { orders: payload } },
-    { returnDocument: "after" }
+    { returnDocument: "after", projection: { password: 0 } }
   );
 
   if (!updatedUserInfo) throw "Error: Could not update user data";
+  updatedUserInfo._id = updatedUserInfo._id.toString();
 
   let mealPackUpdateInfo;
   for (let meal of payload?.items) {
@@ -35,7 +36,11 @@ export const createOrder = async (payload) => {
       throw "Error: Could not update meal pack data";
   }
 
-  return { ...payload, orderId: insertedInfo.insertedId.toString() };
+  return {
+    ...payload,
+    orderId: insertedInfo.insertedId.toString(),
+    user: updatedUserInfo,
+  };
 };
 
 // export const createOrder = async (payload) => {

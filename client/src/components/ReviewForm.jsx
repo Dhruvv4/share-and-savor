@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
+import { Button } from "./ui/button";
 
-const ReviewForm = ({ onClose, id }) => {
+const ReviewForm = ({ onClose, id, refetch }) => {
   const [review, setReview] = useState("");
   const [rating, setRating] = useState(0);
   let { user } = useSelector((state) => state.user);
-  console.log(user);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -20,15 +21,17 @@ const ReviewForm = ({ onClose, id }) => {
           lastName: user.lastName,
         },
       );
+      refetch();
     } catch (e) {
       console.log(e);
     }
     // Close the form after handling the review
     onClose();
   };
+  const isDisabled = rating > 0 && review.trim().length > 0;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-75">
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-75 z-50">
       <div className="bg-white p-6 rounded-lg w-full max-w-md">
         <h2 className="text-2xl font-semibold mb-4">Leave a Review</h2>
         <form onSubmit={handleSubmit}>
@@ -72,20 +75,13 @@ const ReviewForm = ({ onClose, id }) => {
               ))}
             </select>
           </div>
-          <div className="flex justify-end">
-            <button
-              type="button"
-              onClick={onClose}
-              className="mr-2 px-4 py-2 text-sm font-medium text-gray-700 bg-gray-300 border rounded-md"
-            >
+          <div className="flex justify-end gap-4">
+            <Button type="button" onClick={onClose} variant="secondary">
               Cancel
-            </button>
-            <button
-              type="submit"
-              className="px-4 py-2 text-sm font-medium text-white bg-blue-500 border rounded-md"
-            >
+            </Button>
+            <Button type="submit" disabled={!isDisabled}>
               Submit
-            </button>
+            </Button>
           </div>
         </form>
       </div>
