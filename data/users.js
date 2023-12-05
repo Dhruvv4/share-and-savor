@@ -39,6 +39,7 @@ const createUser = async (user) => {
       university: user.university,
       email: user.email,
       password: user.password,
+      createdAt: new Date().toISOString(),
     });
 
     if (insertUser.insertedCount === 0) {
@@ -69,6 +70,7 @@ const checkUser = async (email, password) => {
       lastName: user.lastName,
       email: user.email,
       orders: user?.orders,
+      createdAt: user.createdAt,
     };
   } else {
     throw "Could not find a user with given email and password combination!";

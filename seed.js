@@ -18,6 +18,7 @@ const users = [
     email: "dhruv@stevens.edu",
     password: await bcrypt.hash("Dhruv@123", saltRounds),
     orders: [],
+    createdAt: new Date().toISOString(),
   },
   {
     firstName: "Yuvaraj",
@@ -28,6 +29,7 @@ const users = [
     email: "ynagi@stevens.edu",
     password: await bcrypt.hash("test@1234", saltRounds),
     orders: [],
+    createdAt: new Date().toISOString(),
   },
 ];
 
