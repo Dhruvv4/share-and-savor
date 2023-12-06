@@ -8,8 +8,11 @@ const userEmail = "[user email]";
 
 const Profile = () => {
   const { user } = useSelector((state) => state.user);
-  const moneySavedMapper = { personal: 11, family: 17 };
-  // const amountSaved = users?.orders?.reduce( (acc, order) => {
+  const moneySavedMapper = { personal: 5, family: 8 }; // in $
+  const amtFoodSaved = { personal: 2, family: 4 }; // in lbs
+  const amountSaved = user?.orders?.reduce((acc, order) => {
+    return acc + moneySavedMapper[order.type];
+  }, 0);
 
   console.log(user);
 
@@ -20,7 +23,7 @@ const Profile = () => {
           Hello, {user?.firstName}!
         </p>
         <p className="text-lg text-gray-600 mr-12">
-          We've been together for {new Date(user.createdAt).toDateString()}.
+          We've been together since {new Date(user.createdAt).toDateString()}.
         </p>
         <p className="text-lg text-gray-600 mr-12">
           Your registered e-mail is {user?.email}.

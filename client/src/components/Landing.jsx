@@ -14,7 +14,7 @@ const LandingPage = () => {
         🌱 Join a Movement Redefining Food Sharing! 🌱
       </p>
       <div>
-        <div className="mb-10 flex flex-col items-center gap-8 md:flex-row md:justify-center">
+        <div className="mb-10 flex flex-col items-start gap-8 md:flex-row md:justify-center">
           <p className="max-w-md rounded-lg border-2 border-slate-200 p-4">
             <span className="mb-3 block font-medium">
               🍕 Tackle Food Waste and Hunger with Just a Tap! 🍕
@@ -62,9 +62,6 @@ const LandingPage = () => {
       </div>
       <Link className="mt-10" to={"/register"}>
         <Button>Get Started</Button>
-      </Link>
-      <Link to={"/profile"}>
-        <Button>Profile Page Test</Button>
       </Link>
     </div>
   );

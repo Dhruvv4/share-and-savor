@@ -3,12 +3,13 @@ import { Button } from "./ui/button";
 import { useSelector } from "react-redux";
 import axios from "axios";
 import Datahook from "./Datahook";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useToast } from "./ui/use-toast";
 
 const DashHistory = () => {
   let { user } = useSelector((state) => state.user);
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const history = Datahook({
     url: `http://localhost:3000/api/orders/history/${user.id}`,
@@ -30,6 +31,12 @@ const DashHistory = () => {
       });
       navigate("/dashboard");
     } catch (e) {
+      toast({
+        title: "Oops! Something went wrong.",
+        description: `Please try again.`,
+        duration: 2000,
+        className: "bg-red-500 top-0 right-0 flex fixed md:max-w-[420px]",
+      });
       console.log(e);
     }
   };

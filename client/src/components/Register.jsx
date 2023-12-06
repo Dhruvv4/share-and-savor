@@ -32,11 +32,13 @@ import { useState } from "react";
 import { registerSchema } from "@/lib/schemas";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useToast } from "./ui/use-toast";
 
 export default function Register() {
   // TODO: Calendar to switch between months and years
   const navigate = useNavigate();
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const { toast } = useToast();
 
   const defaultValues = {
     firstName: "",
@@ -68,10 +70,21 @@ export default function Register() {
     try {
       const response = await axios.post(apiUrl, values);
       if (response.data) {
+        toast({
+          title: "Congratulations! You have successfully registered.",
+          description: `Please login to continue.`,
+          duration: 3000,
+          className: "top-0 right-0 flex fixed md:max-w-[420px]",
+        });
         navigate("/login");
       }
     } catch (error) {
-      console.log(error.response.data.error);
+      toast({
+        title: "Oops! Something went wrong.",
+        description: `${error.response.data.error}`,
+        duration: 3000,
+        className: "bg-red-400 top-0 right-0 flex fixed md:max-w-[420px]",
+      });
     }
   }
 
@@ -160,7 +173,7 @@ export default function Register() {
                         variant={"outline"}
                         className={cn(
                           "w-[240px] pl-3 text-left font-normal",
-                          !field.value && "text-muted-foreground"
+                          !field.value && "text-muted-foreground",
                         )}
                       >
                         {field.value ? (
