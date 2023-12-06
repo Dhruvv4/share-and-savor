@@ -1,20 +1,34 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ChangePassword from "./Changepassword";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { Button } from "./ui/button";
+import { logout } from "@/features/userSlice";
 
 const userName = "[username] [lastname]";
 const userEmail = "[user email]";
 
-const Profile = () => {
-  const { user } = useSelector((state) => state.user);
-  const moneySavedMapper = { personal: 5, family: 8 }; // in $
+const calculateMetrics = (orders) => {
   const amtFoodSaved = { personal: 2, family: 4 }; // in lbs
-  const amountSaved = user?.orders?.reduce((acc, order) => {
-    return acc + moneySavedMapper[order.type];
-  }, 0);
+  const moneySavedMapper = { personal: 5, family: 8 }; // in $
+  let foodSaved = 0;
+  let moneySaved = 0;
 
-  console.log(user);
+  orders?.map((order) => {
+    order?.items?.map((item) => {
+      moneySaved += moneySavedMapper[item.size];
+      foodSaved += amtFoodSaved[item.size];
+    });
+  });
+
+  return [foodSaved, moneySaved];
+};
+
+const Profile = () => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.user);
+  let [foodSaved, moneySaved] = calculateMetrics(user?.orders);
 
   return (
     <div className="flex flex-col items-center justify-center  h-full">
@@ -34,33 +48,37 @@ const Profile = () => {
         <div className="flex justify-center space-x-8 mb-4">
           <div className="flex flex-col items-center bg-primary p-4 text-white rounded-3xl">
             <img src="/save-white.png" className="w-3/5 h-3/5 mb-2"></img>
-            <p className="text-xs">[amount] saved so far!</p>
+            <p className="text-md">${moneySaved} saved so far!</p>
           </div>
           <div className="flex flex-col items-center bg-primary p-4 text-white rounded-3xl">
             <img src="/restaurant-white.png" className="w-3/5 h-3/5 mb-2"></img>
-            <p className="text-xs">
-              {user?.orders?.length} restaurants ordered from!
+            <p className="text-md">
+              Ordered from {user?.orders?.length} restaurants!
             </p>
           </div>
           <div className="flex flex-col items-center bg-primary p-4 text-white rounded-3xl">
             <img src="/food-white.png" className="w-3/5 h-3/5 mb-2"></img>
-            <p className="text-xs">[amount] of food saved from being wasted!</p>
+            <p className="text-md">
+              {foodSaved}lbs of food saved from being wasted!
+            </p>
           </div>
         </div>
-        <div>
+        {/* <div>
           <Link to={"/change-password"}>
             <button className="text-lg text-gray-600 bg-transparent border-none">
               Change password
             </button>
           </Link>
-        </div>
-        <div>
-          <Link to={"/"}>
-            <button className="text-lg text-gray-600 bg-transparent border-none">
-              Logout
-            </button>
-          </Link>
-        </div>
+        </div> */}
+
+        <Button
+          onClick={() => {
+            dispatch(logout());
+            navigate("/login");
+          }}
+        >
+          Logout
+        </Button>
       </div>
     </div>
   );
