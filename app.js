@@ -12,7 +12,7 @@ const store = new session.MemoryStore();
 // Express server instance
 const app = express();
 
-const PORT = process.env.EXPRESS_PORT || 3000;
+const PORT = 3000;
 
 // Middlewares
 app.use(
