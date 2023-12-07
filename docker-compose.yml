@@ -1,0 +1,45 @@
+version: "3.7"
+services:
+  frontend:
+    container_name: react
+    command: /bin/sh -c "npm run build"
+    tty: true
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - ./frontend/build:/app/build
+  backend:
+    tty: true
+    command: /bin/sh -c "npm run dev"
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app:rw
+    environment:
+      MONGO_CONNECTION_STRING: api.py
+      MONGO_DB_NAME: production
+      MONGO_PORT: 27017
+      EXPRESS_SESSION_SECRET: 47522568807b1e83bcd0b67c206b1f59d5530fd6
+    depends_on:
+      - mongo
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:rw
+      - ./client/dist:/usr/share/nginx/client:rw
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    expose:
+      - 27017
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodata:/data/db
