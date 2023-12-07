@@ -14,14 +14,14 @@ services:
       - ./frontend/build:/app/build
   backend:
     tty: true
-    command: /bin/sh -c "npm run build"
+    command: /bin/sh -c "npm run start"
     ports:
       - "3000:3000"
     volumes:
       - .:/app:rw
     environment:
-      MONGO_CONNECTION_STRING: api.py
-      MONGO_DB_NAME: production
+      MONGO_CONNECTION_STRING: mongodb://localhost:27017/
+      MONGO_DB_NAME: CS545_Save_Saviour
       MONGO_PORT: 27017
       EXPRESS_SESSION_SECRET: 47522568807b1e83bcd0b67c206b1f59d5530fd6
     depends_on:
