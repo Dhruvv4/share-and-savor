@@ -2,7 +2,10 @@ version: "3.7"
 services:
   frontend:
     container_name: react
-    command: /bin/sh -c "npm run build"
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    # command: /bin/sh -c "npm run build"
     tty: true
     ports:
       - "5173:5173"
@@ -11,7 +14,7 @@ services:
       - ./frontend/build:/app/build
   backend:
     tty: true
-    command: /bin/sh -c "npm run dev"
+    command: /bin/sh -c "npm run build"
     ports:
       - "3000:3000"
     volumes:
