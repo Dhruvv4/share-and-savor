@@ -6,8 +6,6 @@ import dotenv from "dotenv";
 import { checkSession } from "./middleware.js";
 
 dotenv.config();
-// Session store
-const store = new session.MemoryStore();
 
 // Express server instance
 const app = express();
@@ -25,7 +23,6 @@ app.use(express.json());
 
 app.use(
   session({
-    store,
     resave: false,
     name: "AuthCookie",
     secret: process.env.EXPRESS_SESSION_SECRET,
