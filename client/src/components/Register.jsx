@@ -30,10 +30,15 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { registerSchema } from "@/lib/schemas";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import { useToast } from "./ui/use-toast";
 
 export default function Register() {
   // TODO: Calendar to switch between months and years
+  const navigate = useNavigate();
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const { toast } = useToast();
 
   const defaultValues = {
     firstName: "",
@@ -51,14 +56,41 @@ export default function Register() {
     defaultValues,
   });
 
-  function onSubmit(values) {
+  async function onSubmit(values) {
     // TODO: Once authentication is implemented, this will be the place to call the API to register the user.
-    console.log(values);
+    const apiUrl = "http://localhost:3000/api/auth/register";
+
+    // Making the date of birth in MM/DD/YYYY format
+    values.dateOfBirth = new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(values.dateOfBirth);
+    // Make the API call
+    try {
+      const response = await axios.post(apiUrl, values);
+      if (response.data) {
+        toast({
+          title: "Congratulations! You have successfully registered.",
+          description: `Please login to continue.`,
+          duration: 3000,
+          className: "top-0 right-0 flex fixed md:max-w-[420px]",
+        });
+        navigate("/login");
+      }
+    } catch (error) {
+      toast({
+        title: "Oops! Something went wrong.",
+        description: `${error.response.data.error}`,
+        duration: 3000,
+        className: "bg-red-400 top-0 right-0 flex fixed md:max-w-[420px]",
+      });
+    }
   }
 
   return (
     <div className="flex flex-col h-full p-12 items-center gap-10">
-      <h1 className="text-5xl font-bold text-gray-800 mb-4">Welcome!</h1>
+      <h1 className="text-5xl font-bold  mb-4">Welcome!</h1>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
@@ -118,6 +150,7 @@ export default function Register() {
                   <SelectContent>
                     <SelectItem value="male">Male</SelectItem>
                     <SelectItem value="female">Female</SelectItem>
+                    <SelectItem value="other">Other</SelectItem>
                   </SelectContent>
                 </Select>
                 {!form?.formState?.errors?.gender && (
@@ -140,7 +173,7 @@ export default function Register() {
                         variant={"outline"}
                         className={cn(
                           "w-[240px] pl-3 text-left font-normal",
-                          !field.value && "text-muted-foreground"
+                          !field.value && "text-muted-foreground",
                         )}
                       >
                         {field.value ? (
@@ -155,7 +188,10 @@ export default function Register() {
                   <PopoverContent className="w-auto p-0" align="start">
                     <Calendar
                       mode="single"
+                      captionLayout="dropdown-buttons"
                       selected={field.value}
+                      fromYear={1900}
+                      toYear={new Date().getFullYear()}
                       onSelect={(e) => {
                         field.onChange(e);
                         setIsCalendarOpen(false);

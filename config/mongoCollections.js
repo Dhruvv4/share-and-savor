@@ -5,7 +5,7 @@ const getCollectionFn = (collection) => {
 
   return async () => {
     if (!_col) {
-      const db = await dbConnection();
+      const { db } = await dbConnection();
       _col = await db.collection(collection);
     }
 
@@ -13,6 +13,6 @@ const getCollectionFn = (collection) => {
   };
 };
 
-// Note: You will need to change the code below to have the collection required by the assignment!
 export const users = getCollectionFn("users");
+export const orders = getCollectionFn("orders");
 export const restaurants = getCollectionFn("restaurants");
