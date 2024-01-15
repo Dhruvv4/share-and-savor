@@ -9,6 +9,11 @@ router.post("/login", async (req, res) => {
   // Handle user login logic here
   let email = req.body.email;
   let password = req.body.password;
+
+  if (!email || !password) {
+    return res.status(400).json({ error: "Email and Password is required" });
+  }
+
   email = email.toLowerCase();
 
   try {
