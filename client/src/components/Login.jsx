@@ -48,7 +48,7 @@ function Login() {
       dispatch(setLoading(true));
       const response = await axios.post(apiUrl, values);
       if (response?.data) {
-        dispatch(setUser(response.data.session));
+        dispatch(setUser(response?.data?.session));
         navigate("/dashboard");
       }
     } catch (error) {
