@@ -3,7 +3,7 @@ import express from "express";
 import session from "express-session";
 import cors from "cors";
 import dotenv from "dotenv";
-import { checkSession } from "./middleware.js";
+import bodyParser from "body-parser";
 
 dotenv.config();
 
@@ -19,8 +19,8 @@ app.use(
     credentials: true,
   })
 );
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-
 app.use(
   session({
     resave: false,
