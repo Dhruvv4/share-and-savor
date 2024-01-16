@@ -6,6 +6,8 @@ import "dotenv/config.js";
 import bodyParser from "body-parser";
 import { logRequest } from "./middleware.js";
 
+import { users as usersRef } from "./config/mongoCollections.js";
+
 // Express server instance
 const app = express();
 
@@ -30,8 +32,10 @@ app.use(
 );
 app.use(logRequest);
 
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Share and Savor API." });
+app.get("/", async (req, res) => {
+  const usersCollection = await usersRef();
+  const users = await usersCollection.find({}).toArray();
+  res.json({ message: "Welcome to Share and Savor API.", users });
 });
 
 // Router setup
