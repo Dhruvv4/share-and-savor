@@ -12,7 +12,7 @@ const ReviewForm = ({ onClose, id, refetch }) => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        `http://localhost:3000/api/reviews/${id}`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/reviews/${id}`,
         {
           user_id: user.id,
           review: review,

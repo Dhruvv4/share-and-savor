@@ -16,8 +16,11 @@ const History = () => {
   const { data, isLoading, isError } = useQuery({
     queryKey: ["history"],
     queryFn: async () =>
-      (await axios.get(`http://localhost:3000/api/orders/history/${user.id}`))
-        ?.data,
+      (
+        await axios.get(
+          `${import.meta.env.VITE_API_BASE_URL}/api/orders/history/${user.id}`,
+        )
+      )?.data,
   });
 
   if (isLoading) return <Loading />;
@@ -25,7 +28,7 @@ const History = () => {
   const handleCheckout = async (payload) => {
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/orders/quickcheckout",
+        `${import.meta.env.VITE_API_BASE_URL}/api/orders/quickcheckout`,
         { ...payload, userId: user.id },
         { withCredentials: true, xsrfCookieName: "AuthCookie" },
       );

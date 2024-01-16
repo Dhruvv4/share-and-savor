@@ -4,6 +4,7 @@ const router = Router();
 
 import helpers from "../helpers.js";
 import restaurantsData from "../data/restaurants.js";
+import logger from "../utils/logger.js";
 
 // TODO: Validate the users session for all restuarant routes.
 
@@ -60,6 +61,7 @@ router.post("/", async (req, res) => {
     );
     res.status(200).json(newRestaurant);
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {
@@ -79,6 +81,7 @@ router.get("/", async (req, res) => {
     const allRestaurants = await restaurantsData.getAllRestaurants();
     return res.status(200).json(allRestaurants);
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {
@@ -99,6 +102,7 @@ router.get("/:id", async (req, res) => {
     const restaurant = await restaurantsData.getRestaurantById(req.params.id);
     res.status(200).json(restaurant);
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {

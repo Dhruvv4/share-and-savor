@@ -2,20 +2,18 @@ import configRoutes from "./routes/index.js";
 import express from "express";
 import session from "express-session";
 import cors from "cors";
-import dotenv from "dotenv";
+import "dotenv/config.js";
 import bodyParser from "body-parser";
-
-dotenv.config();
+import { logRequest } from "./middleware.js";
 
 // Express server instance
 const app = express();
 
-const PORT = 3000;
-
+const PORT = process.env.EXPRESS_PORT;
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "*",
     credentials: true,
   })
 );
@@ -27,15 +25,19 @@ app.use(
     name: "AuthCookie",
     secret: process.env.EXPRESS_SESSION_SECRET,
     saveUninitialized: false,
-    cookie: { maxAge: 3600000 },
+    cookie: { maxAge: +process.env.EXPRESS_SESSION_TIMEOUT },
   })
 );
-// app.use(checkSession);
+app.use(logRequest);
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to Share and Savor API." });
+});
 
 // Router setup
 configRoutes(app);
 
 // Server instanstiation
 app.listen(PORT, () => {
-  console.log("Server is listening on port 3000");
+  console.log(`Server is listening on port ${PORT}`);
 });

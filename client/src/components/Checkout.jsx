@@ -25,7 +25,7 @@ const Checkout = () => {
   const handleCheckout = async (payload) => {
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/orders",
+        `${import.meta.env.VITE_API_BASE_URL}/api/orders`,
         { ...payload, userId: user.id },
         { withCredentials: true, xsrfCookieName: "AuthCookie" },
       );

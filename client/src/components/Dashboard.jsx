@@ -12,7 +12,8 @@ function Dashboard() {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["restaurants"],
     queryFn: async () =>
-      (await axios.get(`http://localhost:3000/api/restaurants/`))?.data,
+      (await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/restaurants/`))
+        ?.data,
   });
 
   if (isLoading) return <Loading />;

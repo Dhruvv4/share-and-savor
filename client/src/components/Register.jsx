@@ -58,7 +58,7 @@ export default function Register() {
 
   async function onSubmit(values) {
     // TODO: Once authentication is implemented, this will be the place to call the API to register the user.
-    const apiUrl = "http://localhost:3000/api/auth/register";
+    const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/auth/register`;
 
     // Making the date of birth in MM/DD/YYYY format
     values.dateOfBirth = new Intl.DateTimeFormat("en-US", {

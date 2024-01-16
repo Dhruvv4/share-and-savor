@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { createOrder, getOrderHistory } from "../data/order.js";
+import logger from "../utils/logger.js";
 
 const router = Router();
 
@@ -15,7 +16,7 @@ router.post("/", async (req, res) => {
 
     res.status(200).json(newOrder);
   } catch (e) {
-    console.log(e);
+    logger.error(JSON.stringify(e));
     res.status(500).json({ error: e });
   }
 });
@@ -32,7 +33,7 @@ router.post("/quickcheckout", async (req, res) => {
 
     res.status(200).json(newOrder);
   } catch (e) {
-    console.log(e);
+    logger.error(JSON.stringify(e));
     res.status(500).json({ error: e });
   }
 });
@@ -43,6 +44,7 @@ router.get("/history/:id", async (req, res) => {
     const history = await getOrderHistory(user_id);
     res.status(200).json(history);
   } catch (e) {
+    logger.error(JSON.stringify(e));
     res.status(500).json({ error: e });
   }
 });

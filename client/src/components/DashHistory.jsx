@@ -12,13 +12,13 @@ const DashHistory = () => {
   const navigate = useNavigate();
 
   const history = Datahook({
-    url: `http://localhost:3000/api/orders/history/${user.id}`,
+    url: `${import.meta.env.VITE_API_BASE_URL}/api/orders/history/${user.id}`,
   }).slice(0, 3);
 
   const handleCheckout = async (payload) => {
     try {
       const { data } = await axios.post(
-        "http://localhost:3000/api/orders/quickcheckout",
+        `${import.meta.env.VITE_API_BASE_URL}/api/orders/quickcheckout`,
         { ...payload, userId: user.id },
         { withCredentials: true, xsrfCookieName: "AuthCookie" },
       );

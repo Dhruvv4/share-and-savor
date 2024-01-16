@@ -26,6 +26,7 @@ router.post("/login", async (req, res) => {
         .json({ message: "User successfully logged in", session: data });
     }
   } catch (e) {
+    logger.error(JSON.stringify(e));
     res.status(500).json({ error: e });
   }
 });
@@ -48,7 +49,7 @@ router.post("/register", async (req, res) => {
     await user_functions.createUser(new_user);
     res.status(200).json({ message: "User created" });
   } catch (e) {
-    console.log(JSON.stringify(e));
+    logger.error(JSON.stringify(e));
     res.status(500).json({ error: JSON.stringify(e) });
   }
 });
@@ -95,6 +96,7 @@ router.route("/editprofile").post(async (req, res) => {
       res.status(200).json({ message: "Redirect it to dashboard" });
     }
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {
@@ -117,6 +119,7 @@ router.route("/deleteprofile").post(async (req, res) => {
       res.status(200).json({ message: "Redirect it to register page" });
     }
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {
@@ -146,6 +149,7 @@ router.route("/changePassword").post(async (req, res) => {
       res.status(200).json({ message: "Password updated Succesfully" });
     }
   } catch (e) {
+    logger.error(JSON.stringify(e));
     if (e.includes("401")) {
       res.status(401).json({ error: e });
     } else if (e.includes("400")) {

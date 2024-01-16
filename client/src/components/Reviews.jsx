@@ -4,7 +4,7 @@ import Datahook from "./Datahook";
 const Reviews = ({ id }) => {
   const rest_id = id;
   const { data } = Datahook({
-    url: `http://localhost:3000/api/reviews/${rest_id.id}`,
+    url: `${import.meta.env.VITE_API_BASE_URL}/api/reviews/${rest_id.id}`,
   });
 
   return (

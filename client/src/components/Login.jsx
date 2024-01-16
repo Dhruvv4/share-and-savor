@@ -41,7 +41,7 @@ function Login() {
   });
 
   async function onSubmit(values) {
-    const apiUrl = "http://localhost:3000/api/auth/login";
+    const apiUrl = `${import.meta.env.VITE_API_BASE_URL}/api/auth/login`;
 
     // Make the API call
     try {
@@ -52,7 +52,7 @@ function Login() {
         navigate("/dashboard");
       }
     } catch (error) {
-      console.log(error.response.data.error);
+      console.log(error?.response?.data?.error);
     } finally {
       dispatch(setLoading(false));
     }

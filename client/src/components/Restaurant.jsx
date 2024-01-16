@@ -43,7 +43,11 @@ const Restaurant = () => {
   const { data, isLoading, isError, refetch } = useQuery({
     queryKey: ["restaurant", id],
     queryFn: async () =>
-      (await axios.get(`http://localhost:3000/api/restaurants/${id}`))?.data,
+      (
+        await axios.get(
+          `${import.meta.env.VITE_API_BASE_URL}/api/restaurants/${id}`,
+        )
+      )?.data,
   });
 
   const AnyReactComponent = ({ text }) => (
