@@ -4,6 +4,7 @@ const router = Router();
 
 import helpers from "../helpers.js";
 import reviewsData from "../data/reviews.js";
+import logger from "../utils/logger.js";
 
 router
   .route("/:restaurantId")

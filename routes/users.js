@@ -3,6 +3,7 @@ import user_functions from "./../data/users.js";
 const router = Router();
 import userMethods from "../data/users.js";
 import helpers from "../helpers.js";
+import logger from "../utils/logger.js";
 
 // User login route
 router.post("/login", async (req, res) => {
