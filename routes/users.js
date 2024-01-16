@@ -15,7 +15,7 @@ router.post("/login", async (req, res) => {
     return res.status(400).json({ error: "Email and Password is required" });
   }
 
-  email = email.toLowerCase();
+  email = email?.toLowerCase();
 
   try {
     const data = await user_functions.checkUser(email, password);
@@ -27,7 +27,7 @@ router.post("/login", async (req, res) => {
         .json({ message: "User successfully logged in", session: data });
     }
   } catch (e) {
-    logger.error(JSON.stringify(e));
+    logger.error("An error occurred during user login: ", JSON.stringify(e));
     res.status(500).json({ error: e });
   }
 });
