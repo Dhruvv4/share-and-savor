@@ -33,9 +33,7 @@ app.use(
 app.use(logRequest);
 
 app.get("/", async (req, res) => {
-  const usersCollection = await usersRef();
-  const users = await usersCollection.find({}).toArray();
-  res.json({ message: "Welcome to Share and Savor API.", users });
+  res.json({ message: "Welcome to Share and Savor API." });
 });
 
 // Router setup
