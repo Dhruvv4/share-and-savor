@@ -9,6 +9,10 @@ const constructorMethod = (app) => {
   app.use("/api/orders", orderRoutes);
   app.use("/api/reviews", reviewRoutes);
 
+  app.use("/api/health", (req, res) => {
+    res.status(200).json({ message: "Server is up and running" });
+  });
+
   app.use("*", (req, res) => {
     res.status(404).json({ error: "Not found" });
   });

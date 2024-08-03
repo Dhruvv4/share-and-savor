@@ -17,7 +17,7 @@ export const checkSession = async (req, res, next) => {
 };
 
 export const logRequest = async (req, res, next) => {
-  let { password, ...body } = req.body;
+  let { password, confirmPassword, ...body } = req.body;
   logger.info(
     `Request made to: ${req.originalUrl} at ${new Date().toISOString()}`
   );
