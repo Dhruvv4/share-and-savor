@@ -1,12 +1,7 @@
 import z from "zod";
 
 export const loginSchema = z.object({
-  email: z
-    .string()
-    .email({ message: "Invalid email" })
-    .endsWith(".edu", { message: "Use your student email" })
-    .toLowerCase()
-    .trim(),
+  email: z.string().email({ message: "Invalid email" }).toLowerCase().trim(),
   password: z
     .string()
     .min(8, { message: "Password must be atleast 8 characters." })
@@ -18,11 +13,7 @@ export const registerSchema = z
   .object({
     firstName: z.string().min(2, { message: "First name is required" }).trim(),
     lastName: z.string().min(2, { message: "Last name is required" }).trim(),
-    email: z
-      .string()
-      .email({ message: "Invalid email" })
-      .endsWith(".edu", { message: "Use your student email" })
-      .trim(),
+    email: z.string().email({ message: "Invalid email" }).trim(),
     gender: z.string().min(4, { message: "Gender is required" }).trim(),
     dateOfBirth: z.date({
       message: "Date of birth is required",
