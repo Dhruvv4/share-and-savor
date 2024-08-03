@@ -13,18 +13,7 @@ const app = express();
 
 const PORT = process.env.EXPRESS_PORT;
 // Middlewares
-app.use(
-  cors({
-    origin: [
-      "http://localhost:3000",
-      "https://share-and-savor-client.vercel.app",
-    ],
-    credentials: true,
-    allowedHeaders: "*",
-    preflightContinue: true,
-    methods: "*",
-  })
-);
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
