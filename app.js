@@ -17,6 +17,8 @@ app.use(
   cors({
     origin: "*",
     credentials: true,
+    allowedHeaders: "*",
+    methods: "*",
   })
 );
 app.use(bodyParser.urlencoded({ extended: true }));
